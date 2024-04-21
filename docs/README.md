@@ -2,7 +2,7 @@
 
 This is the documentation for the BREAD project, designed to provide high-level information on the framework and direct readers to the specific slice (SLC) directories where detailed board-specific documentation can be found in the README of each slice.
 
-*Much of the original documentation (and design work) was completed by Shane Oberloier (swoberlo@mtu.edu), and subsequently modified by Cameron K. Brooks (cbrook49@uwo.ca) and other members of the FAST Research Group.*
+*Much of the original documentation (and design work) was completed by Shane Oberloier (swoberlo@mtu.edu) and Finn Hafting (fhafting@uwo.ca), and subsequently modified by Cameron K. Brooks (cbrook49@uwo.ca) and other members of the FAST Research Group.*
 
 ## Overview
 
