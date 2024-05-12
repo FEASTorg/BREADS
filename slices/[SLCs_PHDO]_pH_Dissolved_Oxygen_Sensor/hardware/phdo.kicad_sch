@@ -3189,7 +3189,7 @@
 			)
 			(project "RPi_Hat"
 				(path "/e52104c0-5e63-4805-bdc7-1c811ae5b73b/b46b5c43-8357-4629-8793-8deb9fc5f7aa"
-					(reference "J2")
+					(reference "J8")
 					(unit 1)
 				)
 			)
