@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADM3260_Breakout-eagle-import")(type "KiCad")(uri "/home/cameronbrooks/repos/BREAD/slices/[SLCs_PDER]_pH_DO_EC_RP_Sensor/hardware/ADM3260_Breakout-eagle-import.kicad_sym")(options "")(descr ""))
+)

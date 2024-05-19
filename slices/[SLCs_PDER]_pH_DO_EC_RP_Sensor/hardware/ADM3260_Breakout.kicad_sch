@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "3285bcd1-6164-404f-b38a-892bd524b43a")
-	(paper "User" 318.77 224.942)
+	(paper "A4")
+	(title_block
+		(title "ADM3260 with Atlas Scientific OEM")
+		(date "2024-05-19")
+		(rev "1.0.0")
+		(company "FAST Research et al.")
+		(comment 1 "Author: Ignore Knippenberg")
+		(comment 2 "Author: Cameron Brooks")
+	)
 	(lib_symbols
 		(symbol "ADM3260_Breakout-eagle-import:0.1UF-0603-25V-(+80/-20%)"
 			(exclude_from_sim no)
@@ -2587,839 +2595,6 @@
 				)
 			)
 		)
-		(symbol "ADM3260_Breakout-eagle-import:FRAME-A4L"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FRAME"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schematic Frame - A4L - European Format\n\nStandard A4 size frame in Landscape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FRAME-A4L_1_0"
-				(polyline
-					(pts
-						(xy -3.81 33.528) (xy 0 33.528)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 70.866) (xy 0 70.866)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 108.204) (xy 0 108.204)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 145.542) (xy 0 145.542)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 179.07)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 31.2738 -3.81) (xy 31.2738 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 31.2738 179.07) (xy 31.2738 182.88)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 66.3575 -3.81) (xy 66.3575 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 66.3575 179.07) (xy 66.3575 182.88)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.4413 -3.81) (xy 101.4413 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.4413 179.07) (xy 101.4413 182.88)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 136.525 -3.81) (xy 136.525 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 136.525 179.07) (xy 136.525 182.88)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 171.6088 -3.81) (xy 171.6088 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 171.6088 179.07) (xy 171.6088 182.88)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 179.07 10.16) (xy 225.29 10.16)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 179.07 15.24) (xy 273.05 15.24)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 179.07 19.05) (xy 179.07 20.32)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 179.07 20.32) (xy 180.34 20.32)
-					)
-					(stroke
-						(width 0.6096)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 190.492 10.16) (xy 190.492 15.24)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 206.6925 -3.81) (xy 206.6925 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 206.6925 179.07) (xy 206.6925 182.88)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 225.29 -0.1) (xy 225.29 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 225.29 5.08) (xy 179.07 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 225.29 5.08) (xy 225.29 10.16)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 225.29 5.08) (xy 273.05 5.08)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 225.29 10.16) (xy 273.05 10.16)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 241.7763 -3.81) (xy 241.7763 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 241.7763 179.07) (xy 241.7763 182.88)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 273.05 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 273.05 0) (xy 273.05 179.07)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 273.05 33.528) (xy 276.86 33.528)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 273.05 70.866) (xy 276.86 70.866)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 273.05 108.204) (xy 276.86 108.204)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 273.05 145.542) (xy 276.86 145.542)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 273.05 179.07) (xy 0 179.07)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy 276.86 -3.81) (xy 276.86 182.88) (xy -3.81 182.88) (xy -3.81 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 178.7652 0)
-					(end 179.3748 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 179.07 20.6248)
-					(end 273.05 20.0152)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(text "${#}/${##}"
-					(at 195.58 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${CNAME}"
-					(at 181.61 16.51 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${CREVISION}"
-					(at 234.92 1.17 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${CURRENT_DATE}"
-					(at 181.61 6.35 0)
-					(effects
-						(font
-							(size 2.286 2.286)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${DESIGNER}"
-					(at 244.04 6.35 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "${PROJECTNAME}"
-					(at 194.31 11.43 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "1"
-					(at 13.7319 -1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "1"
-					(at 13.7319 180.975 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "2"
-					(at 48.8156 -1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "2"
-					(at 48.8156 180.975 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "3"
-					(at 83.8994 -1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "3"
-					(at 83.8994 180.975 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "4"
-					(at 118.9831 -1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "4"
-					(at 118.9831 180.975 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "5"
-					(at 154.0669 -1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "5"
-					(at 154.0669 180.975 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "6"
-					(at 189.1506 -1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "6"
-					(at 189.1506 180.975 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "7"
-					(at 224.2344 -1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "7"
-					(at 224.2344 180.975 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "8"
-					(at 259.3181 -1.905 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "8"
-					(at 259.3181 180.975 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "A"
-					(at -1.905 164.211 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "A"
-					(at 274.955 164.211 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "A4"
-					(at 181.356 10.668 0)
-					(effects
-						(font
-							(size 1.778 1.5113)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "B"
-					(at -1.905 126.873 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "B"
-					(at 274.955 126.873 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "C"
-					(at -1.905 89.535 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "C"
-					(at 274.955 89.535 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "D"
-					(at -1.905 52.197 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "D"
-					(at 274.955 52.197 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "Drawn By:"
-					(at 226.822 6.35 0)
-					(effects
-						(font
-							(size 2.54 2.159)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "E"
-					(at -1.905 14.859 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "E"
-					(at 274.955 14.859 0)
-					(effects
-						(font
-							(size 2.54 2.286)
-						)
-					)
-				)
-				(text "Rev:"
-					(at 226.16 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Sheet:"
-					(at 181.61 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Size"
-					(at 181.61 12.954 0)
-					(effects
-						(font
-							(size 1.4224 1.209)
-						)
-						(justify left bottom)
-					)
-				)
-			)
-		)
 		(symbol "ADM3260_Breakout-eagle-import:GND"
 			(power)
 			(exclude_from_sim no)
@@ -3952,152 +3127,222 @@
 		)
 	)
 	(junction
-		(at 193.04 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01957a90-e557-4324-b53d-e59aea51df34")
-	)
-	(junction
-		(at 127 76.2)
+		(at 88.9 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "090fa7ae-9e17-4545-995b-619609744cbe")
 	)
 	(junction
-		(at 193.04 121.92)
+		(at 154.94 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09545a05-cb40-4eb1-8671-d74cd657f241")
 	)
 	(junction
-		(at 203.2 114.3)
+		(at 25.4 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af5872b-cd9c-44c0-b2cd-9a54b2a9b878")
+	)
+	(junction
+		(at 165.1 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14facd36-0ee2-45ce-8c3f-3e9777b6126a")
 	)
 	(junction
-		(at 116.84 114.3)
+		(at 154.94 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "156684b0-ea2f-4881-b2d8-4f914c899c5f")
+		(uuid "20b549a7-2e71-4fef-a2e1-69bd5dbfc71a")
 	)
 	(junction
-		(at 93.98 170.18)
+		(at 55.88 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e15ec81-781a-4cb4-9c30-b8982b41e2f5")
 	)
 	(junction
-		(at 193.04 76.2)
+		(at 154.94 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a817866-1bcd-42f7-9cfa-e6de69ed3b40")
 	)
 	(junction
-		(at 236.22 106.68)
+		(at 95.25 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c2665b5-5531-4687-a225-aae15ea7d899")
+		(uuid "3a94f13b-523a-423f-8b72-2ad5e1f5d178")
 	)
 	(junction
-		(at 116.84 83.82)
+		(at 78.74 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e48a9b3-dd6b-4853-a347-7c7b7ac80cfa")
 	)
 	(junction
-		(at 200.66 45.72)
+		(at 162.56 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e92144e-28b8-46ca-9e24-a2f0f429f1f7")
 	)
 	(junction
-		(at 205.74 60.96)
+		(at 167.64 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53d7e4f2-af93-4865-ba90-941376488e54")
 	)
 	(junction
-		(at 124.46 68.58)
+		(at 78.74 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a7e193e-dc76-4818-a0a2-c40e7b35c5b6")
+	)
+	(junction
+		(at 78.74 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8203569d-1c72-4e0e-8f4a-08a6bb1227d6")
+	)
+	(junction
+		(at 86.36 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8508f7bd-ec1a-463f-9659-7627006d68a5")
 	)
 	(junction
-		(at 119.38 45.72)
+		(at 81.28 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85513152-7e9a-4ae0-bbfd-4b6165120465")
 	)
 	(junction
-		(at 193.04 114.3)
+		(at 88.9 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91ec430b-ee88-4d97-a288-7b21d56c3d1c")
+		(uuid "94e8b084-f83c-46e0-b51d-79fa3091d155")
 	)
 	(junction
-		(at 116.84 76.2)
+		(at 78.74 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99043982-5d63-4ca7-b238-b3be2d5ef920")
 	)
 	(junction
-		(at 71.12 170.18)
+		(at 198.12 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e6ae609-e496-4a0c-879d-d6929385deaa")
+	)
+	(junction
+		(at 154.94 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a40f26e0-bbfe-4a38-8169-bd9dd2ad437b")
+	)
+	(junction
+		(at 95.25 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6574af4-1b83-4f4d-9b98-4b63565aaf11")
+	)
+	(junction
+		(at 33.02 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac67e52f-5487-42e8-bbde-bb68a388b755")
 	)
 	(junction
-		(at 195.58 68.58)
+		(at 157.48 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde77a1e-f5a3-4914-b37c-5a4ed76fbe68")
 	)
 	(junction
-		(at 193.04 83.82)
+		(at 154.94 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4899f41-a94d-4bf9-90f3-b4beb1a1f605")
 	)
 	(junction
-		(at 203.2 76.2)
+		(at 165.1 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d00b0cb3-4d70-41fd-8b3c-c5710a52c760")
 	)
 	(junction
-		(at 116.84 99.06)
+		(at 147.32 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0d25d81-9b2d-4d0b-9364-f77eea789712")
+		(uuid "d27e39ad-b1cc-4de3-839f-59befb66e145")
 	)
 	(junction
-		(at 127 114.3)
+		(at 157.48 170.181)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4255df8-1c64-424e-834c-bb1d8a34d06f")
+		(uuid "d68baae8-c368-4f8e-a3d7-41394c9ca048")
 	)
 	(junction
-		(at 114.3 60.96)
+		(at 76.2 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dac133a7-5c2d-4a31-8126-4d63e125e6e1")
 	)
 	(junction
-		(at 127 83.82)
+		(at 88.9 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecf2ed51-a643-45c2-ac56-c12b3373379f")
 	)
 	(junction
-		(at 127 121.92)
+		(at 158.75 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f13657db-6ffc-40f8-ae52-b92a5b5afd54")
+	)
+	(junction
+		(at 88.9 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdc90e0d-71d2-40c9-95a0-6d4542ec5a02")
 	)
+	(no_connect
+		(at 157.16 150.02)
+		(uuid "3251c1ce-a08c-4529-88e4-105ca7e232e8")
+	)
+	(no_connect
+		(at 117.16 155.02)
+		(uuid "77f3e5bb-e797-4cea-a5ef-0cc3ab686b4c")
+	)
+	(no_connect
+		(at 146.8926 90.1769)
+		(uuid "79118839-a261-492e-9f09-b961ded406d2")
+	)
+	(no_connect
+		(at 157.16 165.02)
+		(uuid "ad5d04c9-1310-4fd3-b2a9-d9785b3ba72a")
+	)
+	(no_connect
+		(at 157.16 155.02)
+		(uuid "e3e93d92-5cf8-4423-a289-48ad6a4334c6")
+	)
+	(no_connect
+		(at 96.92 90.63)
+		(uuid "e9a0ef9f-b3b1-4bcd-bfa2-d54f52a0dc87")
+	)
 	(wire
 		(pts
-			(xy 185.0417 60.9594) (xy 205.7393 60.9594)
+			(xy 147.32 113.03) (xy 154.94 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "00596e1f-82a0-401d-b1e5-f8a51c139bfb")
+	)
+	(wire
+		(pts
+			(xy 146.9417 59.6894) (xy 167.6393 59.6894)
 		)
 		(stroke
 			(width 0.1524)
@@ -4107,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 109.22 68.58)
+			(xy 86.36 67.31) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -4117,7 +3362,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 83.82) (xy 203.2 81.28)
+			(xy 165.1 82.55) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -4127,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 60.96) (xy 205.74 55.88)
+			(xy 167.64 59.69) (xy 167.64 54.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -4137,17 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.9673 99.0673) (xy 193.04 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "05177a72-1d1f-41c1-9051-d2b867416b84")
-	)
-	(wire
-		(pts
-			(xy 116.84 99.06) (xy 116.84 83.82)
+			(xy 78.74 82.55) (xy 78.74 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -4157,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 187.96) (xy 162.56 187.96)
+			(xy 109.22 187.96) (xy 104.14 187.96)
 		)
 		(stroke
 			(width 0.1524)
@@ -4167,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 83.82) (xy 116.84 83.82)
+			(xy 88.9 82.55) (xy 78.74 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -4177,27 +3412,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.358 149.8642) (xy 172.72 149.86)
+			(xy 154.94 95.25) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "0ea85e4d-3875-41bc-8bbe-7fd69d5c2868")
+		(uuid "0f2255d5-9a5a-4797-99d5-d77ea80baebd")
 	)
 	(wire
 		(pts
-			(xy 135.042 106.68) (xy 116.84 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "100290c0-ae33-48fd-8102-f001d46e8e8f")
-	)
-	(wire
-		(pts
-			(xy 116.84 81.28) (xy 116.84 83.82)
+			(xy 78.74 80.01) (xy 78.74 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -4207,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 68.58) (xy 213.36 68.58)
+			(xy 157.48 67.31) (xy 175.26 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -4217,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 121.92) (xy 116.84 119.38)
+			(xy 78.74 120.65) (xy 78.74 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -4227,17 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.9833 121.918) (xy 184.9854 121.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "13f43838-dbc4-44e8-a272-12d8f0653cbf")
-	)
-	(wire
-		(pts
-			(xy 205.7393 60.9594) (xy 205.74 60.96)
+			(xy 167.6393 59.6894) (xy 167.64 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -4247,7 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 127 78.74)
+			(xy 88.9 74.93) (xy 88.9 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -4257,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.0491 68.5682) (xy 124.46 68.58)
+			(xy 96.9491 67.2982) (xy 86.36 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -4267,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 93.98) (xy 66.04 93.98)
+			(xy 25.4 92.71) (xy 22.86 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -4277,7 +3492,27 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 45.72) (xy 119.38 45.72)
+			(xy 147.0129 105.41) (xy 147.0129 105.4107)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "19fe1306-71f6-4a80-8ecf-f2752dfa4982")
+	)
+	(wire
+		(pts
+			(xy 116.9539 165.1) (xy 116.9539 165.1034)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1aa6e9e8-39d1-4059-9d7b-08a023f20542")
+	)
+	(wire
+		(pts
+			(xy 86.36 44.45) (xy 81.28 44.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -4287,7 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 114.3) (xy 203.2 116.84)
+			(xy 165.1 113.03) (xy 165.1 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -4297,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 104.14) (xy 66.04 104.14)
+			(xy 29.21 97.79) (xy 22.86 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -4307,7 +3542,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 91.44) (xy 236.22 88.9)
+			(xy 146.8833 120.6479) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ca4f7cf-3f4e-4a2a-b873-4cd9f53563e9")
+	)
+	(wire
+		(pts
+			(xy 198.12 90.17) (xy 198.12 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -4317,17 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.0461 106.6841) (xy 135.042 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1fe83d33-5edc-4406-81f7-e8dc48c2a7ba")
-	)
-	(wire
-		(pts
-			(xy 236.22 106.68) (xy 236.22 111.76)
+			(xy 198.12 100.33) (xy 198.12 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -4337,7 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 121.92) (xy 193.04 119.38)
+			(xy 154.94 120.65) (xy 154.94 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -4347,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 86.36) (xy 68.58 86.36)
+			(xy 35.56 85.09) (xy 25.4 85.09)
 		)
 		(stroke
 			(width 0.1524)
@@ -4357,7 +3592,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 68.58) (xy 195.58 55.88)
+			(xy 157.48 67.31) (xy 157.48 54.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -4367,17 +3602,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 116.84 99.06)
+			(xy 158.75 120.65) (xy 158.75 123.19)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "2d5072bd-b651-4630-85f6-ddf413a41010")
+		(uuid "2f4bf25c-79cd-49b6-9b14-2de7be0a8177")
 	)
 	(wire
 		(pts
-			(xy 119.38 45.72) (xy 119.38 43.18)
+			(xy 81.28 44.45) (xy 81.28 41.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -4387,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 60.96) (xy 109.22 60.96)
+			(xy 76.2 59.69) (xy 62.23 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -4397,7 +3632,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 116.84 76.2)
+			(xy 78.74 97.79) (xy 78.74 105.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35ec7fbd-45fb-4f45-bea9-da0ea2f2e9fa")
+	)
+	(wire
+		(pts
+			(xy 88.9 74.93) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4407,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 91.44) (xy 68.58 91.44)
+			(xy 35.56 90.17) (xy 25.4 90.17)
 		)
 		(stroke
 			(width 0.1524)
@@ -4417,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 182.88) (xy 172.72 170.18)
+			(xy 114.3 182.88) (xy 114.3 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -4427,7 +3672,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 203.2 76.2)
+			(xy 117.0196 170.18) (xy 117.0196 170.1828)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "41643545-7f2f-472a-98d5-04a1e4c37b79")
+	)
+	(wire
+		(pts
+			(xy 154.94 74.93) (xy 165.1 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4437,7 +3692,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 165.1) (xy 172.72 165.1)
+			(xy 104.14 165.1) (xy 116.9539 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -4447,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 160.02) (xy 93.98 157.48)
+			(xy 55.88 158.75) (xy 55.88 151.13)
 		)
 		(stroke
 			(width 0.1524)
@@ -4457,7 +3712,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 205.74 45.72)
+			(xy 162.56 44.45) (xy 167.64 44.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -4467,7 +3722,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 66.04 88.9)
+			(xy 95.25 113.03) (xy 96.9242 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4889ee0a-e16d-4b83-87ed-be8ab4ae8215")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 22.86 87.63)
 		)
 		(stroke
 			(width 0.1524)
@@ -4477,7 +3742,27 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 114.3) (xy 210.82 114.3)
+			(xy 95.25 109.22) (xy 95.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be9f351-8261-45b2-bb55-1bc55ab113b3")
+	)
+	(wire
+		(pts
+			(xy 29.21 92.71) (xy 35.56 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4df7ab27-87d9-4460-a6fd-ad47c1770d24")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 172.72 113.03)
 		)
 		(stroke
 			(width 0.1524)
@@ -4487,17 +3772,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.0795 114.3054) (xy 193.0346 114.3054)
+			(xy 78.74 105.41) (xy 96.9461 105.41)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "56749cfb-a272-43c5-a9f8-157d667b3dc7")
+		(uuid "54c79527-f0a6-49d1-9ace-fbdc1918a825")
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 116.84 78.74)
+			(xy 78.74 74.93) (xy 78.74 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -4507,7 +3792,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 203.2 83.82)
+			(xy 154.94 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59887dbe-f325-46a4-ac15-c3cfc04ad0fd")
+	)
+	(wire
+		(pts
+			(xy 154.94 82.55) (xy 165.1 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -4517,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 213.36 76.2)
+			(xy 165.1 74.93) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4527,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.02 121.92) (xy 127 121.92)
+			(xy 96.92 120.65) (xy 88.9 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -4537,7 +3832,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 170.18) (xy 71.12 162.56)
+			(xy 33.02 168.91) (xy 33.02 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -4547,7 +3842,27 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 187.96) (xy 162.56 165.1)
+			(xy 88.9 115.57) (xy 88.9 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6068f76d-9f6d-44b6-8252-f453476468ba")
+	)
+	(wire
+		(pts
+			(xy 157.48 167.64) (xy 157.48 170.181)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6141ba54-fa83-4db7-be99-91a2e3889b45")
+	)
+	(wire
+		(pts
+			(xy 104.14 187.96) (xy 104.14 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -4557,7 +3872,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 193.04 78.74)
+			(xy 154.94 74.93) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -4567,7 +3882,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 60.96) (xy 114.3 55.88)
+			(xy 76.2 59.69) (xy 76.2 54.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -4577,27 +3892,27 @@
 	)
 	(wire
 		(pts
-			(xy 135.0242 114.3003) (xy 127.0003 114.3003)
+			(xy 160.02 167.64) (xy 157.48 167.64)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "678177df-dd50-466d-9889-d0f73c760f39")
+		(uuid "645c6d50-cd19-4179-b480-5f00bfac88a9")
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 127 116.84)
+			(xy 147.32 110.49) (xy 147.32 113.03)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "68b89028-4155-460a-9a7f-1c8bfe477fda")
+		(uuid "65b30ef7-262b-440f-820a-78c9ce3e5c25")
 	)
 	(wire
 		(pts
-			(xy 135.0629 53.3473) (xy 132.08 53.34)
+			(xy 96.9629 52.0773) (xy 93.98 52.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -4607,7 +3922,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 91.44) (xy 68.58 93.98)
+			(xy 146.8673 97.79) (xy 146.8673 97.7972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a754803-6df9-4db6-bc15-05a9be018fe8")
+	)
+	(wire
+		(pts
+			(xy 25.4 90.17) (xy 25.4 92.71)
 		)
 		(stroke
 			(width 0.1524)
@@ -4617,17 +3942,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.6156 170.1811) (xy 218.44 170.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6df794e6-6fa1-48c7-adf7-e42a227af35e")
-	)
-	(wire
-		(pts
-			(xy 185.0069 68.58) (xy 195.58 68.58)
+			(xy 146.9069 67.31) (xy 157.48 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -4637,17 +3952,27 @@
 	)
 	(wire
 		(pts
-			(xy 184.9854 121.92) (xy 193.04 121.92)
+			(xy 95.25 97.79) (xy 96.946 97.79)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "71199f5b-6d0b-49f1-8a1b-a9d934e00004")
+		(uuid "73069cbd-91d9-4ee8-9ef7-b49a6cd49dc8")
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 116.84 116.84)
+			(xy 149.86 95.25) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7846c644-c7be-42fa-9280-b8e03f443f9e")
+	)
+	(wire
+		(pts
+			(xy 78.74 113.03) (xy 78.74 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -4657,17 +3982,27 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 99.06) (xy 193.04 83.82)
+			(xy 95.25 95.25) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4fa1a4-c203-4e4f-8b16-ef70ac379212")
+	)
+	(wire
+		(pts
+			(xy 96.9461 105.41) (xy 96.9461 105.414)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "7c830931-305a-48ce-baeb-8eed3f7b504a")
+		(uuid "7fb86cdd-50dd-4a95-a162-c37912d14a13")
 	)
 	(wire
 		(pts
-			(xy 71.12 162.56) (xy 88.9 162.56)
+			(xy 33.02 161.29) (xy 50.8 161.29)
 		)
 		(stroke
 			(width 0.1524)
@@ -4677,7 +4012,27 @@
 	)
 	(wire
 		(pts
-			(xy 236.2192 106.6808) (xy 236.22 106.68)
+			(xy 154.94 95.25) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b0e0d5-3ab6-498a-abc6-6d927ae9555f")
+	)
+	(wire
+		(pts
+			(xy 88.9 113.03) (xy 95.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b19d42-1e82-4e5d-b6d1-c2dcb0af77e3")
+	)
+	(wire
+		(pts
+			(xy 198.1192 105.4108) (xy 198.12 105.41)
 		)
 		(stroke
 			(width 0.1524)
@@ -4687,7 +4042,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 45.72) (xy 114.3 45.72)
+			(xy 81.28 44.45) (xy 76.2 44.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -4697,7 +4052,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 170.18) (xy 93.98 170.18)
+			(xy 73.66 168.91) (xy 55.88 168.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -4707,7 +4062,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 114.3) (xy 193.04 116.84)
+			(xy 154.94 113.03) (xy 154.94 115.57)
 		)
 		(stroke
 			(width 0.1524)
@@ -4717,7 +4072,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 68.58) (xy 124.46 55.88)
+			(xy 86.36 67.31) (xy 86.36 54.61)
 		)
 		(stroke
 			(width 0.1524)
@@ -4727,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 182.88) (xy 93.98 180.34)
+			(xy 55.88 181.61) (xy 55.88 179.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -4737,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 121.92) (xy 236.22 124.46)
+			(xy 198.12 120.65) (xy 198.12 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -4747,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.004 83.8069) (xy 193.04 83.82)
+			(xy 146.904 82.5369) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -4757,7 +4112,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 124.46) (xy 127 121.92)
+			(xy 78.74 113.03) (xy 88.9 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b39ebf0-9ef4-476a-af0e-1075345ae63d")
+	)
+	(wire
+		(pts
+			(xy 88.9 123.19) (xy 88.9 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -4767,7 +4132,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 187.96) (xy 121.92 187.96)
+			(xy 78.74 186.69) (xy 83.82 186.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -4777,17 +4142,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.046 99.0529) (xy 116.8472 99.0529)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "90bf9e23-7cd1-4382-8cd6-67aa4ada2c6f")
-	)
-	(wire
-		(pts
-			(xy 205.74 60.96) (xy 213.36 60.96)
+			(xy 167.64 59.69) (xy 175.26 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -4797,7 +4152,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 114.3) (xy 203.2 114.3)
+			(xy 154.94 113.03) (xy 165.1 113.03)
 		)
 		(stroke
 			(width 0.1524)
@@ -4807,17 +4162,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.3738 165.1034) (xy 172.72 165.1)
+			(xy 149.86 97.79) (xy 146.8673 97.79)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "98f5a623-a6d3-46c5-9cb5-e19b36d11870")
+		(uuid "93de6c7c-afb4-4d59-99da-2933c253de11")
 	)
 	(wire
 		(pts
-			(xy 73.66 83.82) (xy 71.12 83.82)
+			(xy 35.56 82.55) (xy 29.21 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -4827,7 +4182,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 45.72) (xy 200.66 45.72)
+			(xy 157.48 44.45) (xy 162.56 44.45)
 		)
 		(stroke
 			(width 0.1524)
@@ -4837,7 +4192,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.062 60.9658) (xy 114.3 60.96)
+			(xy 96.962 59.6958) (xy 76.2 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -4847,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 167.64) (xy 116.84 165.1)
+			(xy 78.74 166.37) (xy 78.74 156.21)
 		)
 		(stroke
 			(width 0.1524)
@@ -4857,17 +4212,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 101.6) (xy 236.22 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a5f9b8fb-431c-4cf9-bd2a-f13ae171c916")
-	)
-	(wire
-		(pts
-			(xy 175.58 160.02) (xy 172.72 160.02)
+			(xy 117.16 160.02) (xy 114.3 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -4877,7 +4222,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 121.92) (xy 203.2 119.38)
+			(xy 157.48 95.25) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa5b306f-ac54-438a-8e12-b9abc1f4af5c")
+	)
+	(wire
+		(pts
+			(xy 165.1 120.65) (xy 165.1 118.11)
 		)
 		(stroke
 			(width 0.1524)
@@ -4887,7 +4242,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.8472 99.0529) (xy 116.84 99.06)
+			(xy 78.7472 97.7829) (xy 78.74 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -4897,7 +4252,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.9855 76.2047) (xy 193.04 76.2)
+			(xy 114.3 170.18) (xy 117.0196 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af6aeffd-619f-4423-a5be-1cc59f55af5d")
+	)
+	(wire
+		(pts
+			(xy 146.8855 74.9347) (xy 154.94 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4907,7 +4272,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.0731 76.2176) (xy 127 76.2)
+			(xy 90.17 95.25) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b054e514-2243-4ab0-9ca2-6f580eaa09bd")
+	)
+	(wire
+		(pts
+			(xy 96.9731 74.9476) (xy 88.9 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4917,7 +4292,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 111.76 76.2)
+			(xy 147.32 113.0353) (xy 146.9795 113.0353)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc69950-e629-4462-9b7e-f92fb834ce6f")
+	)
+	(wire
+		(pts
+			(xy 78.74 74.93) (xy 73.66 74.93)
 		)
 		(stroke
 			(width 0.1524)
@@ -4927,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 78.74) (xy 66.04 78.74)
+			(xy 29.21 77.47) (xy 22.86 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -4937,7 +4322,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 177.8) (xy 71.12 177.8)
+			(xy 50.8 176.53) (xy 33.02 176.53)
 		)
 		(stroke
 			(width 0.1524)
@@ -4947,17 +4332,17 @@
 	)
 	(wire
 		(pts
-			(xy 127.0003 114.3003) (xy 127 114.3)
+			(xy 116.9381 149.86) (xy 116.9381 149.8642)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "c0319041-1120-48fc-8dff-51ec7cf4f956")
+		(uuid "bf0046ed-52b7-46aa-b286-6bcfa64983b1")
 	)
 	(wire
 		(pts
-			(xy 184.9903 53.3434) (xy 187.96 53.34)
+			(xy 146.8903 52.0734) (xy 149.86 52.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -4967,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.0542 83.8108) (xy 127.0093 83.8108)
+			(xy 96.9542 82.5408) (xy 88.9093 82.5408)
 		)
 		(stroke
 			(width 0.1524)
@@ -4977,7 +4362,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 83.82) (xy 71.12 78.74)
+			(xy 158.75 120.65) (xy 165.1 120.65)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4def002-a867-4e56-bc32-4f3c021071e3")
+	)
+	(wire
+		(pts
+			(xy 29.21 82.55) (xy 29.21 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -4987,17 +4382,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.1129 106.6808) (xy 236.2192 106.6808)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c6686adf-33ee-4d20-9414-6de6fdc3eb30")
-	)
-	(wire
-		(pts
-			(xy 127 121.92) (xy 116.84 121.92)
+			(xy 88.9 120.65) (xy 78.74 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -5007,7 +4392,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.58 160.02) (xy 218.44 160.02)
+			(xy 157.16 160.02) (xy 160.02 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -5017,7 +4402,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 121.92) (xy 203.2 121.92)
+			(xy 114.3 149.86) (xy 116.9381 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb227a03-4975-4c11-829b-01a4293a06c4")
+	)
+	(wire
+		(pts
+			(xy 154.94 120.65) (xy 158.75 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -5027,7 +4422,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 119.38) (xy 127 121.92)
+			(xy 88.9 118.11) (xy 88.9 120.65)
 		)
 		(stroke
 			(width 0.1524)
@@ -5037,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 127.0093 83.8108) (xy 127 83.82)
+			(xy 88.9093 82.5408) (xy 88.9 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -5047,7 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 114.3) (xy 111.76 114.3)
+			(xy 78.74 113.03) (xy 73.66 113.03)
 		)
 		(stroke
 			(width 0.1524)
@@ -5057,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 203.2 78.74)
+			(xy 165.1 74.93) (xy 165.1 77.47)
 		)
 		(stroke
 			(width 0.1524)
@@ -5067,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 121.92) (xy 193.04 124.46)
+			(xy 154.94 120.65) (xy 154.94 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -5077,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 170.18) (xy 68.58 170.18)
+			(xy 33.02 168.91) (xy 25.4 168.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -5087,7 +4482,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 93.98) (xy 73.66 104.14)
+			(xy 29.21 92.71) (xy 29.21 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -5097,7 +4492,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 99.06) (xy 116.84 99.06)
+			(xy 68.58 97.79) (xy 78.74 97.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -5107,17 +4502,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 114.3) (xy 116.84 114.3)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "de1a0726-43ed-4e73-9dba-e149fa3f6790")
-	)
-	(wire
-		(pts
-			(xy 68.58 86.36) (xy 68.58 83.82)
+			(xy 25.4 85.09) (xy 25.4 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -5127,7 +4512,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 177.8) (xy 116.84 187.96)
+			(xy 91.44 109.22) (xy 95.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df134d21-3d8e-49fc-af87-a979a36d1c2a")
+	)
+	(wire
+		(pts
+			(xy 78.74 176.53) (xy 78.74 186.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -5137,7 +4532,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.0346 114.3054) (xy 193.04 114.3)
+			(xy 154.9346 113.0354) (xy 154.94 113.03)
 		)
 		(stroke
 			(width 0.1524)
@@ -5147,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 200.66 43.18)
+			(xy 162.56 44.45) (xy 162.56 41.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -5157,17 +4552,37 @@
 	)
 	(wire
 		(pts
-			(xy 175.4395 170.1829) (xy 172.72 170.18)
+			(xy 149.86 110.49) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f61b69-fb43-4aef-a9df-d003a354a54a")
+	)
+	(wire
+		(pts
+			(xy 96.9242 113.03) (xy 96.9242 113.0302)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "e96f1ed6-df3b-4ab3-b99a-2e5682488e6d")
+		(uuid "ecd14667-76ff-49d9-9b18-a998f57f7af5")
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 193.04 81.28)
+			(xy 157.1956 170.181) (xy 160.02 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ed65e24c-7df7-473c-acfe-8fa98b749282")
+	)
+	(wire
+		(pts
+			(xy 154.94 82.55) (xy 154.94 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -5177,7 +4592,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 81.28) (xy 127 83.82)
+			(xy 88.9 80.01) (xy 88.9 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -5187,7 +4602,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.9952 68.5683) (xy 185.0069 68.58)
+			(xy 96.946 97.79) (xy 96.946 97.7828)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f201fa56-cd6b-499e-9143-e6a531ed5b37")
+	)
+	(wire
+		(pts
+			(xy 146.8952 67.2983) (xy 146.9069 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -5197,7 +4622,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 177.8) (xy 71.12 170.18)
+			(xy 33.02 176.53) (xy 33.02 168.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -5207,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 83.82) (xy 66.04 83.82)
+			(xy 25.4 82.55) (xy 22.86 82.55)
 		)
 		(stroke
 			(width 0.1524)
@@ -5215,9 +4640,49 @@
 		)
 		(uuid "f3a55f52-bbcb-4b94-a5c5-c93b3af91cdc")
 	)
+	(wire
+		(pts
+			(xy 78.74 97.79) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4fdd925-ca7e-4e6a-86ef-d4455f3174a2")
+	)
+	(wire
+		(pts
+			(xy 198.12 105.41) (xy 147.0129 105.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f8464100-34a0-4e51-b658-9307b4b38f00")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 147.32 113.0353)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bf3930-0fc6-4492-9a4a-5f8fa37508ce")
+	)
+	(wire
+		(pts
+			(xy 198.12 105.41) (xy 198.12 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f96cb4ed-58cd-4ad3-b4f4-e9c0d8ec8673")
+	)
 	(text "S"
 		(exclude_from_sim no)
-		(at 94.234 179.324 0)
+		(at 56.134 178.054 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5228,7 +4693,7 @@
 	)
 	(text "S"
 		(exclude_from_sim no)
-		(at 117.094 169.926 0)
+		(at 78.994 168.656 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5239,7 +4704,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 117.094 176.784 0)
+		(at 78.994 175.514 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5250,7 +4715,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 88.9 162.052 0)
+		(at 50.8 160.782 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5261,7 +4726,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 88.9 177.292 0)
+		(at 50.8 176.022 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5272,7 +4737,7 @@
 	)
 	(text "Analog Sensor"
 		(exclude_from_sim no)
-		(at 183.6919 140.5133 0)
+		(at 128.524 140.97 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -5283,7 +4748,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 94.234 172.466 0)
+		(at 56.134 171.196 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5294,7 +4759,7 @@
 	)
 	(text "I2C Isolation"
 		(exclude_from_sim no)
-		(at 139.7 33.02 0)
+		(at 101.6 31.75 0)
 		(effects
 			(font
 				(size 5.08 4.318)
@@ -5305,7 +4770,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 94.234 169.418 0)
+		(at 56.134 168.148 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5316,7 +4781,7 @@
 	)
 	(text "S"
 		(exclude_from_sim no)
-		(at 94.234 162.306 0)
+		(at 56.134 161.036 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5327,7 +4792,7 @@
 	)
 	(text "CMOS Power Switch"
 		(exclude_from_sim no)
-		(at 83.82 142.24 0)
+		(at 45.72 140.97 0)
 		(effects
 			(font
 				(size 2.54 2.159)
@@ -5338,7 +4803,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 111.76 169.672 0)
+		(at 73.66 168.402 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
@@ -5348,7 +4813,7 @@
 		(uuid "fab5224f-8159-4b28-900e-78b84951f3c1")
 	)
 	(label "AVCC"
-		(at 119.38 43.18 90)
+		(at 81.28 41.91 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5359,7 +4824,7 @@
 		(uuid "09558522-aff3-46c0-b63d-cd1171466f6e")
 	)
 	(label "AVCC"
-		(at 111.76 76.2 180)
+		(at 73.66 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5370,7 +4835,7 @@
 		(uuid "108d8ed8-8334-4a9d-9324-da2e9e83ec1c")
 	)
 	(label "EN"
-		(at 68.58 170.18 180)
+		(at 25.4 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5381,7 +4846,7 @@
 		(uuid "10a778b1-d2b3-49f8-9fa6-5f4e14584f9d")
 	)
 	(label "SCL1"
-		(at 213.36 60.96 0)
+		(at 175.26 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5392,7 +4857,7 @@
 		(uuid "15573790-d81b-44ce-b02b-dec92d9b54a4")
 	)
 	(label "3V3-ISO"
-		(at 172.72 160.02 180)
+		(at 114.3 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5402,30 +4867,19 @@
 		)
 		(uuid "2524b82e-67f3-4297-b6dd-a97c3de936d6")
 	)
-	(label "VCC"
-		(at 66.04 104.14 180)
+	(label "SCL2"
+		(at 25.4 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "2d444a9d-7777-4b97-82f2-51a2b788beac")
-	)
-	(label "EN"
-		(at 66.04 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify right bottom)
-		)
-		(uuid "3910a3c6-d72b-4e29-a45b-30be6528a6bd")
+		(uuid "3ab3b123-8bfd-4006-8891-dd9b628bd0ae")
 	)
 	(label "SDA1"
-		(at 213.36 68.58 0)
+		(at 175.26 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5436,7 +4890,7 @@
 		(uuid "58b1cb23-4199-4645-87e1-71a77816c12b")
 	)
 	(label "AVCC"
-		(at 121.92 187.96 0)
+		(at 83.82 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5447,7 +4901,7 @@
 		(uuid "5b036cdc-1b35-40c9-8d27-86a3d3742109")
 	)
 	(label "SCL1"
-		(at 218.44 160.02 0)
+		(at 160.02 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5457,8 +4911,19 @@
 		)
 		(uuid "5c4b33fc-178e-4366-a095-5e9222e20f51")
 	)
+	(label "EN"
+		(at 27.94 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify right bottom)
+		)
+		(uuid "612bbdea-7753-4933-8082-4a28d1b0f78f")
+	)
 	(label "VCC"
-		(at 93.98 157.48 90)
+		(at 55.88 151.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5469,7 +4934,7 @@
 		(uuid "6b943b2d-03d4-4730-b5a4-4bbc1dff977f")
 	)
 	(label "SDA1"
-		(at 172.72 149.86 180)
+		(at 114.3 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5480,7 +4945,7 @@
 		(uuid "717bbed3-1338-4d68-8bcd-75fe7c3478e4")
 	)
 	(label "VCC"
-		(at 116.84 165.1 90)
+		(at 78.74 156.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5490,8 +4955,19 @@
 		)
 		(uuid "7bfde21d-216e-44e2-bcc1-0fb1cd378051")
 	)
+	(label "VCC"
+		(at 29.21 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "83848d4f-513c-4287-bf03-cd7b504c01f6")
+	)
 	(label "SDA2"
-		(at 109.22 68.58 180)
+		(at 62.23 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5501,19 +4977,8 @@
 		)
 		(uuid "890c0853-aea0-4127-b122-51b536f64d55")
 	)
-	(label "SCL2"
-		(at 66.04 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify right bottom)
-		)
-		(uuid "937ad0a6-1c18-418e-beca-f56cfdb49d3f")
-	)
 	(label "AVCC"
-		(at 111.76 114.3 180)
+		(at 73.66 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5524,7 +4989,7 @@
 		(uuid "adcabc69-3f53-4f37-b430-b634cdec6ae1")
 	)
 	(label "3V3-ISO"
-		(at 210.82 114.3 0)
+		(at 172.72 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5535,7 +5000,7 @@
 		(uuid "b20c91ee-d41a-4a02-981a-4a8b8d5a132b")
 	)
 	(label "SCL2"
-		(at 109.22 60.96 180)
+		(at 62.23 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5546,18 +5011,18 @@
 		(uuid "b2ff77de-e688-4e38-9154-33b6c9d2f551")
 	)
 	(label "SDA2"
-		(at 66.04 83.82 180)
+		(at 24.13 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.778 1.778)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "d61b43ac-6fd9-4ed3-bf64-9fc08ebfe956")
+		(uuid "dde79d39-5e8b-4a78-90dd-66a18b2a2124")
 	)
 	(label "3V3-ISO"
-		(at 200.66 43.18 90)
+		(at 162.56 41.91 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5568,7 +5033,7 @@
 		(uuid "e5257b94-37ea-44c9-bedc-11f37f64b356")
 	)
 	(label "3V3-ISO"
-		(at 213.36 76.2 0)
+		(at 175.26 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5579,7 +5044,7 @@
 		(uuid "f61d0c7e-9395-40e9-8854-c6e97dbafd54")
 	)
 	(label "3V3-ISO"
-		(at 236.22 88.9 90)
+		(at 198.12 87.63 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5591,7 +5056,7 @@
 	)
 	(global_label "GNDISO"
 		(shape bidirectional)
-		(at 184.9833 121.9179 0)
+		(at 158.75 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5601,7 +5066,7 @@
 		)
 		(uuid "0e943966-eccb-4aac-bfb5-bb8c63f184f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.8724 121.9179 0)
+			(at 167.6391 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5078,7 @@
 	)
 	(global_label "GNDISO"
 		(shape bidirectional)
-		(at 184.9673 99.0672 0)
+		(at 157.48 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5623,7 +5088,7 @@
 		)
 		(uuid "4308c5f9-508f-46bc-88c4-5f23018c837b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.8564 99.0672 0)
+			(at 166.3691 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5100,7 @@
 	)
 	(global_label "GNDP"
 		(shape bidirectional)
-		(at 135.046 99.0528 180)
+		(at 90.17 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5645,7 +5110,7 @@
 		)
 		(uuid "4de4b67a-84d1-4a65-b151-f1ca7352dedf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.6567 99.0528 0)
+			(at 82.7807 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5122,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 215.6156 170.181 0)
+		(at 160.02 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5667,7 +5132,7 @@
 		)
 		(uuid "7c605e77-253b-44b7-bf7b-4fd0542dd6ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.9889 170.181 0)
+			(at 166.3933 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5144,7 @@
 	)
 	(global_label "VISO"
 		(shape bidirectional)
-		(at 185.0795 114.3053 0)
+		(at 149.86 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5689,7 +5154,7 @@
 		)
 		(uuid "d18b791f-ae2e-4708-91ee-25db8914c566")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.7431 114.3053 0)
+			(at 156.5236 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5166,7 @@
 	)
 	(global_label "VIN"
 		(shape bidirectional)
-		(at 135.0242 114.3002 180)
+		(at 91.44 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5711,7 +5176,7 @@
 		)
 		(uuid "d40b56c4-e248-41d3-bac7-e169d980cc52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3282 114.3002 0)
+			(at 85.744 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,83 +5186,77 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "ADM3260_Breakout-eagle-import:GND")
-		(at 66.04 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0dac010f-9873-43a3-b892-0688a2353c55")
-		(property "Reference" "#SUPPLY4"
-			(at 66.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 22.86 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
 			)
+			(justify right)
 		)
-		(property "Value" "GND"
-			(at 60.579 100.711 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
+		(uuid "186d051b-1fa8-4171-8526-12d26c7a54fb")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 22.86 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
 			)
+			(justify right)
 		)
-		(property "Footprint" ""
-			(at 66.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "6157a53a-3b28-4dfc-be58-0d4584043e1a")
+	)
+	(hierarchical_label "SCL2"
+		(shape input)
+		(at 22.86 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
 			)
+			(justify right)
 		)
-		(property "Datasheet" ""
-			(at 66.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "6579be71-0eba-498e-9203-7b3277f201d6")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 22.86 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
 			)
+			(justify right)
 		)
-		(property "Description" ""
-			(at 66.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "cf847cb3-57ca-4ce6-9364-88e9ce489b69")
+	)
+	(hierarchical_label "SDA2"
+		(shape input)
+		(at 22.86 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.778 1.778)
 			)
+			(justify right)
 		)
-		(pin "1"
-			(uuid "54e0f2fa-9b95-4e06-a321-a8a38a66301c")
-		)
-		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#SUPPLY4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "e2d0c35b-6212-433e-8d79-d6edb5251d63")
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:BNCPTH")
-		(at 172.72 187.96 180)
+		(at 114.3 187.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "185ce855-eb66-4573-8486-0582bef75e50")
-		(property "Reference" "J2"
-			(at 175.26 193.294 0)
+		(property "Reference" "J22"
+			(at 116.84 193.294 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5806,7 +5265,7 @@
 			)
 		)
 		(property "Value" "BNCPTH"
-			(at 175.26 191.008 0)
+			(at 116.84 191.008 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5814,8 +5273,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:BNC"
-			(at 172.72 187.96 0)
+		(property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal"
+			(at 114.3 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +5283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 187.96 0)
+			(at 114.3 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +5292,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 187.96 0)
+			(at 114.3 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,15 +5301,19 @@
 			)
 		)
 		(pin "GND"
-			(uuid "ccbfe23b-deb3-4c57-9a74-ffd317523d80")
+			(uuid "ad5fc415-60d5-465b-9126-08f2f8a68a17")
 		)
 		(pin "S"
-			(uuid "06902711-1200-4da9-b313-fa81ec94d761")
+			(uuid "80ab8308-3510-46b5-ad28-603c875822be")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "J2")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "J22")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5858,7 +5321,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:BSS84")
-		(at 116.84 172.72 0)
+		(at 78.74 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5866,7 +5329,7 @@
 		(dnp no)
 		(uuid "1db12d9e-e056-4817-a71f-d8ec4e0cc29d")
 		(property "Reference" "Q3"
-			(at 102.87 173.99 0)
+			(at 64.77 172.72 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5875,7 +5338,7 @@
 			)
 		)
 		(property "Value" "BSS84"
-			(at 102.87 176.53 0)
+			(at 64.77 175.26 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5883,8 +5346,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:SOT23"
-			(at 116.84 172.72 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 78.74 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +5356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 172.72 0)
+			(at 78.74 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 172.72 0)
+			(at 78.74 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,18 +5374,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "0e5ee535-1c34-40c1-b602-40b96aba5765")
+			(uuid "13510d1d-b91d-4d7f-b211-dfcdb69e04e8")
 		)
 		(pin "1"
-			(uuid "0c5067e2-b1f9-463e-b883-2d4edfe964d1")
+			(uuid "016f6257-2917-4d47-99e2-36377ed9b538")
 		)
 		(pin "3"
-			(uuid "ddee3a66-05f6-417b-8865-ad8f0f6a4af7")
+			(uuid "4d04cfa6-9415-4e4d-871c-efd89e7e9e3b")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "Q3")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -5930,7 +5397,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:BSH105")
-		(at 91.44 175.26 0)
+		(at 53.34 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5938,7 +5405,7 @@
 		(dnp no)
 		(uuid "26465ecd-0e03-46a9-9c64-1dbf9cc702b3")
 		(property "Reference" "Q2"
-			(at 77.47 172.72 0)
+			(at 39.37 171.45 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5947,7 +5414,7 @@
 			)
 		)
 		(property "Value" "BSH105"
-			(at 77.47 175.26 0)
+			(at 39.37 173.99 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5955,8 +5422,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:SOT23"
-			(at 91.44 175.26 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 53.34 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +5432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 175.26 0)
+			(at 53.34 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +5441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 175.26 0)
+			(at 53.34 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,18 +5450,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "8952b53a-3480-437f-95ce-2917f7dc69e6")
+			(uuid "04fd5467-a536-417d-9aab-8c4bde62d7ca")
 		)
 		(pin "1"
-			(uuid "acfbc82e-be23-4932-93ad-00341bc44f95")
+			(uuid "664f3c69-dc04-4f48-bc54-abe948a249f8")
 		)
 		(pin "3"
-			(uuid "d1660bce-5ed5-4d39-b1f0-499e605ab5d8")
+			(uuid "c8c8a2be-011b-4c3f-bd5d-5a1cbf20f01c")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "Q2")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -6002,15 +5473,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND")
-		(at 132.08 55.88 0)
+		(at 93.98 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2fe74a14-347a-4c8d-bcda-525f245f535f")
-		(property "Reference" "#SUPPLY5"
-			(at 132.08 55.88 0)
+		(property "Reference" "#SUPPLY05"
+			(at 93.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +5490,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.175 59.055 0)
+			(at 92.075 57.785 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6028,7 +5499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 55.88 0)
+			(at 93.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +5508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 55.88 0)
+			(at 93.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +5517,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 55.88 0)
+			(at 93.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,12 +5526,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa4fd839-611c-4ac9-8a55-21ee7a6cfc4b")
+			(uuid "2a024901-2fea-4204-b81c-c84ef7b5e57c")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#SUPPLY5")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#SUPPLY05")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#SUPPLY010")
 					(unit 1)
 				)
 			)
@@ -6068,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:4.7KOHM-0603-1/10W-1%")
-		(at 205.74 50.8 90)
+		(at 167.64 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6076,7 +5551,7 @@
 		(dnp no)
 		(uuid "3419d682-1c92-48d5-88ad-5803bb487b62")
 		(property "Reference" "R4"
-			(at 204.216 50.8 0)
+			(at 166.116 49.53 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6085,7 +5560,7 @@
 			)
 		)
 		(property "Value" "4.7KOHM-0603-1/10W-1%"
-			(at 207.264 50.8 0)
+			(at 169.672 40.132 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6093,8 +5568,8 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 205.74 50.8 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 167.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 50.8 0)
+			(at 167.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +5587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 50.8 0)
+			(at 167.64 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,15 +5596,89 @@
 			)
 		)
 		(pin "2"
-			(uuid "ce23c3e0-1372-4fc0-b7d2-4d835e60c78a")
+			(uuid "4e87a569-9808-4126-ae21-bd7cc08e737a")
 		)
 		(pin "1"
-			(uuid "a8fec192-7f74-4288-b4c8-314b221e8c2d")
+			(uuid "1d6635c8-2b2d-4391-bdae-1535970507f3")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "R4")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ADM3260_Breakout-eagle-import:GND")
+		(at 25.4 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36c06978-82c6-4354-a348-5d42d81f1062")
+		(property "Reference" "#SUPPLY04"
+			(at 25.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.448 95.25 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e0d50ea-9f62-4d68-8fa4-a263360f4d81")
+		)
+		(instances
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#SUPPLY04")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#SUPPLY06")
 					(unit 1)
 				)
 			)
@@ -6137,15 +5686,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND-ISO")
-		(at 193.04 101.6 0)
+		(at 154.94 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3bab7bf7-0242-4ff6-872a-5d90745918d8")
-		(property "Reference" "#GND-ISO3"
-			(at 193.04 101.6 0)
+		(property "Reference" "#GND-ISO03"
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,7 +5703,7 @@
 			)
 		)
 		(property "Value" "GND-ISO"
-			(at 193.04 103.378 0)
+			(at 154.94 102.108 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6163,7 +5712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 101.6 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +5721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 101.6 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +5730,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 101.6 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,12 +5739,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "396f9931-48b5-4b28-976d-1e32fc938227")
+			(uuid "26909343-5633-4b76-9168-0c297ad98457")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#GND-ISO3")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#GND-ISO03")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#GND-ISO07")
 					(unit 1)
 				)
 			)
@@ -6203,15 +5756,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND-ISO")
-		(at 218.44 172.72 0)
+		(at 160.02 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "40eb98f0-454a-4a7c-a9e1-952b7d0bbbf2")
-		(property "Reference" "#GND-ISO5"
-			(at 218.44 172.72 0)
+		(property "Reference" "#GND-ISO05"
+			(at 160.02 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +5773,7 @@
 			)
 		)
 		(property "Value" "GND-ISO"
-			(at 218.44 174.498 0)
+			(at 160.02 174.498 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6229,7 +5782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 172.72 0)
+			(at 160.02 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +5791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 172.72 0)
+			(at 160.02 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +5800,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 172.72 0)
+			(at 160.02 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,12 +5809,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "24ccab19-c15c-49bd-9bc4-15f8162c1d33")
+			(uuid "add167c0-414d-4899-9a76-cbef02c01ec9")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#GND-ISO5")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#GND-ISO05")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#GND-ISO09")
 					(unit 1)
 				)
 			)
@@ -6269,7 +5826,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:10KOHM-0603-1/10W-1%")
-		(at 236.22 116.84 90)
+		(at 198.12 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6277,7 +5834,7 @@
 		(dnp no)
 		(uuid "44db8789-7b5e-4ffe-a9d2-a6d439bbc9b9")
 		(property "Reference" "R6"
-			(at 234.696 116.84 0)
+			(at 196.596 115.57 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6286,7 +5843,7 @@
 			)
 		)
 		(property "Value" "10KOHM-0603-1/10W-1%"
-			(at 237.744 116.84 0)
+			(at 204.724 115.824 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6294,8 +5851,8 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 236.22 116.84 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 198.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +5861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 116.84 0)
+			(at 198.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +5870,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 116.84 0)
+			(at 198.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,15 +5879,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b7ca602-bea4-4018-90de-09d3717e332e")
+			(uuid "af989fba-79d2-4ef8-9a6f-b77d28bf64c0")
 		)
 		(pin "2"
-			(uuid "f15edabc-27d9-44b8-ab38-46a994c20480")
+			(uuid "250a8a24-cdbd-4900-b04c-63220a32293d")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "R6")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6338,15 +5899,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:CONN_05LOCK_LONGPADS")
-		(at 81.28 88.9 180)
+		(at 43.18 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "45b17878-0ad4-4759-9f7c-5b8aa0864645")
-		(property "Reference" "J1"
-			(at 83.82 97.028 0)
+		(property "Reference" "J11"
+			(at 45.72 95.758 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6355,7 +5916,7 @@
 			)
 		)
 		(property "Value" "CONN_05LOCK_LONGPADS"
-			(at 83.82 78.994 0)
+			(at 45.72 77.724 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6364,8 +5925,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:1X05_LOCK_LONGPADS"
-			(at 81.28 88.9 0)
+		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +5935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 88.9 0)
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6383,7 +5944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 88.9 0)
+			(at 43.18 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6392,24 +5953,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "008f1e16-2328-4e13-be05-ee41326af0db")
+			(uuid "bf9762a5-1c18-4088-9fd5-ebb999d4542a")
 		)
 		(pin "5"
-			(uuid "76fcfaad-f011-44d1-ac48-aa1c8e1b6272")
+			(uuid "803d8acc-3acb-4bcf-9ba4-d2bc8d26cb48")
 		)
 		(pin "2"
-			(uuid "e0c91097-3e12-455b-930e-6d1c9344ae68")
+			(uuid "1afe954c-2fed-47a1-8702-7165a266fb22")
 		)
 		(pin "1"
-			(uuid "ed60df96-a621-4fd7-9728-739d116bd072")
+			(uuid "88b9f1ee-6072-4f1d-934c-c1a61e91bd25")
 		)
 		(pin "4"
-			(uuid "47376a2c-aae9-4edc-8751-d007137ee9bd")
+			(uuid "fa9a647b-97a4-4de3-ad8c-8a89c79e63f9")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "J1")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "J11")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6417,7 +5982,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:4.7KOHM-0603-1/10W-1%")
-		(at 195.58 50.8 90)
+		(at 157.48 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6425,7 +5990,7 @@
 		(dnp no)
 		(uuid "475eb7f4-61b6-4d5d-8f30-2c1532d2b706")
 		(property "Reference" "R3"
-			(at 194.056 50.8 0)
+			(at 161.29 49.53 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6434,7 +5999,7 @@
 			)
 		)
 		(property "Value" "4.7KOHM-0603-1/10W-1%"
-			(at 197.104 50.8 0)
+			(at 153.416 34.544 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6442,8 +6007,8 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 195.58 50.8 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 157.48 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 50.8 0)
+			(at 157.48 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 50.8 0)
+			(at 157.48 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,15 +6035,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "4acfe72a-a32d-4f11-8c73-769d7f1dba5b")
+			(uuid "77d4dc86-def6-4c37-8ded-f82973b47d4b")
 		)
 		(pin "2"
-			(uuid "05af52dd-a44a-42c7-9ebd-78cfa020001d")
+			(uuid "834ab296-5e65-4845-acdb-78ea13824719")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "R3")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6486,15 +6055,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND")
-		(at 127 127 0)
+		(at 88.9 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "50b227da-5995-43ff-8a54-829b27886765")
-		(property "Reference" "#SUPPLY2"
-			(at 127 127 0)
+		(property "Reference" "#SUPPLY02"
+			(at 88.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.095 130.175 0)
+			(at 86.995 128.905 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6512,7 +6081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 127 0)
+			(at 88.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +6090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 127 0)
+			(at 88.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 127 0)
+			(at 88.9 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,12 +6108,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3285728-ec5d-4a7f-9e61-5ddae4252d8a")
+			(uuid "33160be3-9e71-48d3-9cfa-abe9920026df")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#SUPPLY2")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#SUPPLY02")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#SUPPLY09")
 					(unit 1)
 				)
 			)
@@ -6552,7 +6125,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:BSS84")
-		(at 93.98 165.1 0)
+		(at 55.88 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6560,7 +6133,7 @@
 		(dnp no)
 		(uuid "52e03528-cfaa-4268-9c50-10a51a105de3")
 		(property "Reference" "Q1"
-			(at 77.47 166.37 0)
+			(at 39.37 165.1 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6569,7 +6142,7 @@
 			)
 		)
 		(property "Value" "BSS84"
-			(at 77.47 168.91 0)
+			(at 39.37 167.64 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6577,8 +6150,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:SOT23"
-			(at 93.98 165.1 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 55.88 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +6160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 165.1 0)
+			(at 55.88 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6169,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 165.1 0)
+			(at 55.88 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,18 +6178,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "5889fc6b-5163-48bd-8703-e6c6b09ab3f4")
+			(uuid "238d3208-fc30-4033-a91e-60630bef55c4")
 		)
 		(pin "3"
-			(uuid "3e6542ef-08d4-4f8f-8c6c-178a336fdce9")
+			(uuid "1a1ea46f-96ad-4ee5-b92e-5f18af66c5a9")
 		)
 		(pin "2"
-			(uuid "e89adbec-ea65-43c6-a867-018027bd782f")
+			(uuid "77706523-4e7f-4256-97ec-73f576bceffe")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "Q1")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -6624,15 +6201,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND-ISO")
-		(at 187.96 55.88 0)
+		(at 149.86 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "549a09a1-73dc-4679-a4be-61d31b6c0e8f")
-		(property "Reference" "#GND-ISO1"
-			(at 187.96 55.88 0)
+		(property "Reference" "#GND-ISO01"
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6218,7 @@
 			)
 		)
 		(property "Value" "GND-ISO"
-			(at 187.96 57.658 0)
+			(at 149.86 56.388 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6650,7 +6227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 55.88 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +6236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 55.88 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +6245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 55.88 0)
+			(at 149.86 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6677,12 +6254,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb1a219b-74cb-407d-a842-3c239a5c9b15")
+			(uuid "ed9c9e7a-0bd5-4f05-ade8-05eba40de380")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#GND-ISO1")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#GND-ISO01")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#GND-ISO06")
 					(unit 1)
 				)
 			)
@@ -6690,7 +6271,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:4.7KOHM-0603-1/10W-1%")
-		(at 124.46 50.8 90)
+		(at 86.36 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6698,7 +6279,7 @@
 		(dnp no)
 		(uuid "63178713-dbe1-4941-8b38-dd0f40ab02a4")
 		(property "Reference" "R2"
-			(at 122.936 50.8 0)
+			(at 84.836 49.53 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6707,7 +6288,7 @@
 			)
 		)
 		(property "Value" "4.7KOHM-0603-1/10W-1%"
-			(at 125.984 50.8 0)
+			(at 88.646 40.386 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6715,8 +6296,8 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 124.46 50.8 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 86.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 50.8 0)
+			(at 86.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,7 +6315,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 50.8 0)
+			(at 86.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,15 +6324,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "94466271-5376-4fbd-8074-6de9101ae2da")
+			(uuid "22cb3152-5a3e-4650-adc1-3233952874ab")
 		)
 		(pin "1"
-			(uuid "b21a2ccc-5da7-477f-a7fa-fd5ffb2cb954")
+			(uuid "9bd6e31d-26ce-4a6a-947f-fa014194fba9")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "R2")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6759,7 +6344,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:0.1UF-0603-25V-(+80/-20%)")
-		(at 193.04 119.38 0)
+		(at 154.94 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6767,7 +6352,7 @@
 		(dnp no)
 		(uuid "66acfa28-6d5f-415f-a881-5608c36bae12")
 		(property "Reference" "C5"
-			(at 194.564 117.094 0)
+			(at 156.464 115.824 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6776,7 +6361,7 @@
 			)
 		)
 		(property "Value" "0.1UF-0603-25V-(+80/-20%)"
-			(at 194.564 120.777 0)
+			(at 148.082 109.22 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6784,8 +6369,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 193.04 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 154.94 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6379,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 119.38 0)
+			(at 154.94 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +6388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 119.38 0)
+			(at 154.94 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,15 +6397,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae071919-18e3-4f7c-aa70-3cc5ad527151")
+			(uuid "36178e30-4c03-4f5f-ab5d-16f6efae2fd7")
 		)
 		(pin "2"
-			(uuid "97775cbf-a3e7-4591-a26e-686aa4a7a24c")
+			(uuid "27488e95-4653-46c2-a94f-188bcf88a3cd")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6828,15 +6417,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:PHSENSOR")
-		(at 195.58 160.02 0)
+		(at 137.16 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b25a99e-e43b-4bf7-9867-3165fe7098b3")
-		(property "Reference" "U2"
-			(at 220.98 149.86 0)
+		(property "Reference" "U22"
+			(at 162.56 149.86 0)
 			(effects
 				(font
 					(size 5.08 4.318)
@@ -6845,7 +6434,7 @@
 			)
 		)
 		(property "Value" "Atlas Scientific OEM pH or ORP"
-			(at 220.98 154.94 0)
+			(at 162.56 154.94 0)
 			(effects
 				(font
 					(size 2.54 2.159)
@@ -6854,7 +6443,7 @@
 			)
 		)
 		(property "Footprint" "ADM3260_Breakout:PHSENSOR"
-			(at 195.58 160.02 0)
+			(at 137.16 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,7 +6452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 160.02 0)
+			(at 137.16 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,7 +6461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 160.02 0)
+			(at 137.16 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,132 +6470,43 @@
 			)
 		)
 		(pin "P$1"
-			(uuid "6ed00c47-f71e-4668-8f1e-0798da92f23f")
+			(uuid "9f46d6db-0403-43a0-995e-43ee101efd02")
 		)
 		(pin "P$10"
-			(uuid "80761ecc-c6fc-4ccb-828b-fc9a9d38d8b1")
+			(uuid "ff6a7277-2355-4c94-9200-52dca5219978")
 		)
 		(pin "P$2"
-			(uuid "36a1a29a-911a-426c-a624-816db07bdfce")
+			(uuid "b6a6fc21-5848-478c-8611-eb96019ce251")
 		)
 		(pin "P$3"
-			(uuid "003dd2f9-36b1-40b1-bb72-ccfaa8873ef2")
+			(uuid "97c7ed4d-ec30-43c6-a924-41eeeddbfd87")
 		)
 		(pin "P$4"
-			(uuid "ebfa5840-da0b-456c-9194-b946ae42b5aa")
+			(uuid "186a4b94-b11d-470a-ab82-d43d380002aa")
 		)
 		(pin "P$8"
-			(uuid "9808770a-3971-4955-8ca3-008013c050cb")
+			(uuid "a4373a09-f79e-4d7a-a653-0bab0543857f")
 		)
 		(pin "P$5"
-			(uuid "4c1a4e01-bb1b-4eab-877a-71dc17325514")
+			(uuid "f6e631aa-f9b8-4945-b163-c129b6cf29a4")
 		)
 		(pin "P$6"
-			(uuid "4678eb17-3032-4c63-82fc-1f45f1740abb")
+			(uuid "41ea312d-1559-424b-8df5-9f2d0a335b8f")
 		)
 		(pin "P$9"
-			(uuid "8826fc87-a15b-4943-aa5f-783819d63b99")
+			(uuid "2e6e6eff-365a-4e27-92d9-7bde39715941")
 		)
 		(pin "P$7"
-			(uuid "ad349f81-bbf9-4254-ae87-ae04a2c6a081")
+			(uuid "49364d2a-6f89-4fb1-ac75-4cfc3e495006")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "U2")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "U22")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ADM3260_Breakout-eagle-import:FRAME-A4L")
-		(at 22.86 200.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "704057e9-e650-4078-a593-b6c58758a787")
-		(property "Reference" "#FRAME1"
-			(at 22.86 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "FRAME-A4L"
-			(at 22.86 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CNAME" "ADM3260 with Atlas Scientific OEM pH or ORP"
-			(at 204.47 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CREVISION" "1.0.0"
-			(at 257.78 199.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DESIGNER" "Igor Knippenberg"
-			(at 266.9 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#FRAME1")
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7014,15 +6514,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:10UF-0805-10V-10%")
-		(at 116.84 119.38 0)
+		(at 78.74 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "794384a8-7973-4a78-9d3b-6ae8cb903f50")
-		(property "Reference" "C1"
-			(at 118.364 117.094 0)
+		(property "Reference" "C10"
+			(at 80.264 115.824 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7031,7 +6531,7 @@
 			)
 		)
 		(property "Value" "10UF-0805-10V-10%"
-			(at 118.364 120.777 0)
+			(at 54.356 130.302 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7039,8 +6539,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0805"
-			(at 116.84 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +6549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 119.38 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +6558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 119.38 0)
+			(at 78.74 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,15 +6567,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "4817adf8-102e-41bd-8902-89af05f0840c")
+			(uuid "2d38f0c8-b62c-4f7d-a99c-945f98009d5f")
 		)
 		(pin "1"
-			(uuid "903f295d-4e1e-47ef-a8fe-1dd8b3896814")
+			(uuid "6e08a14d-8cf9-4ede-997f-67eddf62b3e7")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "C1")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -7083,7 +6587,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:4.7KOHM-0603-1/10W-1%")
-		(at 114.3 50.8 90)
+		(at 76.2 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7091,7 +6595,7 @@
 		(dnp no)
 		(uuid "8308ba65-e3bf-4c67-bd75-fcd0ab97f507")
 		(property "Reference" "R1"
-			(at 112.776 50.8 0)
+			(at 80.264 49.53 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7100,7 +6604,7 @@
 			)
 		)
 		(property "Value" "4.7KOHM-0603-1/10W-1%"
-			(at 115.824 50.8 0)
+			(at 72.136 39.878 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7108,8 +6612,8 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 114.3 50.8 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 76.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +6622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 50.8 0)
+			(at 76.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +6631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 50.8 0)
+			(at 76.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,15 +6640,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "1dd1c414-b60e-4210-a8a7-77cd9d8a8265")
+			(uuid "94be0b79-3b99-42f3-820c-c54f91fbf995")
 		)
 		(pin "2"
-			(uuid "5a60968f-9d5f-4b04-a5c7-37b1092d1906")
+			(uuid "309d1958-2b43-489c-90b3-85b73f0b4dd7")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "R1")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7152,15 +6660,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:10UF-0805-10V-10%")
-		(at 116.84 81.28 0)
+		(at 78.74 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8f7136e3-0e28-4b65-ba4e-f1cac6bab009")
-		(property "Reference" "C3"
-			(at 118.364 78.994 0)
+		(property "Reference" "C9"
+			(at 80.264 77.724 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7169,7 +6677,7 @@
 			)
 		)
 		(property "Value" "10UF-0805-10V-10%"
-			(at 118.364 82.677 0)
+			(at 47.752 82.804 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7177,8 +6685,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0805"
-			(at 116.84 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +6695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 81.28 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +6704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 81.28 0)
+			(at 78.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,15 +6713,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "a06e9345-ef14-4fb6-a0f8-a31f218603fd")
+			(uuid "f91b8763-0b63-46d1-8ac2-b168b6ebd84d")
 		)
 		(pin "1"
-			(uuid "adbed67e-4dbc-44dd-9641-e18f43fde74b")
+			(uuid "24caa18f-0a10-4148-8307-c65fcd1d957b")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "C3")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7221,7 +6733,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:10UF-0805-10V-10%")
-		(at 203.2 119.38 0)
+		(at 165.1 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7229,7 +6741,7 @@
 		(dnp no)
 		(uuid "9a945cac-36b2-4b58-9e02-dae8845c03f7")
 		(property "Reference" "C6"
-			(at 204.724 117.094 0)
+			(at 166.624 115.824 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7238,7 +6750,7 @@
 			)
 		)
 		(property "Value" "10UF-0805-10V-10%"
-			(at 204.724 120.777 0)
+			(at 166.624 119.507 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7246,8 +6758,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0805"
-			(at 203.2 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +6768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 119.38 0)
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +6777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 119.38 0)
+			(at 165.1 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,15 +6786,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "80661b34-ce85-4079-97c7-76be52588371")
+			(uuid "79be7259-9502-4e5a-a62f-2891d426fae9")
 		)
 		(pin "1"
-			(uuid "757cb65f-0f94-41eb-b729-67c6a6613003")
+			(uuid "a5d45342-e7e1-4648-a7fc-627671cee4e0")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "C6")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7290,15 +6806,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:ADM3260")
-		(at 160.02 93.98 0)
+		(at 121.92 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a196676f-3803-4225-a299-5cfe0442def2")
-		(property "Reference" "U1"
-			(at 140.0485 44.3771 0)
+		(property "Reference" "U11"
+			(at 101.9485 43.1071 0)
 			(effects
 				(font
 					(size 4 3.4)
@@ -7307,7 +6823,7 @@
 			)
 		)
 		(property "Value" "ADM3260"
-			(at 140.0485 47.8771 0)
+			(at 101.9485 46.6071 0)
 			(effects
 				(font
 					(size 3 2.55)
@@ -7316,7 +6832,7 @@
 			)
 		)
 		(property "Footprint" "ADM3260_Breakout:ADM3260"
-			(at 160.02 93.98 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +6841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 93.98 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +6850,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 93.98 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7343,69 +6859,73 @@
 			)
 		)
 		(pin "P$1"
-			(uuid "7b94091a-7dcf-4bc9-97df-fdfba7c09788")
+			(uuid "be98c1d2-ec1b-4c14-b176-75f24fa79916")
 		)
 		(pin "P$12"
-			(uuid "75d8b162-0957-4566-a19a-92b92f466838")
+			(uuid "74651860-22fa-4f1a-b5a9-7149a14d5c82")
 		)
 		(pin "P$13"
-			(uuid "35b52d46-7537-42f0-b64c-c5776cbf0099")
+			(uuid "ad937658-3e99-4579-b115-076316b39822")
 		)
 		(pin "P$15"
-			(uuid "9cab800d-2ed7-49a3-b3c4-9823161f590d")
+			(uuid "1ade30f0-c9c2-4616-9018-2c24e1dd35c0")
 		)
 		(pin "P$14"
-			(uuid "8b9f2b12-ec95-4ff4-938a-d618c1315aa1")
+			(uuid "817e2fac-53e5-4806-bd4c-8cdbca5e6932")
 		)
 		(pin "P$17"
-			(uuid "e7ed99a4-8fd9-4115-b6ad-d3dda63e1a26")
+			(uuid "305b80b1-df3c-41a5-9af8-ccd74b172814")
 		)
 		(pin "P$16"
-			(uuid "8309c597-3709-4759-93f1-8d0f67ff82ce")
+			(uuid "4b93e67d-43a7-4f98-ad08-e04fb344a86a")
 		)
 		(pin "P$19"
-			(uuid "1d5641bb-0445-412c-97d2-17e31a7ed342")
+			(uuid "e0e5c01b-03d2-43c4-a908-a863a884eaf8")
 		)
 		(pin "P$2"
-			(uuid "6fca2684-096a-4676-9582-b05f1783e19f")
+			(uuid "96a6f9cb-23df-4038-8c09-1c1c6cf2edb3")
 		)
 		(pin "P$18"
-			(uuid "41222602-13ef-4821-96ba-143183ae8faf")
+			(uuid "986769d2-9a2a-462d-985b-88889d863b30")
 		)
 		(pin "P$20"
-			(uuid "09ef8f66-b0cd-4fd5-abd1-7894c99ead2b")
+			(uuid "2c5718f6-d363-4243-814b-18ac793e9a62")
 		)
 		(pin "P$3"
-			(uuid "631ceffd-2c84-4100-9be3-9b5aa8da3b2d")
+			(uuid "6f2f57fa-6b36-4c54-b51a-18c21f8e696e")
 		)
 		(pin "P$4"
-			(uuid "7d0cd9ff-5178-41e2-87af-de69de5e10bd")
+			(uuid "26028a97-37af-4c38-8ce0-e514cc07e151")
 		)
 		(pin "P$5"
-			(uuid "d6e8421f-a57a-4748-abfe-7bb19653bb37")
+			(uuid "4e4bbf99-9721-493c-aefe-0cbed2660754")
 		)
 		(pin "P$10"
-			(uuid "81fb0b2d-97b3-4d0b-81b9-1c9e9db9f488")
+			(uuid "70f20234-530c-4a3b-b761-a49b8d63919b")
 		)
 		(pin "P$11"
-			(uuid "2730b231-8186-481b-ad3d-74247435b52d")
+			(uuid "bb117817-3a41-42ab-897f-2a8404eba05a")
 		)
 		(pin "P$8"
-			(uuid "8c7bb8fe-e9a6-46de-a451-605fd2134aca")
+			(uuid "5710e303-154a-47bb-890c-7eb77e6595cc")
 		)
 		(pin "P$6"
-			(uuid "d29ca1b7-4ba2-4c44-afce-54522e8e4934")
+			(uuid "83b957c6-da39-4888-ba14-669a900620f2")
 		)
 		(pin "P$7"
-			(uuid "b1b34ba5-6115-499b-8248-98db934273cb")
+			(uuid "dbd5b6e1-fa82-4a64-b2ab-dbbf2cc229f3")
 		)
 		(pin "P$9"
-			(uuid "958ceb74-7147-4fa5-8631-f0457126fafc")
+			(uuid "800f3ab4-11e9-4894-aa89-91261e3c55ca")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "U1")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7413,15 +6933,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:0.1UF-0603-25V-(+80/-20%)")
-		(at 127 119.38 0)
+		(at 88.9 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a2f0b72c-864c-4541-8639-609bf9e370da")
-		(property "Reference" "C2"
-			(at 128.524 117.094 0)
+		(property "Reference" "C12"
+			(at 90.424 115.824 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7430,7 +6950,7 @@
 			)
 		)
 		(property "Value" "0.1UF-0603-25V-(+80/-20%)"
-			(at 128.524 120.777 0)
+			(at 94.234 130.556 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7438,8 +6958,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 127 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +6968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 119.38 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +6977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 119.38 0)
+			(at 88.9 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,15 +6986,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "2d65b3bc-8bad-4623-a567-70df3703fc2a")
+			(uuid "9ab81866-a51b-43c4-a266-c6bb9c1d5f57")
 		)
 		(pin "1"
-			(uuid "e849b35d-1a59-4ca4-9d8c-0b2eb49817c4")
+			(uuid "77ef981f-195e-416c-ad3e-344b9594ae92")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "C2")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "C12")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7482,15 +7006,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND")
-		(at 93.98 185.42 0)
+		(at 55.88 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bbc39039-d6ad-4616-87f6-b8253634843f")
-		(property "Reference" "#SUPPLY1"
-			(at 93.98 185.42 0)
+		(property "Reference" "#SUPPLY01"
+			(at 55.88 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +7023,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.075 188.595 0)
+			(at 53.848 188.214 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7508,7 +7032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 185.42 0)
+			(at 55.88 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 185.42 0)
+			(at 55.88 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 185.42 0)
+			(at 55.88 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,12 +7059,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "96249022-1955-4462-8152-f98be6e7f70b")
+			(uuid "295e3268-d3c8-4e16-82d5-a21b97d603d9")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#SUPPLY1")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#SUPPLY01")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#SUPPLY07")
 					(unit 1)
 				)
 			)
@@ -7548,15 +7076,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND-ISO")
-		(at 236.22 127 0)
+		(at 198.12 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d04a6aa2-04c6-46c2-a782-606bc4634d22")
-		(property "Reference" "#GND-ISO4"
-			(at 236.22 127 0)
+		(property "Reference" "#GND-ISO04"
+			(at 198.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7093,7 @@
 			)
 		)
 		(property "Value" "GND-ISO"
-			(at 236.22 128.778 0)
+			(at 198.12 127.508 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7574,7 +7102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 127 0)
+			(at 198.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 127 0)
+			(at 198.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7120,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 127 0)
+			(at 198.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,12 +7129,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b0efddf-a17b-4e2e-a934-6d5f36997e46")
+			(uuid "7e2742bb-e0bf-49fc-a575-d101f1b14dd7")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#GND-ISO4")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#GND-ISO04")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#GND-ISO010")
 					(unit 1)
 				)
 			)
@@ -7614,7 +7146,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:16.2KOHM-0603-1/10W-1%")
-		(at 236.22 96.52 90)
+		(at 198.12 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7622,7 +7154,7 @@
 		(dnp no)
 		(uuid "d63187a5-11d0-45b1-854a-3ea655d37722")
 		(property "Reference" "R5"
-			(at 234.696 96.52 0)
+			(at 196.596 95.25 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7631,7 +7163,7 @@
 			)
 		)
 		(property "Value" "16.2KOHM-0603-1/10W-1%"
-			(at 237.744 96.52 0)
+			(at 200.914 82.55 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7639,8 +7171,8 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 236.22 96.52 0)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 198.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 96.52 0)
+			(at 198.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 96.52 0)
+			(at 198.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,15 +7199,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdaad88b-5cf3-4815-9779-3b37f65ce74f")
+			(uuid "87d5f6cd-7c77-4f40-8444-4f5dacd6be41")
 		)
 		(pin "2"
-			(uuid "c4390774-3211-4823-ba4e-af87bbffd5db")
+			(uuid "9ff9d527-0b52-456c-98ca-e28b820322dc")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "R5")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7683,15 +7219,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND")
-		(at 106.68 101.6 0)
+		(at 68.58 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d93a9714-ff74-44f5-aa3d-333a5c842f75")
-		(property "Reference" "#SUPPLY3"
-			(at 106.68 101.6 0)
+		(property "Reference" "#SUPPLY03"
+			(at 68.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7700,7 +7236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.775 104.775 0)
+			(at 66.675 103.505 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7709,7 +7245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 101.6 0)
+			(at 68.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,7 +7254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 101.6 0)
+			(at 68.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,7 +7263,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 101.6 0)
+			(at 68.58 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,12 +7272,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "707bc9ee-585e-4623-be1a-a0c6650ce985")
+			(uuid "9eabc19a-4d89-423b-9dda-26e45cc510a9")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#SUPPLY3")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#SUPPLY03")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#SUPPLY08")
 					(unit 1)
 				)
 			)
@@ -7749,7 +7289,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:0.1UF-0603-25V-(+80/-20%)")
-		(at 193.04 81.28 0)
+		(at 154.94 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7757,7 +7297,7 @@
 		(dnp no)
 		(uuid "e800e008-7520-4e39-a617-2966bed43c94")
 		(property "Reference" "C7"
-			(at 194.564 78.994 0)
+			(at 156.464 77.724 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7766,7 +7306,7 @@
 			)
 		)
 		(property "Value" "0.1UF-0603-25V-(+80/-20%)"
-			(at 194.564 82.677 0)
+			(at 147.066 71.374 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7774,8 +7314,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 193.04 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 154.94 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +7324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 81.28 0)
+			(at 154.94 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +7333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 81.28 0)
+			(at 154.94 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,15 +7342,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "9229c725-dbfa-4e14-91b4-0ef1aa684b35")
+			(uuid "5f239c51-0bee-41c5-8aca-e568eb4ce0b5")
 		)
 		(pin "1"
-			(uuid "6a3dd705-6818-471e-91c5-479eae441dbd")
+			(uuid "cc35004b-9eb2-4136-861c-df8fcf50844e")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "C7")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7818,7 +7362,7 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:10UF-0805-10V-10%")
-		(at 203.2 81.28 0)
+		(at 165.1 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7826,7 +7370,7 @@
 		(dnp no)
 		(uuid "eded637b-172f-4910-ab5a-bc23e7a69c0b")
 		(property "Reference" "C8"
-			(at 204.724 78.994 0)
+			(at 166.624 77.724 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7835,7 +7379,7 @@
 			)
 		)
 		(property "Value" "10UF-0805-10V-10%"
-			(at 204.724 82.677 0)
+			(at 156.21 86.106 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7843,8 +7387,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0805"
-			(at 203.2 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 165.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 81.28 0)
+			(at 165.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7862,7 +7406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 81.28 0)
+			(at 165.1 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7871,15 +7415,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "b2860a5e-e04f-46a2-9975-48eadd27e9ea")
+			(uuid "949d8f58-a89a-4fb7-9841-a59b1df4cc03")
 		)
 		(pin "1"
-			(uuid "cb32a52f-edd8-430f-8d50-fc4d857ea557")
+			(uuid "306f7c83-0f2a-4437-90fe-8d1e4f30f1d3")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
 					(reference "C8")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -7887,15 +7435,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:0.1UF-0603-25V-(+80/-20%)")
-		(at 127 81.28 0)
+		(at 88.9 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ef9a55ba-5870-4025-894e-4fe6ef065650")
-		(property "Reference" "C4"
-			(at 128.524 78.994 0)
+		(property "Reference" "C11"
+			(at 90.424 77.724 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7904,7 +7452,7 @@
 			)
 		)
 		(property "Value" "0.1UF-0603-25V-(+80/-20%)"
-			(at 128.524 82.677 0)
+			(at 83.312 86.868 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -7912,8 +7460,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ADM3260_Breakout:0603"
-			(at 127 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 88.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 81.28 0)
+			(at 88.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +7479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 81.28 0)
+			(at 88.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,15 +7488,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "7964b367-60bb-4708-a137-59a3575f6c5a")
+			(uuid "9c5bc0c7-044e-4503-a23e-f6e2965d5d52")
 		)
 		(pin "1"
-			(uuid "2c341631-655e-4152-ad7a-82e13596570b")
+			(uuid "b7cd2d21-7a26-4379-b3b8-f8d56a44d8b7")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "C4")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -7956,15 +7508,15 @@
 	)
 	(symbol
 		(lib_id "ADM3260_Breakout-eagle-import:GND-ISO")
-		(at 193.04 127 0)
+		(at 154.94 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f2a39660-ea86-467d-8d19-b808e873924a")
-		(property "Reference" "#GND-ISO2"
-			(at 193.04 127 0)
+		(property "Reference" "#GND-ISO02"
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7973,7 +7525,7 @@
 			)
 		)
 		(property "Value" "GND-ISO"
-			(at 193.04 128.778 0)
+			(at 154.94 127.508 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7982,7 +7534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 127 0)
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,7 +7543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 127 0)
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8000,7 +7552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 127 0)
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,20 +7561,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "5bd7e440-8cf8-4081-b684-30d375a8853a")
+			(uuid "842f1fb1-fa0b-43ec-89e3-97f8d3d0bb47")
 		)
 		(instances
-			(project "ADM3260_Breakout"
-				(path "/3285bcd1-6164-404f-b38a-892bd524b43a"
-					(reference "#GND-ISO2")
+			(project "BREAD_Slice"
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/5bd9f394-57d3-46ba-b1a9-8e236eb86272"
+					(reference "#GND-ISO02")
+					(unit 1)
+				)
+				(path "/0217dfc4-fc13-4699-99ad-d9948522648e/d53d1220-52fa-4ff5-89d2-ac4ec2b22f83"
+					(reference "#GND-ISO08")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )

@@ -609,8 +609,12 @@
       "Root"
     ],
     [
-      "5ac79b3f-4f85-4f9b-9217-0613fa913418",
-      "PHDO"
+      "e75bcf9d-8c12-4b04-98d9-e886e99b2c4d",
+      "pH_iso"
+    ],
+    [
+      "feb278ef-f7de-42c7-9873-7fe3685532fd",
+      "DO_iso"
     ]
   ],
   "text_variables": {}
