@@ -2,4 +2,4 @@
 
 This project is fully documented in the paper: Shane Oberloier, Nicholas G. Whisman, Finn Hafting, Joshua M. Pearce, Open Source Framework for a Broadly Expandable and Reconfigurable Data Acquisition and Automation Device (BREAD), ''HardwareX'', 2023, e00467, [doi.org/10.1016/j.ohx.2023.e00467](https://doi.org/10.1016/j.ohx.2023.e00467).
 
-This project has since grown and evolved, with the latest addition of tart off at the [docs](docs/README.md)
+This project has since grown and evolved, start by reading the [docs](docs/README.md)
