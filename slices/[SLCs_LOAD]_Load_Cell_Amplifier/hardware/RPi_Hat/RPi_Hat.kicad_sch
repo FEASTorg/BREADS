@@ -1,0 +1,2143 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e52104c0-5e63-4805-bdc7-1c811ae5b73b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "RPi_Hat1:RPi_GPIO_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at 19.05 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "RPi_GPIO"
+				(at 19.05 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RPi_Hat:Samtec_HLE-120-02-XXX-DV-BE-XX-XX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RPi_GPIO_1_0_1"
+				(rectangle
+					(start 0 2.54)
+					(end 38.1 -50.8)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RPi_GPIO_1_1_1"
+				(pin power_in line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -10.16 180)
+					(length 5.08)
+					(name "BCM15_RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "BCM17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -12.7 180)
+					(length 5.08)
+					(name "BCM18_PCM_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "BCM27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -15.24 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "BCM22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -17.78 180)
+					(length 5.08)
+					(name "BCM23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -20.32 180)
+					(length 5.08)
+					(name "BCM24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -22.86 0)
+					(length 5.08)
+					(name "BCM10_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -25.4 0)
+					(length 5.08)
+					(name "BCM9_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -25.4 180)
+					(length 5.08)
+					(name "BCM25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -27.94 0)
+					(length 5.08)
+					(name "BCM11_SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -27.94 180)
+					(length 5.08)
+					(name "BCM8_CE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -30.48 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -30.48 180)
+					(length 5.08)
+					(name "BCM7_CE1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -33.02 0)
+					(length 5.08)
+					(name "BCM0_ID_SD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -33.02 180)
+					(length 5.08)
+					(name "BCM1_ID_SC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -35.56 0)
+					(length 5.08)
+					(name "BCM5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "BCM2_SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -35.56 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -38.1 0)
+					(length 5.08)
+					(name "BCM6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -38.1 180)
+					(length 5.08)
+					(name "BCM12_PWM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -40.64 0)
+					(length 5.08)
+					(name "BCM13_PWM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -40.64 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -43.18 0)
+					(length 5.08)
+					(name "BCM19_MISO_PCM_FS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -43.18 180)
+					(length 5.08)
+					(name "BCM16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -45.72 0)
+					(length 5.08)
+					(name "BCM26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -45.72 180)
+					(length 5.08)
+					(name "BCM20_MOSI_PCM_DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -48.26 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -2.54 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -48.26 180)
+					(length 5.08)
+					(name "BCM21_SCLK_PCM_DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "BCM3_SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "BCM4_GPCLK0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 43.18 -7.62 180)
+					(length 5.08)
+					(name "BCM14_TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(text "Thru-Hole Connector"
+		(exclude_from_sim no)
+		(at 190.246 68.326 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ae89cdc-723e-4e2c-97d8-1820267a854d")
+	)
+	(text "Surface Mount Connector"
+		(exclude_from_sim no)
+		(at 85.09 68.58 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f69b0b8-0a1b-4f4d-a47b-ea912f5edc05")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 227.33 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b8cc21f-d678-4000-86e2-c62247875eb0")
+	)
+	(hierarchical_label "BCM11_SCLK"
+		(shape input)
+		(at 77.47 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c1722fb-b26e-48c4-8a91-14a0c3403ecd")
+	)
+	(hierarchical_label "BCM8_CE0"
+		(shape input)
+		(at 125.73 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e1e9380-8031-4432-988d-137433c5097c")
+	)
+	(hierarchical_label "BCM23"
+		(shape input)
+		(at 227.33 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11470697-7a06-47c9-984a-b5337372d982")
+	)
+	(hierarchical_label "BCM27"
+		(shape input)
+		(at 77.47 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d0f3ff2-49d6-4834-a737-07b0b54cd9f7")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 125.73 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f640db5-c807-4a12-87e2-fc45238f5b54")
+	)
+	(hierarchical_label "BCM18_PCM_C"
+		(shape input)
+		(at 125.73 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "205a96ef-6a7b-4267-a909-4d0c14226524")
+	)
+	(hierarchical_label "BCM24"
+		(shape input)
+		(at 125.73 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "213f32ce-c3e0-4e08-bd9e-0416a7684763")
+	)
+	(hierarchical_label "BCM22"
+		(shape input)
+		(at 179.07 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23d1300e-ee0d-4aa0-8ec7-3f9cf53142f7")
+	)
+	(hierarchical_label "BCM25"
+		(shape input)
+		(at 227.33 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24cff763-4ad2-4e99-adfb-61dc3c5e76c0")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 179.07 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26234543-ad27-43c8-9822-66266e90cfb1")
+	)
+	(hierarchical_label "BCM15_RXD"
+		(shape input)
+		(at 125.73 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27768c31-82ce-4c33-bb5d-0365209fa06d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 179.07 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c1eea06-5b03-4054-9135-cd1433414256")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 125.73 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d72f753-5a06-4353-9ac9-ef4f18843cd4")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 125.73 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2fb5c4b1-531a-4111-baf1-1d542c1375b7")
+	)
+	(hierarchical_label "BCM4_GPCLK0"
+		(shape input)
+		(at 179.07 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "356e77ff-c673-438c-a46a-658c19eeed96")
+	)
+	(hierarchical_label "BCM17"
+		(shape input)
+		(at 77.47 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35e9ccb8-6b4d-42a5-9e8d-85d61152c3e4")
+	)
+	(hierarchical_label "BCM20_MOSI_PCM_DI"
+		(shape input)
+		(at 125.73 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b1f88e1-9c14-4ebb-b17a-269103a30dc4")
+	)
+	(hierarchical_label "BCM14_TXD"
+		(shape input)
+		(at 227.33 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f33a571-4afd-48e2-a93f-03258d6f2528")
+	)
+	(hierarchical_label "BCM12_PWM0"
+		(shape input)
+		(at 125.73 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46ae526f-6b7a-4dea-af24-1aec0ad39e01")
+	)
+	(hierarchical_label "BCM1_ID_SC"
+		(shape input)
+		(at 227.33 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47ac59e4-cb7d-4546-9b56-22f7bdaca5b4")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 77.47 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a42d96c-d890-4a08-ad05-5c88c93672bc")
+	)
+	(hierarchical_label "BCM27"
+		(shape input)
+		(at 179.07 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a69646f-a441-4255-962d-cacffbf65096")
+	)
+	(hierarchical_label "BCM26"
+		(shape input)
+		(at 179.07 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e75a086-aa8e-41e7-a521-a33217ae508e")
+	)
+	(hierarchical_label "BCM10_MOSI"
+		(shape input)
+		(at 77.47 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50af624c-6985-4ac3-b644-8566cc53e79b")
+	)
+	(hierarchical_label "BCM2_SDA"
+		(shape input)
+		(at 179.07 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50b33026-4c23-4b39-8838-bb018ae81e2e")
+	)
+	(hierarchical_label "BCM15_RXD"
+		(shape input)
+		(at 227.33 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50eb47ec-0fdc-4d26-b8e0-3812a5f29875")
+	)
+	(hierarchical_label "BCM21_SCLK_PCM_DO"
+		(shape input)
+		(at 125.73 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54483949-9172-444b-823b-b59a68938630")
+	)
+	(hierarchical_label "BCM9_MISO"
+		(shape input)
+		(at 179.07 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ae5789c-46c1-49c6-8024-c92c6856c1ac")
+	)
+	(hierarchical_label "BCM17"
+		(shape input)
+		(at 179.07 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ea73b66-eb45-4067-a995-838445335dd1")
+	)
+	(hierarchical_label "BCM1_ID_SC"
+		(shape input)
+		(at 125.73 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6dc573d9-6ff8-43b2-b03b-d68802eaf44d")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 125.73 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ed06e64-7fa1-4e1b-9f94-78034b71ac98")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 77.47 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7017cc13-0fa8-4305-bafb-0f8622817ef5")
+	)
+	(hierarchical_label "BCM20_MOSI_PCM_DI"
+		(shape input)
+		(at 227.33 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7436cbfd-1170-4b0b-a46b-ef6bf68e9e00")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 227.33 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "769d16eb-0324-4ab9-a59c-72345660e542")
+	)
+	(hierarchical_label "BCM4_GPCLK0"
+		(shape input)
+		(at 77.47 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "771b819f-999b-41fc-8fa8-07909e10cd64")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 227.33 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "781796cc-480b-4d59-b0fd-dcf5bb4ac046")
+	)
+	(hierarchical_label "BCM14_TXD"
+		(shape input)
+		(at 125.73 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78a1fc0b-4098-4ee5-9ade-df5a32d0eba9")
+	)
+	(hierarchical_label "BCM2_SDA"
+		(shape input)
+		(at 77.47 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a9b49b4-0491-473f-a95b-e9a3348c39f3")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 179.07 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7d6731d6-313e-4812-ba8a-f7a9bb157693")
+	)
+	(hierarchical_label "BCM12_PWM0"
+		(shape input)
+		(at 227.33 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8280ea08-7f8d-4067-bbaf-df35ab3b088a")
+	)
+	(hierarchical_label "BCM6"
+		(shape input)
+		(at 77.47 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "88bc6d00-781f-4a25-b256-d72ef2be1762")
+	)
+	(hierarchical_label "BCM23"
+		(shape input)
+		(at 125.73 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a6062d6-d5ef-4a53-a02b-ca7d5728d603")
+	)
+	(hierarchical_label "BCM9_MISO"
+		(shape input)
+		(at 77.47 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e23ac51-1018-443a-aa85-472dd28d6005")
+	)
+	(hierarchical_label "BCM24"
+		(shape input)
+		(at 227.33 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e4f1510-4a3a-48c1-bca5-8d732ef57b26")
+	)
+	(hierarchical_label "BCM26"
+		(shape input)
+		(at 77.47 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90b19119-c39b-4a45-9e99-04713946e7d0")
+	)
+	(hierarchical_label "BCM13_PWM1"
+		(shape input)
+		(at 77.47 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95f1dc88-8724-49a2-a9e6-045855c56af9")
+	)
+	(hierarchical_label "BCM18_PCM_C"
+		(shape input)
+		(at 227.33 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a85fccf-47fb-4f58-95e0-26388b04986f")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 125.73 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d2a6f71-3cf3-474b-a22c-1897ed1d536e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 179.07 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d68a21e-4bd4-4491-becd-6368856dc5fb")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 125.73 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2233cd1-0d0c-486a-88cc-c9dc30e50fdf")
+	)
+	(hierarchical_label "BCM3_SCL"
+		(shape input)
+		(at 77.47 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afea6308-6eac-4b65-945b-4d2a91ed0547")
+	)
+	(hierarchical_label "BCM0_ID_SD"
+		(shape input)
+		(at 179.07 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3036d03-b496-4e0e-97fe-e961ffc3d99e")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 227.33 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b49ca7d2-0e46-40ec-bba7-737a2af2676e")
+	)
+	(hierarchical_label "BCM3_SCL"
+		(shape input)
+		(at 179.07 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6525b42-6118-4044-b759-ee713e593e16")
+	)
+	(hierarchical_label "BCM5"
+		(shape input)
+		(at 179.07 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbd5f751-0c41-4fac-a02b-99976dc93837")
+	)
+	(hierarchical_label "BCM7_CE1"
+		(shape input)
+		(at 227.33 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bcbf3ce7-8b6a-44ac-850d-24d94d735f24")
+	)
+	(hierarchical_label "BCM6"
+		(shape input)
+		(at 179.07 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4f029d9-de8d-419a-b0b9-b6a1163a9ca7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 179.07 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6e37bd2-b1a1-4b64-9654-4537ee0227a1")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 77.47 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c844eddf-c51a-485b-b0de-e6c016b8bb57")
+	)
+	(hierarchical_label "BCM22"
+		(shape input)
+		(at 77.47 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "caf63ef2-4a15-43fa-998d-a337d99a18c7")
+	)
+	(hierarchical_label "BCM7_CE1"
+		(shape input)
+		(at 125.73 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb6dae42-b418-4279-a2db-148f084ea389")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 227.33 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd37cc85-b827-47ea-a4c5-ead234812356")
+	)
+	(hierarchical_label "BCM8_CE0"
+		(shape input)
+		(at 227.33 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd47c3a7-f159-4013-85dd-05fa7349808a")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 77.47 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4199418-1651-4d28-b065-a45bd12a62f6")
+	)
+	(hierarchical_label "BCM11_SCLK"
+		(shape input)
+		(at 179.07 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d51eb106-120c-4d80-972f-226c0418d6d9")
+	)
+	(hierarchical_label "BCM16"
+		(shape input)
+		(at 227.33 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6c2095e-5b36-49b7-ab0b-256d9c9a83dc")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 227.33 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d84be608-add4-424d-a24d-685f50ec118b")
+	)
+	(hierarchical_label "BCM16"
+		(shape input)
+		(at 125.73 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da9825d7-b386-4d04-87d3-082b2f041f8a")
+	)
+	(hierarchical_label "BCM10_MOSI"
+		(shape input)
+		(at 179.07 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcbbf6f8-dfa6-4a3d-a7e5-0a6ec9bfceeb")
+	)
+	(hierarchical_label "BCM19_MISO_PCB_FS"
+		(shape input)
+		(at 77.47 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df75d86f-c865-4733-9b48-6f6cf880c29b")
+	)
+	(hierarchical_label "BCM13_PWM1"
+		(shape input)
+		(at 179.07 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfb564b6-6df3-400c-923e-a08e4bfc6b61")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 125.73 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed0b1b99-f896-4a4e-808d-65c5651dfd2e")
+	)
+	(hierarchical_label "BCM5"
+		(shape input)
+		(at 77.47 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edac27b2-05d2-4509-8ebb-fd4881417342")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 227.33 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1d81638-44ee-4ae2-878a-c05b5375799b")
+	)
+	(hierarchical_label "BCM21_SCLK_PCM_DO"
+		(shape input)
+		(at 227.33 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1f98f27-4e0d-4e9c-bd5a-78fd2d769a36")
+	)
+	(hierarchical_label "BCM0_ID_SD"
+		(shape input)
+		(at 77.47 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4ce64d0-a7f3-463e-b31b-1251c75341f7")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 77.47 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9b70ebe-ce00-487f-ad7c-2eff93beebc5")
+	)
+	(hierarchical_label "BCM19_MISO_PCB_FS"
+		(shape input)
+		(at 179.07 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb0a745f-6726-479b-a91c-74f2538d6f68")
+	)
+	(hierarchical_label "BCM25"
+		(shape input)
+		(at 125.73 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffb3d3d9-a88b-4866-909c-dd8b3c158de1")
+	)
+	(symbol
+		(lib_id "RPi_Hat1:RPi_GPIO_1")
+		(at 82.55 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bcc0c9a-3cec-4782-be12-8ae0ce3fc587")
+		(property "Reference" "J1"
+			(at 101.6 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "RPi_GPIO"
+			(at 101.6 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RPi_Hat:Samtec_HLE-120-02-XXX-DV-BE-XX-XX"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "374a3548-19f8-4821-af07-4324c9fb51ab")
+		)
+		(pin "10"
+			(uuid "f269a14c-eab7-4386-b4f8-c558bc41459c")
+		)
+		(pin "11"
+			(uuid "be3c5bc5-589b-4fef-a2fc-031686e8ce93")
+		)
+		(pin "12"
+			(uuid "722165db-4010-4179-ac58-db8cc71f8f97")
+		)
+		(pin "13"
+			(uuid "de3cef37-a14c-4b73-bded-fcf808ffbe3b")
+		)
+		(pin "14"
+			(uuid "5ecfab33-24fe-4129-ae54-0b82c55dd783")
+		)
+		(pin "15"
+			(uuid "e9ad11d0-36ab-4b63-b843-3998f177494d")
+		)
+		(pin "16"
+			(uuid "3087ae42-cb8d-4559-9619-8bbeeb5d28a0")
+		)
+		(pin "17"
+			(uuid "a4f83ff5-baf0-452f-8e58-8ca8cf6d20ed")
+		)
+		(pin "18"
+			(uuid "cffe9802-c84e-4f0e-8f8b-2d38a564697b")
+		)
+		(pin "19"
+			(uuid "8a5793bf-b75c-4215-887c-06a17f08b486")
+		)
+		(pin "2"
+			(uuid "a5528f91-af11-4a69-99f8-6aa0b6720fbb")
+		)
+		(pin "20"
+			(uuid "c43a3c45-0ee8-4c45-9af7-08e41c103f41")
+		)
+		(pin "21"
+			(uuid "e8973bd7-dc9c-45e0-a8df-66f9df747846")
+		)
+		(pin "22"
+			(uuid "f2d46c98-53bc-436d-9568-be4024c30f0b")
+		)
+		(pin "23"
+			(uuid "d9863f8f-ab22-4b4b-a70a-4e6e51d52c50")
+		)
+		(pin "24"
+			(uuid "fe15f58a-fb8f-45ff-89ee-afc9488f953a")
+		)
+		(pin "25"
+			(uuid "cceb28ea-f686-4bfb-a751-f173b101d3cb")
+		)
+		(pin "26"
+			(uuid "b5f95daa-8064-4600-b0c7-a76d40bb3028")
+		)
+		(pin "27"
+			(uuid "57ca5f2f-e2f7-45ea-8840-2442fed29fff")
+		)
+		(pin "28"
+			(uuid "545bc2ef-52bf-4da0-8eb4-d9eb72d0fcab")
+		)
+		(pin "29"
+			(uuid "1925f8d0-2d64-4758-9204-bfba1f344a70")
+		)
+		(pin "3"
+			(uuid "ce030cbd-0a6e-49d7-9732-83e2314e7419")
+		)
+		(pin "30"
+			(uuid "793abc9a-fe0f-46ab-ad16-bc4391a4648b")
+		)
+		(pin "31"
+			(uuid "43ca3490-1a45-4eb7-a983-a7e3acd4ee6c")
+		)
+		(pin "32"
+			(uuid "9bba7d9e-e739-4afc-9ca6-07f3b8d1386a")
+		)
+		(pin "33"
+			(uuid "2351188c-4dde-4005-b5f5-1e05a30eabe0")
+		)
+		(pin "34"
+			(uuid "3cc6f07e-e0ca-4b61-87af-c57cf9491d8d")
+		)
+		(pin "35"
+			(uuid "9499a0a9-38e2-4cd7-8ea1-b067df58cb89")
+		)
+		(pin "36"
+			(uuid "85c173c3-0749-4cb5-9b3c-1ddf4d9f9ba1")
+		)
+		(pin "37"
+			(uuid "a10eb89c-feeb-45fd-a5f5-b4c7f955b0d1")
+		)
+		(pin "38"
+			(uuid "fd125573-7292-429f-acaf-7b365c20530f")
+		)
+		(pin "39"
+			(uuid "ef4e79fc-372f-45a1-8383-7a53a6ab4078")
+		)
+		(pin "4"
+			(uuid "133ad01e-fa69-404c-8f56-05062a29f75d")
+		)
+		(pin "40"
+			(uuid "67b1c4ae-f2d5-4b16-acec-c5c763281613")
+		)
+		(pin "5"
+			(uuid "099f3dad-565f-49e2-9ef7-1a57fddc8371")
+		)
+		(pin "6"
+			(uuid "2cbd7973-c1cd-4c6d-9cff-93721f44ff7d")
+		)
+		(pin "7"
+			(uuid "ee59b06f-3aca-4c87-930e-4dba474e157e")
+		)
+		(pin "8"
+			(uuid "61ef77e4-e806-4895-ade7-116deeafff7a")
+		)
+		(pin "9"
+			(uuid "17d03985-8b27-41f9-8faa-4098d29a39ed")
+		)
+		(instances
+			(project "RPi_Hat"
+				(path "/e52104c0-5e63-4805-bdc7-1c811ae5b73b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RPi_Hat1:RPi_GPIO_1")
+		(at 184.15 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa7a1958-81c4-4465-a6e6-1e84d5e5b6ea")
+		(property "Reference" "J2"
+			(at 203.2 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "RPi_GPIO"
+			(at 203.2 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "[SLCx_TEMP2]_Template_1_RPi_Hat:Pin_Header_Straight_2x20"
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9581837c-f236-42a3-b3c3-383f7b5099d6")
+		)
+		(pin "10"
+			(uuid "604e15ab-3bfa-476b-8552-9f4fecc976ca")
+		)
+		(pin "11"
+			(uuid "70312f7f-19a2-49fb-b424-f059c6fae728")
+		)
+		(pin "12"
+			(uuid "f1c1d325-dbf0-4cea-9975-b5bca1268eb0")
+		)
+		(pin "13"
+			(uuid "91c58aa5-82f2-41e9-b196-e133bf9c8f4e")
+		)
+		(pin "14"
+			(uuid "90c02765-20aa-4dd4-bee2-73d7d24e78a4")
+		)
+		(pin "15"
+			(uuid "f5b747e2-f936-4896-9691-64d3187d8bdd")
+		)
+		(pin "16"
+			(uuid "e8cf00e9-d66c-420c-a6fe-cfffd3ffb9e7")
+		)
+		(pin "17"
+			(uuid "ef3583f2-78dc-4e95-b1cd-eed5048690b9")
+		)
+		(pin "18"
+			(uuid "7ac8b315-1fb5-4890-8afd-7eed27b76b5e")
+		)
+		(pin "19"
+			(uuid "bceded5c-d987-4249-94aa-f0826cf7c819")
+		)
+		(pin "2"
+			(uuid "b929c35f-8ae2-4dd7-b07b-15b6ca53e493")
+		)
+		(pin "20"
+			(uuid "65c0b802-9918-476a-b32d-e806d3efe437")
+		)
+		(pin "21"
+			(uuid "5dba2508-a37a-4892-8055-4bfffe1f5fae")
+		)
+		(pin "22"
+			(uuid "b65c87f4-50ea-493f-ae2a-638c695cecdc")
+		)
+		(pin "23"
+			(uuid "c730a898-2fdf-4261-8ed5-4ab279d5d43d")
+		)
+		(pin "24"
+			(uuid "2720289c-f4be-46f6-b99f-7c872201af21")
+		)
+		(pin "25"
+			(uuid "d6774fd4-a124-4c54-883b-abccf6422e27")
+		)
+		(pin "26"
+			(uuid "9987f4f1-f3f8-4dc4-b465-05f141495712")
+		)
+		(pin "27"
+			(uuid "b2267cdc-80ad-41de-8378-8554ea6d720f")
+		)
+		(pin "28"
+			(uuid "89768efd-26ed-4255-a5f3-f53b46c74503")
+		)
+		(pin "29"
+			(uuid "3fc504d9-bcdc-489a-8dea-39aeff99aaf7")
+		)
+		(pin "3"
+			(uuid "5b567266-c0e7-43ed-a740-3bb9dcf9fdcf")
+		)
+		(pin "30"
+			(uuid "13df8245-4ea4-4180-bcdf-b426bb85a931")
+		)
+		(pin "31"
+			(uuid "036b4300-f9a9-4d03-9f0e-87b6f6a0cd53")
+		)
+		(pin "32"
+			(uuid "8b20bee0-6752-4fd6-9aed-84d0920bc296")
+		)
+		(pin "33"
+			(uuid "4661432a-1de5-47d6-9d2b-a2e91d4d8c91")
+		)
+		(pin "34"
+			(uuid "97f42af7-b781-42ae-9e90-d189c611be22")
+		)
+		(pin "35"
+			(uuid "6911cfcc-e966-47b1-9175-1420fefd5fe2")
+		)
+		(pin "36"
+			(uuid "7257011b-a5a4-43f5-8c3c-6ad9747087fb")
+		)
+		(pin "37"
+			(uuid "d2171622-6189-4380-9a4e-d4c1ee5cbf24")
+		)
+		(pin "38"
+			(uuid "11636808-d365-49ab-9f08-cc3b8406fafe")
+		)
+		(pin "39"
+			(uuid "a6334545-f537-4e33-a99c-f0c4987d1f5d")
+		)
+		(pin "4"
+			(uuid "dd7ce2b8-4ac7-424b-9645-019e83b06be5")
+		)
+		(pin "40"
+			(uuid "d66b58b7-e057-46d2-9177-cd41bf523799")
+		)
+		(pin "5"
+			(uuid "f7b5bc13-255f-4e99-ac0b-66215c8bdfe3")
+		)
+		(pin "6"
+			(uuid "3bdf9640-4cc8-4838-bc07-fe2c40906399")
+		)
+		(pin "7"
+			(uuid "501dbeb1-f883-4a26-9723-a5c18fc8343d")
+		)
+		(pin "8"
+			(uuid "9550d866-6331-40e1-9986-a1ade7e7e942")
+		)
+		(pin "9"
+			(uuid "2dff1580-0fbc-47ef-b43b-0e6b9e533ade")
+		)
+		(instances
+			(project "RPi_Hat"
+				(path "/e52104c0-5e63-4805-bdc7-1c811ae5b73b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
