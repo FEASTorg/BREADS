@@ -29,7 +29,7 @@
   - [SLCs_THRM_Thermocouple_Reader](./[SLCs_THRM]_Thermocouple_Reader/README.md)
   - [SLCs_PHDO_pH_Dissolved_Oxygen_Sensor](./[SLCs_PHDO]_pH_Dissolved_Oxygen_Sensor/README.md)
   - [SLCs_PDER_pH_DO_EC_RP_Sensor](./[SLCs_PDER]_pH_DO_EC_RP_Sensor/README.md) **New**
-  - [SLCs_LOAD_Load_Cell_Amplifier](./[SLCs_LOAD]_Load_Cell_Amplifier/README.md) **New**
   - [SLCs_HPTC_High_Performance_Thermocouple](./[SLCs_HPTC]_High_Performance_Thermocouple/README.md) **New**
+  - [SLCs_LOAD_Load_Cell_Amplifier](./[SLCs_LOAD]_Load_Cell_Amplifier/README.md) **New**
 - Template
   - [SLCx_TEMP_Template](./[SLCx_TEMP]_Template/README.md)
