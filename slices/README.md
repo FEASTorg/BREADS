@@ -11,6 +11,7 @@
   - [SLCa_DCMT_DC_Motor_Controller](./[SLCa_DCMT]_DC_Motor_Controller/README.md)
   - [SLCa_PUMP_Pump_Controller](./[SLCa_PUMP]_Pump_Controller/README.md)
   - [SLCa_RLAY_4_Channel_Relay](./[SLCa_RLAY]_4_Channel_Relay/README.md)
+  - [SLCa_DC_Motor_Discrete_HBridge](./[SLCa_DCMT]_DC_Motor_Discrete_HBridge/README.md) **New**
 - Communication
   - [SLCc_USBP_USB_Port](./[SLCc_USBP]_USB_Port/README.md)
 - Integrated
@@ -21,11 +22,14 @@
   - [SLCp_SOLR_Field_Solar_Power](./[SLCp_SOLR]_Field_Solar_Power/README.md)
 - Sensing
   - [SLCs_CR40_40A_Current_Sensor](./[SLCs_CR40]_40A_Current_Sensor/README.md)
+  - [SLCs_CR20_20A_Current_Sensor](./[SLCs_CR20]_20A_Current_Sensor/README.md)
+  - [SLCs_CR10_10A_Current_Sensor](./[SLCs_CR10]_10A_Current_Sensor/README.md)
   - [SLCs_LVAI_Analog_Reader](./[SLCs_LVAI]_Analog_Reader/README.md)
   - [SLCs_AAFT_Audio_Analysis](./[SLCs_AAFT]_Audio_Analysis/README.md)
-  - [SLCs_PHDO_pH_Dissolved_Oxygen_Sensor](./[SLCs_PHDO]_pH_Dissolved_Oxygen_Sensor/README.md)
-  - [SLCs_CR10_10A_Current_Sensor](./[SLCs_CR10]_10A_Current_Sensor/README.md)
   - [SLCs_THRM_Thermocouple_Reader](./[SLCs_THRM]_Thermocouple_Reader/README.md)
-  - [SLCs_CR20_20A_Current_Sensor](./[SLCs_CR20]_20A_Current_Sensor/README.md)
+  - [SLCs_PHDO_pH_Dissolved_Oxygen_Sensor](./[SLCs_PHDO]_pH_Dissolved_Oxygen_Sensor/README.md)
+  - [SLCs_PDER_pH_DO_EC_RP_Sensor](./[SLCs_PDER]_pH_DO_EC_RP_Sensor/README.md) **New**
+  - [SLCs_LOAD_Load_Cell_Amplifier](./[SLCs_LOAD]_Load_Cell_Amplifier/README.md) **New**
+  - [SLCs_HPTC_High_Performance_Thermocouple](./[SLCs_HPTC]_High_Performance_Thermocouple/README.md) **New**
 - Template
   - [SLCx_TEMP_Template](./[SLCx_TEMP]_Template/README.md)
