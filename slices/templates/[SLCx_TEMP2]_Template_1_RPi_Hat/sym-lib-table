@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "RPi_Hat")(type "Legacy")(uri "${KIPRJMOD}/RPi_Hat.lib")(options "")(descr ""))
-  (lib (name "RPi_Hat1")(type "KiCad")(uri "${KIPRJMOD}/RPi_Hat1.kicad_sym")(options "")(descr ""))
-)

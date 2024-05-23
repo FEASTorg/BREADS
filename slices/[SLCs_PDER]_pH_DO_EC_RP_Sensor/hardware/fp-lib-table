@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "ADM3260_Breakout")(type "KiCad")(uri "$(KIPRJMOD)/ADM3260_Breakout.pretty")(options "")(descr ""))
-)
