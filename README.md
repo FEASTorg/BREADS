@@ -96,7 +96,16 @@ This project has since grown and evolved, start by reading the [docs](docs/READM
 [Provide basic usage instructions.]
 
 ### Advanced Usage
-[Provide advanced usage instructions, including any optional features or configurations.]
+
+To create a BREAD development folder with all the repositories making up the framework use the following script. Start by installing the requests and GitPython packages:
+```
+pip install requests gitpython
+```
+Then download run [this script](scripts/cloneAllBREAD.py) which will clone all the required repos into a folder called BREAD_DEV (including this one):
+```
+python cloneAllBREAD.py
+```
+Before running the script replace YOUR_TOKEN_HERE at the top of the file with a GitHub access token with permissions for accessing organizations and manipulating repositories.
 
 ## Documentation
 [Link to the detailed documentation if available. Provide instructions on how to access and navigate the documentation.]
