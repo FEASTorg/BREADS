@@ -56,31 +56,30 @@ This project has since grown and evolved, start by reading the [docs](docs/READM
 
 | Name | Type | Current Revision |
 | --- | --- | --- |
-| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | Template | https://github.com/uwo-fast/Slice_TEMP |
-| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT) | Management | https://github.com/uwo-fast/Loaf_ESPT |
-| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004) | Management | https://github.com/uwo-fast/Loaf_x004 |
-| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | Actuation | https://github.com/uwo-fast/Slice_GDHB |
-| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | Actuation | https://github.com/uwo-fast/Slice_DCMT |
-| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) | Actuation | https://github.com/uwo-fast/Slice_PUMP |
-| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | Actuation | https://github.com/uwo-fast/Slice_RLAY |
-| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | Actuation | https://github.com/uwo-fast/Slice_SERV |
-| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | Actuation | https://github.com/uwo-fast/Slice_STEP |
-| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | Communication | https://github.com/uwo-fast/Slice_USBP |
-| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | Integrated | https://github.com/uwo-fast/Slice_HEAT |
-| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | Integrated | https://github.com/uwo-fast/Slice_RLHT |
-| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | Power | https://github.com/uwo-fast/Slice_BUCK |
-| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | Power | https://github.com/uwo-fast/Slice_SOLR |
-| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) | Sensing | https://github.com/uwo-fast/Slice_AAFT |
-| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) | Sensing | https://github.com/uwo-fast/Slice_CR10 |
-| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) | Sensing | https://github.com/uwo-fast/Slice_CR20 |
-| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) | Sensing | https://github.com/uwo-fast/Slice_CR40 |
-| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | Sensing | https://github.com/uwo-fast/Slice_HPTC |
-| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | Sensing | https://github.com/uwo-fast/Slice_LOAD |
-| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | Sensing | https://github.com/uwo-fast/Slice_LVAI |
-| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | Sensing | https://github.com/uwo-fast/Slice_AOEM |
-| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | Sensing | https://github.com/uwo-fast/Slice_ACAR |
-| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | Sensing | https://github.com/uwo-fast/Slice_THRM |
-
+| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | Template | Rev |
+| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT) | Management | Rev |
+| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004) | Management | Rev |
+| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | Actuation | Rev |
+| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | Actuation | Rev |
+| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) | Actuation | Rev |
+| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | Actuation | Rev |
+| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | Actuation | Rev |
+| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | Actuation | Rev |
+| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | Communication | Rev |
+| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | Integrated | Rev |
+| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | Integrated | Rev |
+| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | Power | Rev |
+| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | Power | Rev |
+| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) | Sensing | Rev |
+| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) | Sensing | Rev |
+| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) | Sensing | Rev |
+| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) | Sensing | Rev |
+| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | Sensing | Rev |
+| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | Sensing | Rev |
+| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | Sensing | Rev |
+| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | Sensing | Rev |
+| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | Sensing | Rev |
+| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | Sensing | Rev |
   
 ## Installation
 [Provide instructions for installing any necessary software or hardware components.]
