@@ -54,37 +54,33 @@ This project has since grown and evolved, start by reading the [docs](docs/READM
 
 ## Project Overview
 
-- Management
-  - [LOAFm_ESPTP_ESP32_Thing_Plus_Controller](./[LOAFm_ESPTP]_ESP32_Thing_Plus_Controller/README.md)
-  - [LOAFm_x04_LOAF_Backplane_Extender_x04](./[LOAFm_x04]_LOAF_Backplane_Extender_x04/README.md)
-- Actuation
-  - [SLCa_SERV_Servo_Motor_Controller](./[SLCa_SERV]_Servo_Motor_Controller/README.md)
-  - [SLCa_STEP_Stepper_Motor_Controller](./[SLCa_STEP]_Stepper_Motor_Controller/README.md)
-  - [SLCa_DCMT_DC_Motor_Controller](./[SLCa_DCMT]_DC_Motor_Controller/README.md)
-  - [SLCa_PUMP_Pump_Controller](./[SLCa_PUMP]_Pump_Controller/README.md)
-  - [SLCa_RLAY_4_Channel_Relay](./[SLCa_RLAY]_4_Channel_Relay/README.md)
-  - [SLCa_DC_Motor_Discrete_HBridge](./[SLCa_DCMT]_DC_Motor_Discrete_HBridge/README.md) **New**
-- Communication
-  - [SLCc_USBP_USB_Port](./[SLCc_USBP]_USB_Port/README.md)
-- Integrated
-  - [SLCi_HEAT_Heating_Element_Controller](./[SLCi_HEAT]_Heating_Element_Controller/README.md)
-  - [SLCi_RLHT_Relay_Heating_Element_Controller](./[SLCi_RLHT]_Relay_Heating_Element_Controller/README.md)
-- Power
-  - [SLCp_BUCK_Buck_Converter_Signal_Generator](./[SLCp_BUCK]_Buck_Converter_Signal_Generator/README.md)
-  - [SLCp_SOLR_Field_Solar_Power](./[SLCp_SOLR]_Field_Solar_Power/README.md)
-- Sensing
-  - [SLCs_CR40_40A_Current_Sensor](./[SLCs_CR40]_40A_Current_Sensor/README.md)
-  - [SLCs_CR20_20A_Current_Sensor](./[SLCs_CR20]_20A_Current_Sensor/README.md)
-  - [SLCs_CR10_10A_Current_Sensor](./[SLCs_CR10]_10A_Current_Sensor/README.md)
-  - [SLCs_LVAI_Analog_Reader](./[SLCs_LVAI]_Analog_Reader/README.md)
-  - [SLCs_AAFT_Audio_Analysis](./[SLCs_AAFT]_Audio_Analysis/README.md)
-  - [SLCs_THRM_Thermocouple_Reader](./[SLCs_THRM]_Thermocouple_Reader/README.md)
-  - [SLCs_PHDO_pH_Dissolved_Oxygen_Sensor](./[SLCs_PHDO]_pH_Dissolved_Oxygen_Sensor/README.md)
-  - [SLCs_PDER_pH_DO_EC_RP_Sensor](./[SLCs_PDER]_pH_DO_EC_RP_Sensor/README.md) **New**
-  - [SLCs_HPTC_High_Performance_Thermocouple](./[SLCs_HPTC]_High_Performance_Thermocouple/README.md) **New**
-  - [SLCs_LOAD_Load_Cell_Amplifier](./[SLCs_LOAD]_Load_Cell_Amplifier/README.md) **New**
-- Template
-  - [SLCx_TEMP_Template](./[SLCx_TEMP]_Template/README.md)
+| Name | Type | Current Revision |
+| --- | --- | --- |
+| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | Template | https://github.com/uwo-fast/Slice_TEMP |
+| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT) | Management | https://github.com/uwo-fast/Loaf_ESPT |
+| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004) | Management | https://github.com/uwo-fast/Loaf_x004 |
+| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | Actuation | https://github.com/uwo-fast/Slice_GDHB |
+| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | Actuation | https://github.com/uwo-fast/Slice_DCMT |
+| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) | Actuation | https://github.com/uwo-fast/Slice_PUMP |
+| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | Actuation | https://github.com/uwo-fast/Slice_RLAY |
+| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | Actuation | https://github.com/uwo-fast/Slice_SERV |
+| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | Actuation | https://github.com/uwo-fast/Slice_STEP |
+| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | Communication | https://github.com/uwo-fast/Slice_USBP |
+| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | Integrated | https://github.com/uwo-fast/Slice_HEAT |
+| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | Integrated | https://github.com/uwo-fast/Slice_RLHT |
+| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | Power | https://github.com/uwo-fast/Slice_BUCK |
+| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | Power | https://github.com/uwo-fast/Slice_SOLR |
+| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) | Sensing | https://github.com/uwo-fast/Slice_AAFT |
+| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) | Sensing | https://github.com/uwo-fast/Slice_CR10 |
+| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) | Sensing | https://github.com/uwo-fast/Slice_CR20 |
+| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) | Sensing | https://github.com/uwo-fast/Slice_CR40 |
+| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | Sensing | https://github.com/uwo-fast/Slice_HPTC |
+| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | Sensing | https://github.com/uwo-fast/Slice_LOAD |
+| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | Sensing | https://github.com/uwo-fast/Slice_LVAI |
+| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | Sensing | https://github.com/uwo-fast/Slice_AOEM |
+| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | Sensing | https://github.com/uwo-fast/Slice_ACAR |
+| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | Sensing | https://github.com/uwo-fast/Slice_THRM |
+
   
 ## Installation
 [Provide instructions for installing any necessary software or hardware components.]
@@ -111,7 +107,38 @@ Before running the script replace YOUR_TOKEN_HERE at the top of the file with a 
 [Link to the detailed documentation if available. Provide instructions on how to access and navigate the documentation.]
 
 ## Contributing
-[Explain how others can contribute to the project. Include guidelines for submitting issues, pull requests, and any coding standards.]
+
+- ✅ Done
+- 🛠️ In Progress
+- ❌ Incomplete
+- ❓ Unknown
+
+| Name | Schematic | Board | BOM | Firmware | Tested |
+| --- | --- | --- | --- | --- | --- |
+| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) |  |  |  |  |  |
+| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT) |  |  |  |  |  |
+| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004) |  |  |  |  |  |
+| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) |  |  |  |  |  |
+| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) |  |  |  |  |  |
+| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) |  |  |  |  |  |
+| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) |  |  |  |  |  |
+| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) |  |  |  |  |  |
+| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) |  |  |  |  |  |
+| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) |  |  |  |  |  |
+| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) |  |  |  |  |  |
+| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) |  |  |  |  |  |
+| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) |  |  |  |  |  |
+| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) |  |  |  |  |  |
+| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) |  |  |  |  |  |
+| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) |  |  |  |  |  |
+| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) |  |  |  |  |  |
+| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) |  |  |  |  |  |
+| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) |  |  |  |  |  |
+| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) |  |  |  |  |  |
+| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) |  |  |  |  |  |
+| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) |  |  |  |  |  |
+| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) |  |  |  |  |  |
+| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) |  |  |  |  |  |
 
 ### Code of Conduct
 [Link to the project's code of conduct if available.]
