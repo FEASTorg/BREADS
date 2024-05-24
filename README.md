@@ -81,11 +81,7 @@ This project has since grown and evolved, start by reading the [docs](docs/READM
 | [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | Sensing | Rev |
 | [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | Sensing | Rev |
   
-## Installation
-[Provide instructions for installing any necessary software or hardware components.]
-
-## Usage
-[Explain how to use the project. Include examples and screenshots if applicable.]
+## Usage & Installation
 
 ### Basic Usage
 [Provide basic usage instructions.]
@@ -103,7 +99,7 @@ python cloneAllBREAD.py
 Before running the script replace YOUR_TOKEN_HERE at the top of the file with a GitHub access token with permissions for accessing organizations and manipulating repositories.
 
 ## Documentation
-[Link to the detailed documentation if available. Provide instructions on how to access and navigate the documentation.]
+Link to the detailed documentation when available. *We will be doing an autogen of docs from the individual repos pulling from their docs onto the site once we have access.*
 
 ## Contributing
 
