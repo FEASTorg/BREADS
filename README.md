@@ -103,6 +103,7 @@ Link to the detailed documentation when available. *We will be doing an autogen 
 
 ## Contributing
 
+### Progress Tracker
 - ✅ Done
 - 🛠️ In Progress
 - ❌ Incomplete
@@ -134,6 +135,10 @@ Link to the detailed documentation when available. *We will be doing an autogen 
 | [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) |  |  |  |  |  |
 | [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) |  |  |  |  |  |
 | [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) |  |  |  |  |  |
+
+### Wish List
+
+To see the current wish list for the BREAD family see [bread_ideas.md](docs/bread_ideas.md).
 
 ### Code of Conduct
 [Link to the project's code of conduct if available.]
