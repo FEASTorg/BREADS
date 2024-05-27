@@ -109,32 +109,34 @@ Link to the detailed documentation when available. *We will be doing an autogen 
 - ❌ Incomplete
 - ❓ Unknown
 
-| Name | Schematic | Board | BOM | Firmware | Tested |
-| --- | --- | --- | --- | --- | --- |
-| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) |  |  |  |  |  |
-| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT) |  |  |  |  |  |
-| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004) |  |  |  |  |  |
-| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) |  |  |  |  |  |
-| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) |  |  |  |  |  |
-| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) |  |  |  |  |  |
-| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) |  |  |  |  |  |
-| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) |  |  |  |  |  |
-| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) |  |  |  |  |  |
-| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) |  |  |  |  |  |
-| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) |  |  |  |  |  |
-| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) |  |  |  |  |  |
-| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) |  |  |  |  |  |
-| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) |  |  |  |  |  |
-| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) |  |  |  |  |  |
-| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) |  |  |  |  |  |
-| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) |  |  |  |  |  |
-| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) |  |  |  |  |  |
-| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) |  |  |  |  |  |
-| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) |  |  |  |  |  |
-| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) |  |  |  |  |  |
-| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) |  |  |  |  |  |
-| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) |  |  |  |  |  |
-| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) |  |  |  |  |  |
+| Name | Schematic | Board | BOM | Firmware | Tested | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | ✅ | ✅ | ✅ | ✅ | ✅ | Updated by Cam May 2024 to BREAD core fit into board corner |
+| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | ✅ | ✅ | ✅ | ✅ | ✅ | Recommends replacing with low-side switching design with IGBT |
+| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) | ✅ | ✅ | ✅ | ✅ | ❌ | Never got working with Dr. Ong's pump |
+| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | ✅ | ✅ | ✅ | ✅ | ❌ | Often behaves erratically, sometimes fries servos |
+| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | ✅ | ✅ | ✅ | ❓ | ❓ | Never got the parts; needs building and testing |
+| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | ✅ | ✅ | ✅ | ❓ | ❓ | Requires building and testing; op-amp issues |
+| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | ✅ | ✅ | ✅ | ❓ | ❓ | Same as SLC_HEAT but with relay output stage |
+| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | ✅ | ✅ | ✅ | ❓ | ❓ | Changed to low-side switching with IGBT; needs advanced control programming |
+| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | ✅ | ✅ | ❓ | ❓ | ❓ | Needs redesign; charging chip too small |
+| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) | ❓ | ❓ | ❓ | ❓ | ❓ | Deprecated; efforts should go to SLC_LVAI |
+| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) | ✅ | ✅ | ✅ | ✅ | ❓ | No known issues, check component availability |
+| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) | ✅ | ✅ | ✅ | ✅ | ❓ | No known issues, check component availability |
+| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) | ✅ | ✅ | ✅ | ✅ | ❓ | No known issues, check component availability |
+| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | ✅ | ✅ | ✅ | ✅ | ✅ | Needs expanded signal analysis capabilities |
+| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ |  |
+| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ |  |
+| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ |  |
+| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | ❓ | ❓ | ❓ | ❓ | ❓ |  |
+
+
 
 ### Wish List
 
