@@ -132,11 +132,11 @@ Link to the detailed documentation when available. *We will be doing an autogen 
 | [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | |
-| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | From Rob Herc, going to test non slice first |
+| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ✅ | ✅ | ❌ | ❌ | From Rob Herc, going to test non slice version first |
 | [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ |  |
 | [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | Sparkfun derivative for tensile tester |
-
-
+| [Slice_EMON](https://github.com/uwo-fast/Slice_EMON) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | Justin referencing from OpenEnergyMonitor |
+| [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | 🛠️ | 🛠️ | 🛠️ | ❌ | Justin referencing from OpenEnergyMonitor |
 
 ### Wish List
 
