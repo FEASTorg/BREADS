@@ -136,7 +136,7 @@ Link to the detailed documentation when available. *We will be doing an autogen 
 | [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ |  |
 | [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | Sparkfun derivative for tensile tester |
 | [Slice_EMON](https://github.com/uwo-fast/Slice_EMON) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | Justin referencing from OpenEnergyMonitor |
-| [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | 🛠️ | 🛠️ | 🛠️ | ❌ | Justin referencing from OpenEnergyMonitor |
+| [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | 🛠️ | 🛠️ | 🛠️ | ❌ | Referencing from MagOD and Pioreactor |
 
 ### Wish List
 
