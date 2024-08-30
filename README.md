@@ -54,35 +54,40 @@ This project has since grown and evolved, start by reading the [docs](docs/READM
 
 ## Project Overview
 
-| Name | Type | Current Revision |
-| --- | --- | --- |
-| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | Template | Rev 0 |
-| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT) | Management | Rev 0|
-| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004) | Management | Rev 0|
-| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | Actuation | Rev 0|
-| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | Actuation | Rev 0|
-| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) | Actuation | Rev 0|
-| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | Actuation | Rev 0|
-| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | Actuation | Rev 0|
-| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | Actuation | Rev 0|
-| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | Communication | Rev 0|
-| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | Integrated | Rev 0|
-| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | Integrated | Rev 0|
-| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | Power | Rev 0|
-| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | Power | Rev 0|
-| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) | Sensing | Rev 0|
-| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) | Sensing | Rev 0|
-| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) | Sensing | Rev 0|
-| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) | Sensing | Rev 0|
-| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | Sensing | Rev 0|
-| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | Sensing | Rev 0|
-| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | Sensing | Rev 0|
-| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | Sensing | Rev 0|
-| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | Sensing | Rev 0|
-| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | Sensing | Rev 0|
-| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | Sensing | Rev 0|
+| Name | Type | Current Revision | Notes |
+| --- | --- | --- | --- |
+| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | Template | Rev 2 | Template with nano, 12v->5v, and bus conn |
+| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT) | Management | Rev 1 | ESP32 carrier for supervision of slices |
+| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | Actuation | Rev 0 | A4957 driving a full bridge for high current BDC motors |
+| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | Actuation | Rev 2 | DC Motor Driver using an IC |
+| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | Actuation | Rev 2 | 4 channel SPDT relay |
+| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | Actuation | Rev 2 | Servo motor driver |
+| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | Actuation | Rev 2 | Stepper motor driver using an IC |
+| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | Communication | Rev 2 | USB port slice |
+| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | Integrated | Rev 2 | DC heater slice using a pair of darlington transistors and MAX31855 |
+| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | Integrated | Rev 2 | Relay DC heater slice using MAX31855 |
+| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | Power | Rev 2 | Buck converter slice |
+| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | Power | Rev 2 | Field solar power for charging batteries off grid |
+| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | Sensing | Rev 0 | High performance thermocouple using discrete components and signal processing techniques |
+| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | Sensing | Rev 0 | Load cell amplifier |
+| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | Sensing | Rev 2 | Low-voltage amplified input channels |
+| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | Sensing | Rev 0 | For interfacing with the Atlas Scientific EZO OEM components, on-board isolation |
+| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | Sensing | Rev 0 | For interfacing with the Atlas Scientific EZO breakout chips, on-board isolation |
+| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | Sensing | Rev 0 | For interfacing with the Atlas Scientific EZO carriers, NO on-board isolation |
+| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | Sensing | Rev 2 | Thermocouple temperature measurement |
 
-  
+### Legacy
+
+| Name | Type | Notes |
+| --- | --- | --- |
+| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004) | Management | Succeeded by Loaf_ESPT|
+| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) | Actuation | Limited scope for old project, never fully tested and functioning.|
+| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) | Sensing | Succeeded by Slice_LVAI|
+| [Slice_PHDO](https://github.com/uwo-fast/Slice_PHDO) | Sensing | Succeeded by Slice_ACAR, Slice_ACHP, Slice_AOEM|
+| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) | Sensing | Succeeded by Slice_CRXX |
+| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) | Sensing | Succeeded by Slice_CRXX |
+| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) | Sensing | Succeeded by Slice_CRXX |
+
 ## Usage & Installation
 
 ### Basic Usage
@@ -105,97 +110,6 @@ Link to the detailed documentation when available. *We will be doing an autogen 
 
 ## Contributing
 
-### Progress Tracker
-## BREAD v2
-- ✅ Done
-- 🛠️ In Progress
-- ❌ Incomplete
-- ❓ Unknown
-
-| Name | Schematic | Board | BOM | Firmware | Tested | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT)   | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ |  |
-| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ |  |
-| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ |  |
-| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | ✅ | ✅ | ✅ | ✅ | ❌ | Changed to low-side switching with IGBT; needs advanced control programming |
-| [Slice_CRXX](https://github.com/uwo-fast/Slice_CRXX) | ✅ | ✅ | ✅ | ✅ | ✅ | No known issues, check component availability |
-| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | ✅ | ✅ | ✅ | ✅ | ✅ | Recommends replacing with low-side switching design with IGBT |
-| [Slice_EADC](https://github.com/uwo-fast/Slice_EADC) | 🛠️ | 🛠️ | 🛠️ | 🛠️ | ❌ | Requires design |
-| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | |
-| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | ✅ | ✅ | ✅ | ✅ | ✅ | Requires building and testing; op-amp issues |
-| [Slice_IAQM](https://github.com/uwo-fast/Slice_IAQM) | 🛠️ | 🛠️ | 🛠️ | 🛠️ | ❌ | Requires design |
-| [Slice_LCDI](https://github.com/uwo-fast/Slice_LCDI) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [Slice_LEDD](https://github.com/uwo-fast/Slice_LEDD) | 🛠️ | 🛠️ | 🛠️ | 🛠️ | ❌ | Requires design |
-| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | Sparkfun derivative for tensile tester |
-| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | ✅ | ✅ | ✅ | ✅ | ✅ | Needs expanded signal analysis capabilities |
-| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | ✅ | ✅ | ✅ | ✅ | ✅ | Same as SLC_HEAT but with relay output stage |
-| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | ✅ | ✅ | ✅ | ✅ | ❌ | Often behaves erratically, sometimes fries servos |
-| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | ✅ | ✅ | ❌ | ❌ | ❌ | Needs redesign; charging chip too small |
-| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | ✅ | ✅ | ✅ | ✅ | ✅ | Updated by Cam May 2024 to BREAD core fit into board corner |
-| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | ✅ | ✅ | ✅ | ✅ | ✅ | Never got the parts; needs building and testing |
-
-### Release Testing Tracker
-
-This is to track the procurement and testing of all the BREAD v2 boards.
-
-| Name | RFM | Assembled | Firmware | Tested | Notes |
-| --- | --- | --- | --- | --- | --- |
-| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT)   | ✅ | ❌ | ❌ | ❌ | Nothing changed, same outputs used. |
-| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | ✅ | ❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate|
-| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | ✅ | ❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate |
-| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | ❓ | ❌ | ❌ | ❌ | |
-
-
-## BREAD v3
-
-This is for the next phase of BREAD which will feature all the previous boards from v2 but with upgrades to the BREAD Slice core and also includes a number of new slices seen in the table below to add more functionalities to BREAD.
-
-| Name | Schematic | Board | BOM | Firmware | Tested | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | 🛠️ | ❌ | ❌ | ❌ | NEW! |
-| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | 🛠️ | ❌ | ❌ | ❌ | NEW! |
-| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | 🛠️ | ❌ | ❌ | ❌ | NEW! |
-| [Slice_IAQM](https://github.com/uwo-fast/Slice_IAQM) | 🛠️ | ❌ | ❌ | ❌ | NEW! |
-| [Slice_LCDI](https://github.com/uwo-fast/Slice_LCDI) | 🛠️ | ❌ | ❌ | ❌ | NEW! |
-| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | 🛠️ | ❌ | ❌ | ❌ | NEW! |
-| [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | 🛠️ | ❌ | ❌ | ❌ | NEW!(-ish) |
-| [Slice_STEP](https://github.com/uwo-fast/Slice_SSTP) | 🛠️ | ❌ | ❌ | ❌ | NEW! |
-| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ✅ | ✅ | ❌ | ❌ | From Rob Herc, going to test non slice version first |
-| [Slice_EADC](https://github.com/uwo-fast/Slice_EADC) | 🛠️ | ❌ | ❌ | ❌ | NEW! External ADC, for OD. |
-| [Slice_LEDD](https://github.com/uwo-fast/Slice_LEDD) | 🛠️ | ❌ | ❌ | ❌ | NEW! External LED driving circuit, for OD. |
-| [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | NEW! Referencing Pioreactor, for OD. |
-| [Slice_EMON](https://github.com/uwo-fast/Slice_EMON) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | Referencing from OpenEnergyMonitor |
-| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | 🛠️ | ❌ | ❌ | ❌ | NEW! |
-| [Slice_CRXX](https://github.com/uwo-fast/Slice_CRXX) | ✅ | ❌ | ❌ | ❌ | NEW!(-ish), updated to latest BREAD TEMPlate and unified the three (10A, 20A, 40A) |
-
-## BREAD v4 (BREADS)
-
-This iteration will be focused on standardizing the BREAD format and enabling full SCADA by placing BREAD at level 0 as a field device (communicates via CAN), placing a compatible MCU + instrastructre to run act as a PLC using OpenPLC at level 1 as the control device which connects to the LAN, having an open source microcomputer using Fuxa as the level 2 supervisory control (also on the LAN), an open source computer running thingsboard at level 3 as the production / scheduling control (this is where WAN would come in?), and some kind of open source entreprise resource planning (ERP) software. Initial develpment will focus on levels 0-2 then level 3 (integration with ThingsBoard in discussion on GH) then level 4 (more for show).
-
-## BREAD v1
-Archived GitHub repos only, see original OSF repo for full BREAD v1 release corresponding to the [paper](https://doi.org/10.1016/j.ohx.2023.e00467).
-
-| Name | Schematic | Board | BOM | Firmware | Tested | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Loaf_x004](https://github.com/uwo-fast/Loaf_x004)   | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [Slice_PUMP](https://github.com/uwo-fast/Slice_PUMP) | ✅ | ✅ | ✅ | ✅ | ❌ | Gives intended output but never got working with Dr. Ong's pump |
-| [Slice_AAFT](https://github.com/uwo-fast/Slice_AAFT) | ✅ | ✅ | ✅ | ✅ | ❓ | Deprecated; efforts should go to SLC_LVAI |
-| [Slice_PHDO](https://github.com/uwo-fast/Slice_AAFT) | ✅ | ✅ | ✅ | ✅ | ✅ | Deprecated by ACAR, ACHP, AOEM |
-| [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) | ✅ | ✅ | ✅ | ✅ | ✅ | No known issues, check component availability |
-| [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) | ✅ | ✅ | ✅ | ✅ | ❓ | No known issues, check component availability |
-| [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) | ✅ | ✅ | ✅ | ✅ | ❓ | No known issues, check component availability |
-| [Slice_PHDO](https://github.com/uwo-fast/Slice_PHDO) | ✅ | ✅ | ✅ | ✅ | ❓ | ADD BACK |
 
 ### Wish List
 
