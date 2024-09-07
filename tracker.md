@@ -51,19 +51,18 @@ This is for the next phase of BREAD which will feature all the previous boards f
 
 | Name | Schematic | Board | BOM | Firmware | Tested | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | 🛠️ | ❌ | ❌ | ❌ |  |
-| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | 🛠️ | ❌ | ❌ | ❌ |  |
-| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | 🛠️ | ❌ | ❌ | ❌ |  |
-| [Slice_IAQM](https://github.com/uwo-fast/Slice_IAQM) | 🛠️ | ❌ | ❌ | ❌ |  |
-| [Slice_LCDI](https://github.com/uwo-fast/Slice_LCDI) | 🛠️ | ❌ | ❌ | ❌ |  |
-| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | 🛠️ | ❌ | ❌ | ❌ |  |
-| [Slice_SSTP](https://github.com/uwo-fast/Slice_SSTP) | 🛠️ | ❌ | ❌ | ❌ |  |
-| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ✅ | ✅ | ❌ | ❌ | From Rob Herc, going to test non slice version first |
-| [Slice_EADC](https://github.com/uwo-fast/Slice_EADC) | 🛠️ | ❌ | ❌ | ❌ | External ADC, for OD. |
-| [Slice_LEDD](https://github.com/uwo-fast/Slice_LEDD) | 🛠️ | ❌ | ❌ | ❌ | External LED driving circuit, for OD. |
-| [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | Referencing Pioreactor, for OD. See if can replace with LVAI |
-| [Slice_EMON](https://github.com/uwo-fast/Slice_EMON) | 🛠️ | 🛠️ | 🛠️ | 🛠️ | ❌ | Referencing from OpenEnergyMonitor |
-| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | 🛠️ | ❌ | ❌ | ❌ | |
+| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
+| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
+| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
+| [Slice_IAQM](https://github.com/uwo-fast/Slice_IAQM) | 🛠️ | ❌ | ❌ | ❌ | For PV Box. |
+| [Slice_LCDI](https://github.com/uwo-fast/Slice_LCDI) | 🛠️ | ❌ | ❌ | ❌ | For ESB. |
+| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | 🛠️ | ❌ | ❌ | ❌ | For tensile tester. |
+| [Slice_SSTP](https://github.com/uwo-fast/Slice_SSTP) | 🛠️ | ❌ | ❌ | ❌ | For tensile tester. |
+| [Slice_EADC](https://github.com/uwo-fast/Slice_EADC) | 🛠️ | ❌ | ❌ | ❌ | For BR flow cell. External ADC, for OD. |
+| [Slice_LEDD](https://github.com/uwo-fast/Slice_LEDD) | 🛠️ | ❌ | ❌ | ❌ | For BR flow cell. External LED driving circuit, for OD. |
+| [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | For BR flow cell. Referencing Pioreactor, for OD. See if can replace with LVAI |
+| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | 🛠️ | ❌ | ❌ | ❌ | For Big BR. |
+| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ✅ | ✅ | ❌ | From Rob Herc, going to test non slice version first |
 
 ## BREAD v4 (BREADS)
 
