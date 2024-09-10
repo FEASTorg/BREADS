@@ -5,7 +5,7 @@ from git import Repo
 # GitHub personal access token (make sure you have SSH keys set up)
 GITHUB_TOKEN = 'YOUR_TOKEN_HERE'
 # GitHub organization
-ORG_NAME = 'uwo-fast'
+ORG_NAME = 'FEASTorg'
 
 # Headers for GitHub API authentication
 headers = {
