@@ -14,19 +14,19 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT)   | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | ✅ | ✅ | ✅ | ✅ | ❌ | Changed to low-side switching with IGBT; needs advanced control programming |
-| [Slice_CRXX](https://github.com/uwo-fast/Slice_CRXX) | ✅ | ✅ | ✅ | ✅ | ✅ | updated to latest BREAD TEMPlate and unified the three (10A, 20A, 40A) |
-| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | ✅ | ✅ | ✅ | ✅ | ✅ | Recommends replacing with low-side switching design with IGBT |
-| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | ✅ | ✅ | ✅ | ✅ | ✅ | Requires building and testing; op-amp issues |
-| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | ✅ | ✅ | ✅ | ✅ | ✅ | Needs expanded signal analysis capabilities |
+| [Slice_CRXX](https://github.com/uwo-fast/Slice_CRXX) | ✅ | ✅ | ✅ | ✅ | ❓ | updated to latest BREAD TEMPlate and unified the three (10A, 20A, 40A) |
+| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | ✅ | ✅ | ✅ | ✅ | ❓ | Recommends replacing with low-side switching design with IGBT |
+| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | ✅ | ✅ | ✅ | ✅ | ❓ | Requires building and testing; op-amp issues |
+| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | ✅ | ✅ | ✅ | ✅ | ❓ | Needs expanded signal analysis capabilities |
 | [Slice_PHDO](https://github.com/uwo-fast/Slice_PHDO) | ✅ | ✅ | ✅ | ✅ | ✅ | |
 | [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | ✅ | ✅ | ✅ | ✅ | ✅ | Same as SLC_HEAT but with relay output stage |
 | [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | ✅ | ✅ | ✅ | ✅ | ❌ | Often behaves erratically, sometimes fries servos |
 | [Slice_SOLR](https://github.com/uwo-fast/Slice_SOLR) | ✅ | ✅ | ❌ | ❌ | ❌ | Needs redesign; charging chip too small |
-| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | ✅ | ✅ | ✅ | ✅ | ✅ | Updated by Cam May 2024 to BREAD core fit into board corner |
-| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | ✅ | ✅ | ✅ | ✅ | ✅ |  |
-| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | ✅ | ✅ | ✅ | ✅ | ✅ | Never got the parts; needs building and testing |
+| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | ✅ | ✅ | ✅ | ✅ | ❓ |  |
+| [Slice_TEMP](https://github.com/uwo-fast/Slice_TEMP) | ✅ | ✅ | ✅ | ✅ | ❓ | Updated by Cam May 2024 to BREAD core fit into board corner |
+| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | ✅ | ✅ | ✅ | ✅ | ❓ |  |
+| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | ✅ | ✅ | ✅ | ✅ | ❌ | Never got the parts; needs building and testing |
 
 ### Release Testing Tracker
 
@@ -86,10 +86,6 @@ This is to track the procurement and testing of all the BREAD v3 boards.
 | [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
 | [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ❌ | ❌ | ❌ | ❌ | |
 
-
-## BREAD v4 (BREADS)
-
-This iteration will be focused on standardizing the BREAD format and enabling full SCADA by placing BREAD at level 0 as a field device (communicates via CAN), placing a compatible MCU + instrastructre to run act as a PLC using OpenPLC at level 1 as the control device which connects to the LAN, having an open source microcomputer using Fuxa as the level 2 supervisory control (also on the LAN), an open source computer running thingsboard at level 3 as the production / scheduling control (this is where WAN would come in?), and some kind of open source entreprise resource planning (ERP) software. Initial develpment will focus on levels 0-2 then level 3 (integration with ThingsBoard in discussion on GH) then level 4 (more for demo).
 
 ## BREAD v1
 Archived GitHub repos only, see original OSF repo for full BREAD v1 release corresponding to the [paper](https://doi.org/10.1016/j.ohx.2023.e00467).
