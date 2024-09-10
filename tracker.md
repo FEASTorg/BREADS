@@ -2,6 +2,9 @@
 # Progress Tracker
 
 ## BREAD v2
+
+*Note that the below table is filled according to previous students work that hasn't since been verified.*
+
 - ✅ Done
 - 🛠️ In Progress
 - ❌ Incomplete
@@ -29,21 +32,21 @@
 
 This is to track the procurement and testing of all the BREAD v2 boards.
 
-| Name | RFM | Assembled | Firmware | Tested | Notes |
-| --- | --- | --- | --- | --- | --- |
-| [Loaf_ESPT](https://github.com/uwo-fast/Loaf_ESPT)   | ✅ | ❌ | ❌ | ❌ | Nothing changed, same outputs used. |
-| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | ✅ | ❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate|
-| [Slice_CRXX](https://github.com/uwo-fast/Slice_CRXX) | ✅ | ❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate and unified the three (10A, 20A, 40A) |
-| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_PHDO](https://github.com/uwo-fast/Slice_PHDO) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | ✅ | ❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate |
-| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | ❓ | ❌ | ❌ | ❌ | |
-| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | ❓ | ❌ | ❌ | ❌ | |
+| Name | RFM | BOM | Assembled | Firmware | Tested | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Loaf_ESPT ](https://github.com/uwo-fast/Loaf_ESPT)  | ✅ | 🛠️ | ❌ | ❌ | ❌ | Nothing changed, same outputs used. |
+| [Slice_BUCK](https://github.com/uwo-fast/Slice_BUCK) | ✅ | 🛠️ |❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate|
+| [Slice_CRXX](https://github.com/uwo-fast/Slice_CRXX) | ✅ | 🛠️ | ❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate and unified the three (10A, 20A, 40A) |
+| [Slice_DCMT](https://github.com/uwo-fast/Slice_DCMT) | ❌ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_HEAT](https://github.com/uwo-fast/Slice_HEAT) | ❌ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_LVAI](https://github.com/uwo-fast/Slice_LVAI) | ❌ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_PHDO](https://github.com/uwo-fast/Slice_PHDO) | ❌ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_RLAY](https://github.com/uwo-fast/Slice_RLAY) | ✅ | 🛠️ | ❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate |
+| [Slice_RLHT](https://github.com/uwo-fast/Slice_RLHT) | ❌ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_SERV](https://github.com/uwo-fast/Slice_SERV) | ❌ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_STEP](https://github.com/uwo-fast/Slice_STEP) | ❌ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_THRM](https://github.com/uwo-fast/Slice_THRM) | ✅ | 🛠️ | ❌ | ❌ | ❌ | |
+| [Slice_USBP](https://github.com/uwo-fast/Slice_USBP) | ✅ | 🛠️ | ❌ | ❌ | ❌ | Updated to latest BREAD TEMPlate, optimized layout |
 
 ## BREAD v3
 
@@ -51,18 +54,38 @@ This is for the next phase of BREAD which will feature all the previous boards f
 
 | Name | Schematic | Board | BOM | Firmware | Tested | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
-| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
-| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
-| [Slice_IAQM](https://github.com/uwo-fast/Slice_IAQM) | 🛠️ | ❌ | ❌ | ❌ | For PV Box. |
+| [Slice_IAQM](https://github.com/uwo-fast/Slice_IAQM) | ✅ | ✅ | 🛠️ | ❌ | For PV Box. |
+| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | ✅ | 🛠️ | ❌ | ❌ | To replace PHDO. |
+| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | ✅ | 🛠️ | ❌ | ❌ | To replace PHDO. |
+| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | ✅ | 🛠️ | ❌ | ❌ | To replace PHDO. |
 | [Slice_LCDI](https://github.com/uwo-fast/Slice_LCDI) | 🛠️ | ❌ | ❌ | ❌ | For ESB. |
 | [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | 🛠️ | ❌ | ❌ | ❌ | For tensile tester. |
-| [Slice_SSTP](https://github.com/uwo-fast/Slice_SSTP) | 🛠️ | ❌ | ❌ | ❌ | For tensile tester. |
+| [Slice_SSTP](https://github.com/uwo-fast/Slice_SSTP) | ✅ | 🛠️ | ❌ | ❌ | For tensile tester. |
+| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | ✅ | 🛠️ | ❌ | ❌ | For Big BR. |
 | [Slice_EADC](https://github.com/uwo-fast/Slice_EADC) | 🛠️ | ❌ | ❌ | ❌ | For BR flow cell. External ADC, for OD. |
 | [Slice_LEDD](https://github.com/uwo-fast/Slice_LEDD) | 🛠️ | ❌ | ❌ | ❌ | For BR flow cell. External LED driving circuit, for OD. |
 | [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | For BR flow cell. Referencing Pioreactor, for OD. See if can replace with LVAI |
-| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | 🛠️ | ❌ | ❌ | ❌ | For Big BR. |
 | [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ✅ | ✅ | ❌ | From Rob Herc, going to test non slice version first |
+
+### Release Testing Tracker
+
+This is to track the procurement and testing of all the BREAD v3 boards.
+
+| Name | RFM | BOM | Assembled | Firmware | Tested | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Slice_IAQM](https://github.com/uwo-fast/Slice_IAQM) | ✅ | 🛠️ | ❌ | ❌ | ❌ | |
+| [Slice_ACAR](https://github.com/uwo-fast/Slice_ACAR) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_ACHP](https://github.com/uwo-fast/Slice_ACHP) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_AOEM](https://github.com/uwo-fast/Slice_AOEM) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_LCDI](https://github.com/uwo-fast/Slice_LCDI) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_LOAD](https://github.com/uwo-fast/Slice_LOAD) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_SSTP](https://github.com/uwo-fast/Slice_SSTP) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_GDHB](https://github.com/uwo-fast/Slice_GDHB) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_EADC](https://github.com/uwo-fast/Slice_EADC) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_LEDD](https://github.com/uwo-fast/Slice_LEDD) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_LEPD](https://github.com/uwo-fast/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | ❌ | |
+| [Slice_HPTC](https://github.com/uwo-fast/Slice_HPTC) | ✅ | ❌ | ❌ | ❌ | ❌ | |
+
 
 ## BREAD v4 (BREADS)
 
@@ -80,4 +103,3 @@ Archived GitHub repos only, see original OSF repo for full BREAD v1 release corr
 | [Slice_CR10](https://github.com/uwo-fast/Slice_CR10) | ✅ | ✅ | ✅ | ✅ | ✅ | No known issues, check component availability |
 | [Slice_CR20](https://github.com/uwo-fast/Slice_CR20) | ✅ | ✅ | ✅ | ✅ | ❓ | No known issues, check component availability |
 | [Slice_CR40](https://github.com/uwo-fast/Slice_CR40) | ✅ | ✅ | ✅ | ✅ | ❓ | No known issues, check component availability |
-
