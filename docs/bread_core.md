@@ -2,7 +2,7 @@
 
 ## V0
 
-<img src="/docs/bread-core/bread_core_schem_v0.png" alt="BREAD Core Schematic V0" height="400"/>
+<img src="/docs/bread-core/bread_core_schem_v0.png" alt="BREAD Core Schematic V0" width="400"/>
 <img src="/docs/bread-core/bread_core_pcb_v0.png" alt="BREAD Core PCB V0" width="400"/>
 
 ## V1
