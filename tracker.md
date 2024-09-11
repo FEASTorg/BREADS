@@ -12,7 +12,7 @@
 
 | Name | Schematic | Board | BOM | Firmware | Tested | Issues |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)   | ✅ | ✅ | ✅ | ✅ | ✅ | |
+| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)   | ✅ | ✅ | ✅ | ✅ | ✅ |  |
 | [Slice_BUCK](https://github.com/FEASTorg/Slice_BUCK) | ✅ | ✅ | ✅ | ❌ | ❌ | Needs advanced control programming |
 | [Slice_CRXX](https://github.com/FEASTorg/Slice_CRXX) | ✅ | ✅ | ✅ | ✅ | ❓ |  |
 | [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | ✅ | ✅ | ✅ | ✅ | ❓ |  |
