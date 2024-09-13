@@ -32,17 +32,18 @@ This is to track the procurement and testing of all the BREAD v2 boards for rele
 
 | Name | RFM | BOM | Firmware | Tested | Comments |
 | --- | --- | --- | --- | --- | --- |
-| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)  | ✅ | 🛠️ | ❌ | ❌ | Nothing changed, same outputs used. |
+| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)  | ✅ | 🛠️ | ❌ | ❌ | Done by Finn already. Nothing changed, same outputs used. |
 | [Slice_BUCK](https://github.com/FEASTorg/Slice_BUCK) | ✅ | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate and footprints. |
 | [Slice_CRXX](https://github.com/FEASTorg/Slice_CRXX) | ✅ | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate and unified the three (10A, 20A, 40A). |
-| [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | ✅ | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate. |
+| [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | ✅ | 🛠️ | ❌ | ❌ | Done by Finn already. Updated to latest BREAD TEMPlate. |
 | [Slice_HEAT](https://github.com/FEASTorg/Slice_HEAT) | ✅ | 🛠️ | ❌ | ❌ | Redid layout to be optimized, duplicated circuit, updated to latest BREAD TEMPlate. |
-| [Slice_LVAI](https://github.com/FEASTorg/Slice_LVAI) | ❌ | ❌ | ❌ | ❌ | |
-| [Slice_RLAY](https://github.com/FEASTorg/Slice_RLAY) | ✅ | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate. |
-| [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT) | ❌ | ❌ | ❌ | ❌ | |
-| [Slice_SERV](https://github.com/FEASTorg/Slice_SERV) | ❌ | ❌ | ❌ | ❌ | |
-| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | ❌ | ❌ | ❌ | ❌ | |
-| [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | ✅ | 🛠️ | ❌ | ❌ | |
+| [Slice_LVAI](https://github.com/FEASTorg/Slice_LVAI) | ✅ | 🛠️ | ❌ | ❌ | Full docs / analysis of cascaded amp, redid board to fit onto new BREAD TEMPlate |
+| [Slice_RLAY](https://github.com/FEASTorg/Slice_RLAY) | ✅ | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate, replaced terminals with standard. |
+| [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT) | ✅ | 🛠️ | ❌ | ❌ | Changed terminals to standard ones, upgraded to MAX31855 |
+| [Slice_SERV](https://github.com/FEASTorg/Slice_SERV) | ✅ | 🛠️ | ❌ | ❌ | Redid voltage in selection, updated to new core and terms. |
+| [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR) | ✅ | 🛠️ | ❌ | ❌ | Full redesign and implementation, old design the charging chip too small. |
+| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | 🛠️ | 🛠️ | ❌ | ❌ | |
+| [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | ✅ | 🛠️ | ❌ | ❌ | Changed terminals and reviewed, added hierarchial sheets. |
 | [Slice_USBP](https://github.com/FEASTorg/Slice_USBP) | ✅ | 🛠️ | ❌ | ❌ | Redid layout to be optimized, updated to latest BREAD TEMPlate. |
 
 ## BREAD v3

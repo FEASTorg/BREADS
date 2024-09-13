@@ -6,25 +6,25 @@ To be able to participate in development, proper source control tools and practi
 
 | Name                                          | Type          | Description                                                                                                                    | Notes |
 |-----------------------------------------------|---------------|--------------------------------------------------------------------------------------------------------------------------------|-------|
-| Git                                           | Source Control | A distributed version control system for tracking changes in source code during development.                                   |       |
-| GitHub                                        | Source Control | A web-based platform that provides hosting for software development version control using Git.                                 |       |
-| [kiri](https://github.com/leoheck/kiri)       | Source Control | A visual tool for reviewing schematics and layouts of KiCad projects that are version-controlled with Git.                      | Used to visualize source diffs. |
+| Git                                           | Source Control | A distributed version control system for tracking changes in source code during development.                                   |    Required.   |
+| GitHub                                        | Source Control | A web-based platform that provides hosting for software development version control using Git.                                 |   Required.   |
+| [kiri](https://github.com/leoheck/kiri)       | Source Control | A visual tool for reviewing schematics and layouts of KiCad projects that are version-controlled with Git.                      | Required. Used to visualize source diffs. |
 
 ## Plugins
 
-Install the following plugins from the "Plugin And Content Manager" within KiCad before starting development. Unless marked as speciaty in notes.
+Install the following plugins from the "Plugin And Content Manager" within KiCad before starting development. The notes column indicates which are required. 
 
 | Name                                          | Type             | Description                                                                                                                    | Notes                                     |
 |-----------------------------------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| [uConfig](https://github.com/Robotips/uConfig) | Preprocessing    | Datasheet pinout extractor from PDF and library Stylizer for KiCad.                                                            |  Only when there is no existing online for that part.   |
-| [HierarchicalPcb](https://github.com/gauravmm/HierarchicalPcb) | Board Design      | Tool for creating hierarchical PCB layouts, mirroring sub-schematics with unlimited nesting depth.                             |                                           |
-| [freerouting](https://github.com/freerouting/freerouting) | Board Design      | Advanced PCB auto-router compatible with any design software using a Specctra or Electra DSN interface.                        |                                           |
-| [kicad-parts-placer-pcm](https://github.com/snhobbs/kicad-parts-placer-pcm) | Board Design      | KiCad Plugin for Automatic Parts Placement.                                                                                    |                                           |
-| [kicad-via-patterns](https://github.com/adamws/kicad-via-patterns) | Board Design      | KiCad plugin for placing via patterns respecting clearance rules and trace width.                                              |                                           |
-| [RF-tools-KiCAD](https://github.com/easyw/RF-tools-KiCAD) | Board Design      | KiCad RF tools: footprints wizard, round tracks, mask expander, via fencing.                                                   | Specially for high-frequency boards.      |
+| [HierarchicalPcb](https://github.com/gauravmm/HierarchicalPcb) | Board Design      | Tool for creating hierarchical PCB layouts, mirroring sub-schematics with unlimited nesting depth.                             |                Required.                 |
+| [freerouting](https://github.com/freerouting/freerouting) | Board Design      | Advanced PCB auto-router compatible with any design software using a Specctra or Electra DSN interface.                        |                Required.                 |
+| [kicad-parts-placer-pcm](https://github.com/snhobbs/kicad-parts-placer-pcm) | Board Design      | KiCad Plugin for Automatic Parts Placement.                               |                Required.                 |
+| [uConfig](https://github.com/Robotips/uConfig) | Preprocessing    | Optional, not in KiCad PCM. Datasheet pinout extractor from PDF and library Stylizer for KiCad.                                                            |  Only when there is no existing online for that part.   |
+| [kicad-via-patterns](https://github.com/adamws/kicad-via-patterns) | Board Design      | KiCad plugin for placing via patterns respecting clearance rules and trace width.                                              | Optionally for when when numerous vias are required. |
+| [RF-tools-KiCAD](https://github.com/easyw/RF-tools-KiCAD) | Board Design      | KiCad RF tools: footprints wizard, round tracks, mask expander, via fencing.                                                   | Not in KiCad PCM. Specially for high-frequency boards.      |
 | [KiBuzzard](https://github.com/gregdavill/KiBuzzard) | Board Design      | Adaptation of the Eagle-based plugin Buzzard for KiCad, enabling easy creation of labels in various fonts with inverted backgrounds. | Specially for aesthetics.                 |
 | [InteractiveHtmlBom](https://github.com/openscopeproject/InteractiveHtmlBom) | Documentation     | Interactive HTML BOM generation plugin for KiCad and other PCB design software.                                                |           Goal is to use as part of KiBot               |
-| [PcbDraw](https://github.com/yaqwsx/PcbDraw) | Documentation     | Converts KiCad boards into nicely looking 2D drawings suitable for pinout diagrams.                                            |           Goal is to use as part of KiBot               |
+| [PcbDraw](https://github.com/yaqwsx/PcbDraw) | Documentation     | Converts KiCad boards into nicely looking 2D drawings suitable for pinout diagrams.                                            |           Not in KiCad PCM. Goal is to use as part of KiBot               |
 
 ## External Tools
 
