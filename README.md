@@ -5,7 +5,7 @@ This project is fully documented in the paper: Shane Oberloier, Nicholas G. Whis
 
 This project has since grown and evolved, start by reading the [docs](docs/README.md)
 
-This is a live Google Drive folder where you can add ideas for the 'ideas.drawio' or make a new diagram if you want a collaborative visual space. Diagrams for documentation should be version controlled using Git as part of a GitHub repository on this org.
+This is a live [Google Drive folder](https://drive.google.com/drive/folders/1WQfWja8mfwrVcG5KNg36Ahn4GjASRSuR?usp=drive_link) where you can add ideas for the 'ideas.drawio' or make a new diagram if you want a collaborative visual space. Diagrams for documentation should be version controlled using Git as part of a GitHub repository on this org.
 
 ## Project Overview
 
