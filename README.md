@@ -5,6 +5,8 @@ This project is fully documented in the paper: Shane Oberloier, Nicholas G. Whis
 
 This project has since grown and evolved, start by reading the [docs](docs/README.md)
 
+This is a live Google Drive folder where you can add ideas for the 'ideas.drawio' or make a new diagram if you want a collaborative visual space. Diagrams for documentation should be version controlled using Git as part of a GitHub repository on this org.
+
 ## Project Overview
 
 | Name | Type | Current Revision | Notes |
@@ -47,12 +49,7 @@ This project has since grown and evolved, start by reading the [docs](docs/READM
 | [Slice_CR20](https://github.com/FEASTorg/Slice_CR20) | Sensing | Succeeded by Slice_CRXX |
 | [Slice_CR40](https://github.com/FEASTorg/Slice_CR40) | Sensing | Succeeded by Slice_CRXX |
 
-## Usage & Installation
-
-### Basic Usage
-[Provide basic usage instructions.]
-
-### Advanced Usage
+## Usage
 
 To create a BREAD development folder with all the repositories making up the framework use the following script. Start by installing the requests and GitPython packages:
 ```
@@ -65,10 +62,12 @@ python cloneAllBREAD.py
 Before running the script replace YOUR_TOKEN_HERE at the top of the file with a GitHub access token with permissions for accessing organizations and manipulating repositories.
 
 ## Documentation
+
 Link to the detailed documentation when available. *We will be doing an autogen of docs from the individual repos pulling from their docs onto the site once we have access.*
 
 ## Contributing
 
+Start designing your own slice or make a pull with your improvements! Please reach out in the discussions if you'd like to collaborate formally.
 
 ### Wish List
 

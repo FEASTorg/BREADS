@@ -42,7 +42,7 @@ This is to track the procurement and testing of all the BREAD v2 boards for rele
 | [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT) | ✅ | 🛠️ | ❌ | ❌ | Changed terminals to standard ones, upgraded to MAX31855 |
 | [Slice_SERV](https://github.com/FEASTorg/Slice_SERV) | ✅ | 🛠️ | ❌ | ❌ | Redid voltage in selection, updated to new core and terms. |
 | [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR) | ✅ | 🛠️ | ❌ | ❌ | Full redesign and implementation, old design the charging chip too small. |
-| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | 🛠️ | 🛠️ | ❌ | ❌ | |
+| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | ✅ | 🛠️ | ❌ | ❌ | |
 | [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | ✅ | 🛠️ | ❌ | ❌ | Changed terminals and reviewed, added hierarchial sheets. |
 | [Slice_USBP](https://github.com/FEASTorg/Slice_USBP) | ✅ | 🛠️ | ❌ | ❌ | Redid layout to be optimized, updated to latest BREAD TEMPlate. |
 
