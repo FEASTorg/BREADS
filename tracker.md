@@ -45,6 +45,7 @@ This is to track the procurement and testing of all the BREAD v2 boards for rele
 | [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | ✅ | 🛠️ | ❌ | ❌ | |
 | [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | ✅ | 🛠️ | ❌ | ❌ | Changed terminals and reviewed, added hierarchial sheets. |
 | [Slice_USBP](https://github.com/FEASTorg/Slice_USBP) | ✅ | 🛠️ | ❌ | ❌ | Redid layout to be optimized, updated to latest BREAD TEMPlate. |
+| [Slice_IAQM](https://github.com/FEASTorg/Slice_IAQM) | ✅ | 🛠️ | ❌ | ❌ | New, technically part of v3 release, accelerated for PVbox |
 
 ## BREAD v3
 
@@ -72,7 +73,6 @@ This is to track the procurement and testing of all the BREAD v3 boards.
 This is to track the procurement and testing of all the BREAD v2 boards.
 | Name | RFM | BOM | Firmware | Tested | Comments |
 | --- | --- | --- | --- | --- | --- |
-| [Slice_IAQM](https://github.com/FEASTorg/Slice_IAQM) | ✅ | 🛠️ | ❌ | ❌ | |
 | [Slice_ACAR](https://github.com/FEASTorg/Slice_ACAR) | 🛠️ | ❌ | ❌ | ❌ | |
 | [Slice_ACHP](https://github.com/FEASTorg/Slice_ACHP) | 🛠️ | ❌ | ❌ | ❌ | |
 | [Slice_AOEM](https://github.com/FEASTorg/Slice_AOEM) | 🛠️ | ❌ | ❌ | ❌ | |
