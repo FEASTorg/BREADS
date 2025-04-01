@@ -12,7 +12,7 @@
 
 | Name | Schematic | Board | BOM | Firmware | Tested | Issues |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)   | ✅ | ✅ | ✅ | ✅ | ✅ |  |
+| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)   | ✅ | ✅ | ✅ | ✅ | ✅ | No longer being used, switched to RPi |
 | [Slice_BUCK](https://github.com/FEASTorg/Slice_BUCK) | ✅ | ✅ | ✅ | ❌ | ❌ | Needs advanced control programming |
 | [Slice_CRXX](https://github.com/FEASTorg/Slice_CRXX) | ✅ | ✅ | ✅ | ✅ | ❓ |  |
 | [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | ✅ | ✅ | ✅ | ✅ | ❓ |  |
@@ -32,20 +32,24 @@ This is to track the procurement and testing of all the BREAD v2 boards for rele
 
 | Name | RFM | BOM | Firmware | Tested | Comments |
 | --- | --- | --- | --- | --- | --- |
-| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)  | ✅o | 🛠️ | ❌ | ❌ | Done by Finn already. Nothing changed, same outputs used. |
+| [Nano_Minima](https://github.com/CameronBrooks11/Nano_KiCAD) | ✅* | 🛠️ | ❌ | ❌ | Arduino Nano v3.3 but without regulator, button, D13 LED and USB mini-b |
+| [can-nano-shield](https://github.com/CameronBrooks11/can-nano-shield) | ✅* | 🛠️ | ❌ | ❌ | Arduino Nano shield with MCP2515 & TJA1051/3 |
+| --- | --- | --- | --- | --- | --- |
+| [Slice_TEMP](https://github.com/FEASTorg/Slice_TEMP) | ✅* | 🛠️ | ❌ | ❌ | Added functional template PCBs: headers, SMD proto, TH proto |
 | [Slice_BUCK](https://github.com/FEASTorg/Slice_BUCK) | ✅o | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate and footprints. |
 | [Slice_CRXX](https://github.com/FEASTorg/Slice_CRXX) | ✅o | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate and unified the three (10A, 20A, 40A). |
-| [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | ✅* | 🛠️ | ❌ | ❌ | Done by Finn already. Updated to latest BREAD TEMPlate. |
+| [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | 🛠️* | 🛠️ | ❌ | ❌ | Done by Finn already. Updated to latest BREAD TEMPlate. |
 | [Slice_HEAT](https://github.com/FEASTorg/Slice_HEAT) | ✅o | 🛠️ | ❌ | ❌ | Redid layout to be optimized, duplicated circuit, updated to latest BREAD TEMPlate. |
 | [Slice_LVAI](https://github.com/FEASTorg/Slice_LVAI) | ✅o  | 🛠️ | ❌ | ❌ | Full docs / analysis of cascaded amp, redid board to fit onto new BREAD TEMPlate |
 | [Slice_RLAY](https://github.com/FEASTorg/Slice_RLAY) | ✅o | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate, replaced terminals with standard. |
-| [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT) | ✅o | 🛠️ | ❌ | ❌ | Changed terminals to standard ones, upgraded to MAX31855 |
+| [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT) | ✅* | 🛠️ | ❌ | ❌ | Changed terminals to standard ones, upgraded to MAX31855 |
 | [Slice_SERV](https://github.com/FEASTorg/Slice_SERV) | ✅o | 🛠️ | ❌ | ❌ | Redid voltage in selection, updated to new core and terms. |
-| [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR) | ✅o | 🛠️ | ❌ | ❌ | Full redesign and implementation, old design the charging chip too small. |
-| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | ✅* | 🛠️ | ❌ | ❌ | |
-| [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | ✅* | 🛠️ | ❌ | ❌ | Changed terminals and reviewed, added hierarchial sheets. |
+| [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR) | 🛠️* | 🛠️ | ❌ | ❌ | Full redesign and implementation, old design the charging chip too small. |
+| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | 🛠️* | 🛠️ | ❌ | ❌ | NEEDS UPDATING. |
+| [Slice_THMX](https://github.com/FEASTorg/Slice_THMX) | 🛠️* | 🛠️ | ❌ | ❌ | LTC2983 |
+| [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | 🛠️* | 🛠️ | ❌ | ❌ | 3 revs: MAX6675 (A), MAX31855 (B), MAX31856 (C). |
 | [Slice_USBP](https://github.com/FEASTorg/Slice_USBP) | ✅o | 🛠️ | ❌ | ❌ | Redid layout to be optimized, updated to latest BREAD TEMPlate. |
-| [Slice_IAQM](https://github.com/FEASTorg/Slice_IAQM) | ✅o | 🛠️ | ❌ | ❌ | New, technically part of v3 release, accelerated for PVbox |
+| [Slice_IAQM](https://github.com/FEASTorg/Slice_IAQM) | 🛠️* | 🛠️ | ❌ | ❌ | NEED TO FIX SD. New, technically part of v3 release, accelerated for PVbox |
 
 ## BREAD v3
 
