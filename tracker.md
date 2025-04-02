@@ -1,102 +1,71 @@
 
 # Progress Tracker
 
-## BREAD v2
-
-*Note that the below table is filled according to previous students work that hasn't since been verified.*
+## BREADS
 
 - ✅ Done
 - 🛠️ In Progress
 - ❌ Incomplete
 - ❓ Unknown
+- 🔁 Revising
 
-| Name | Schematic | Board | BOM | Firmware | Tested | Issues |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)   | ✅ | ✅ | ✅ | ✅ | ✅ | No longer being used, switched to RPi |
-| [Slice_BUCK](https://github.com/FEASTorg/Slice_BUCK) | ✅ | ✅ | ✅ | ❌ | ❌ | Needs advanced control programming |
-| [Slice_CRXX](https://github.com/FEASTorg/Slice_CRXX) | ✅ | ✅ | ✅ | ✅ | ❓ |  |
-| [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | ✅ | ✅ | ✅ | ✅ | ❓ |  |
-| [Slice_HEAT](https://github.com/FEASTorg/Slice_HEAT) | ✅ | ✅ | ✅ | ✅ | ❓ | Requires building and testing; op-amp issues |
-| [Slice_LVAI](https://github.com/FEASTorg/Slice_LVAI) | ✅ | ✅ | ✅ | ✅ | ❓ | Needs expanded signal analysis capabilities |
-| [Slice_RLAY](https://github.com/FEASTorg/Slice_RLAY) | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT) | ✅ | ✅ | ✅ | ✅ | ✅ | |
-| [Slice_SERV](https://github.com/FEASTorg/Slice_SERV) | ✅ | ✅ | ✅ | ❓ | ❌ | Often behaves erratically, sometimes fries servos |
-| [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR) | ✅ | ✅ | ✅ | ❌ | ❌ | Needed redesign as the charging chip too small |
-| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | ✅ | ✅ | ✅ | ❓ | ❓ |  |
-| [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | ✅ | ✅ | ✅ | ❓ | ❓ |  |
-| [Slice_USBP](https://github.com/FEASTorg/Slice_USBP) | ✅ | ✅ | ✅ | ❌ | ❌ | Never g ot the parts; needs building and testing |
-
-### v2 Release Testing Tracker
+### Release Testing Tracker
 
 This is to track the procurement and testing of all the BREAD v2 boards for release.
 
-| Name | RFM | BOM | Firmware | Tested | Comments |
-| --- | --- | --- | --- | --- | --- |
-| [Nano_Minima](https://github.com/CameronBrooks11/Nano_KiCAD) | ✅* | 🛠️ | ❌ | ❌ | Arduino Nano v3.3 but without regulator, button, D13 LED and USB mini-b |
-| [can-nano-shield](https://github.com/CameronBrooks11/can-nano-shield) | ✅* | 🛠️ | ❌ | ❌ | Arduino Nano shield with MCP2515 & TJA1051/3 |
-| --- | --- | --- | --- | --- | --- |
-| [Slice_TEMP](https://github.com/FEASTorg/Slice_TEMP) | ✅* | 🛠️ | ❌ | ❌ | Added functional template PCBs: headers, SMD proto, TH proto |
-| [Slice_BUCK](https://github.com/FEASTorg/Slice_BUCK) | ✅o | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate and footprints. |
-| [Slice_CRXX](https://github.com/FEASTorg/Slice_CRXX) | ✅o | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate and unified the three (10A, 20A, 40A). |
-| [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | 🛠️* | 🛠️ | ❌ | ❌ | Done by Finn already. Updated to latest BREAD TEMPlate. |
-| [Slice_HEAT](https://github.com/FEASTorg/Slice_HEAT) | ✅o | 🛠️ | ❌ | ❌ | Redid layout to be optimized, duplicated circuit, updated to latest BREAD TEMPlate. |
-| [Slice_LVAI](https://github.com/FEASTorg/Slice_LVAI) | ✅o  | 🛠️ | ❌ | ❌ | Full docs / analysis of cascaded amp, redid board to fit onto new BREAD TEMPlate |
-| [Slice_RLAY](https://github.com/FEASTorg/Slice_RLAY) | ✅o | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate, replaced terminals with standard. |
-| [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT) | ✅* | 🛠️ | ❌ | ❌ | Changed terminals to standard ones, upgraded to MAX31855 |
-| [Slice_SERV](https://github.com/FEASTorg/Slice_SERV) | ✅o | 🛠️ | ❌ | ❌ | Redid voltage in selection, updated to new core and terms. |
-| [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR) | 🛠️* | 🛠️ | ❌ | ❌ | Full redesign and implementation, old design the charging chip too small. |
-| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | 🛠️* | 🛠️ | ❌ | ❌ | NEEDS UPDATING. |
-| [Slice_THMX](https://github.com/FEASTorg/Slice_THMX) | 🛠️* | 🛠️ | ❌ | ❌ | LTC2983 |
-| [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | 🛠️* | 🛠️ | ❌ | ❌ | 3 revs: MAX6675 (A), MAX31855 (B), MAX31856 (C). |
-| [Slice_USBP](https://github.com/FEASTorg/Slice_USBP) | ✅o | 🛠️ | ❌ | ❌ | Redid layout to be optimized, updated to latest BREAD TEMPlate. |
-| [Slice_IAQM](https://github.com/FEASTorg/Slice_IAQM) | 🛠️* | 🛠️ | ❌ | ❌ | NEED TO FIX SD. New, technically part of v3 release, accelerated for PVbox |
+| Name | Schem | PCB | BOM | FW | Test | Notes | Known Issues |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Nano_Minima](https://github.com/CameronBrooks11/Nano_KiCAD) | ✅ | ✅ | 🛠️ | ❌ | ❌ | Arduino Nano v3.3 but without regulator, button, D13 LED and USB mini-b | --- |
+| [can-nano-shield](https://github.com/CameronBrooks11/can-nano-shield) | ✅ | ✅ | 🛠️ | ❌ | ❌ | Arduino Nano shield with MCP2515 & TJA1051/3 | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Slice_TEMP](https://github.com/FEASTorg/Slice_TEMP) | ✅ | ✅ | ✅ | ✅ | ❌ | Optimized layout, removed reset pin which needs to be clipped now | --- |
+| [Slice_PRTO](https://github.com/FEASTorg/Slice_PRTO) | ✅ | ✅ | ✅ | ✅ | ❌ | Terminal connector, surface mount, and through hole prototyping | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [Slice_ACAR](https://github.com/FEASTorg/Slice_ACAR) | ✅ | 🛠️ | 🛠️ | ❌ | ❌ | Atlas Sci. carrier for pH/DO/ORP/EC board in an isolation board. | --- |
+| [Slice_ACHP](https://github.com/FEASTorg/Slice_ACHP) | ✅ | 🛠️ | 🛠️ | ❌ | ❌ | Atlas Sci. carrier for pH/DO/ORP/EC with onboard isolation. | --- |
+| [Slice_AOEM](https://github.com/FEASTorg/Slice_AOEM) | ✅ | 🛠️ | 🛠️ | ❌ | ❌ | Atlas Sci. pH/DO/ORP/EC OEM IC with onboard isolation | --- |
+| [Slice_BUCK](https://github.com/FEASTorg/Slice_BUCK) | ✅ | ✅ | 🛠️ | ❌ | ❌ | Simple discrete component buck converter | Needs advanced control programming |
+| [Slice_CRXX](https://github.com/FEASTorg/Slice_CRXX) | ✅ | ✅ | 🛠️ | ❌ | ❌ | The three IC variants (10A,20A,40A) share same PCB as footprint is identical. | --- |
+| [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT) | 🔁 | 🔁 | ✅ | ✅ | 🔁 | Fixed pin and layout, added back fuses | Motor1 drive pin isnt PWM |
+| [Slice_GDHB](https://github.com/FEASTorg/Slice_GDHB) | ✅ | 🛠️ | 🛠️ | ❌ | ❌ | for large BDC motors | --- |
+| [Slice_FPSG](https://github.com/FEASTorg/Slice_FPSG) | 🛠️ | 🛠️ | 🛠️ | ❌ | ❌ | New for high speed strain gauge (load cell) measurements. | --- |
+| [Slice_HEAT](https://github.com/FEASTorg/Slice_HEAT) | ✅ | 🛠️ | 🛠️ | ❌ | ❌ | layout optimized, duplicated circuit. | op-amp issues |
+| [Slice_LCDI](https://github.com/FEASTorg/Slice_LCDI) | 🛠️ | ❌ | ❌ | ❌ | ❌ | serial LCD input and buttons for HMI | --- |
+| [Slice_LEPD](https://github.com/FEASTorg/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | ❌ | For BR flow cell. Referencing Pioreactor, for OD. See if can replace with LVAI | --- |
+| [Slice_LOAD](https://github.com/FEASTorg/Slice_LOAD) | 🛠️ | 🛠️ | 🛠️ | ❌ | ❌ | HX711 board for load cells. | --- |
+| [Slice_LVAI](https://github.com/FEASTorg/Slice_LVAI) | ✅ | 🛠️ | 🛠️ | ❌ | ❌ | Full docs / analysis of cascaded amp. | Needs expanded signal analysis capabilities |
+| [Slice_RLAY](https://github.com/FEASTorg/Slice_RLAY) | ✅ | 🛠️ | 🛠️ | ❌ | ❌ | Updated to latest BREAD TEMPlate, replaced terminals with standard. | --- |
+| [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT) | 🔁 | 🔁 | ✅ | ✅ | 🔁 | Changed terminals to standard ones, upgraded to MAX31855 | --- |
+| [Slice_SERV](https://github.com/FEASTorg/Slice_SERV) | ✅ | 🛠️ | 🛠️ | ❌ | ❌ | Redid voltage in selection. | Often behaves erratically, sometimes fries servos |
+| [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR) | 🔁 | 🔁 | 🛠️ | ❌ | ❌ | Full redesign and implementation, old design the charging chip too small. | --- |
+| [Slice_SSTP](https://github.com/FEASTorg/Slice_SSTP) | 🛠️ | ❌ | ❌ | ❌ | ❌ | High power stepper driver for tensile tester. | --- |
+| [Slice_STEP](https://github.com/FEASTorg/Slice_STEP) | 🔁 | 🔁 | 🔁 | ❌ | ❌ | NEEDS UPDATING. | --- |
+| [Slice_THMX](https://github.com/FEASTorg/Slice_THMX) | 🛠️ | 🛠️ | 🛠️ | ❌ | ❌ | using LTC2983 multi-channel, multi-temp sensor IC | --- |
+| [Slice_THRM](https://github.com/FEASTorg/Slice_THRM) | 🛠️ | 🛠️ | 🛠️ | ❌ | ❌ | 3 vars: MAX6675 (A), MAX31855 (B), MAX31856 (C). | --- |
+| [Slice_USBP](https://github.com/FEASTorg/Slice_USBP) | ✅ | ✅ | 🛠️ | ❌ | ❌ | Redid layout to be optimized, updated to latest BREAD TEMPlate. | --- |
+| [Slice_IAQM](https://github.com/FEASTorg/Slice_IAQM) | 🔁 | 🔁 | 🔁 | 🛠️ | 🛠️ | PCB of env-safety-monitor from PV Box paper. | SD card footprint flipped |
 
-## BREAD v3
+## BREAD (v0 & v1)
 
-This is for the next phase of BREAD which will feature all the previous boards from v2 but with upgrades to the BREAD Slice core and also includes a number of new slices seen in the table below to add more functionalities to BREAD.
+Inactiv and mostly archived GitHub repos.
 
-| Name | Schematic | Board | BOM | Firmware | Tested | Application |
-| --- | --- | --- | --- | --- | --- | --- |
-| [Slice_IAQM](https://github.com/FEASTorg/Slice_IAQM) | ✅ | ✅ | 🛠️ | ❌ | ❌ | For PV Box. |
-| [Slice_ACAR](https://github.com/FEASTorg/Slice_ACAR) | ✅ | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
-| [Slice_ACHP](https://github.com/FEASTorg/Slice_ACHP) | ✅ | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
-| [Slice_AOEM](https://github.com/FEASTorg/Slice_AOEM) | ✅ | 🛠️ | ❌ | ❌ | ❌ | To replace PHDO. |
-| [Slice_LCDI](https://github.com/FEASTorg/Slice_LCDI) | 🛠️ | ❌ | ❌ | ❌ | ❌ | For ESB. |
-| [Slice_LOAD](https://github.com/FEASTorg/Slice_LOAD) | 🛠️ | ❌ | ❌ | ❌ | ❌ | For tensile tester. |
-| [Slice_SSTP](https://github.com/FEASTorg/Slice_SSTP) | 🛠️ | ❌ | ❌ | ❌ | ❌ | For tensile tester. |
-| [Slice_GDHB](https://github.com/FEASTorg/Slice_GDHB) | ✅ | 🛠️ | ❌ | ❌ | ❌ | For Big BR. |
-| [Slice_EADC](https://github.com/FEASTorg/Slice_EADC) | 🛠️ | ❌ | ❌ | ❌ | ❌ | For BR flow cell. External ADC, for OD. |
-| [Slice_LEDD](https://github.com/FEASTorg/Slice_LEDD) | 🛠️ | ❌ | ❌ | ❌ | ❌ | For BR flow cell. External LED driving circuit, for OD. |
-| [Slice_LEPD](https://github.com/FEASTorg/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | ❌ | For BR flow cell. Referencing Pioreactor, for OD. See if can replace with LVAI |
-| [Slice_HPTC](https://github.com/FEASTorg/Slice_HPTC) | ✅ | ✅ | 🛠️ | ❌ | ❌ | From Rob Herc, going to test non slice version first |
+See original OSF repo for full BREAD v0 release corresponding to the original paper:
 
-### v3 Release Testing Tracker
+- [Open source framework for a Broadly Expandable and Reconfigurable data acquisition and automation device (BREAD)](https://doi.org/10.1016/j.ohx.2023.e00467).
+- This largely presented the concept of BREAD, many of the boards were non- or semi-functional or incomplete at time of publication
+- This idea of BREAD was largely developed by Shane Oberloier and Joshua M. Pearce and implemented by Shane Oberloier, Nicholas G. Whismana, Finn Hafting, and others at the MTU Open Source Hardware Entreprise (OSHE)
 
-This is to track the procurement and testing of all the BREAD v3 boards.
+Before and following after this initial publication, the development of BREAD was done at MTU as part of OSHE and known new slices were prototyped and the [MOST_OpenReactor](https://gitlab.com/mtu-most/most_openreactor) software was created to create a more unified central controller with a user interface.
 
-This is to track the procurement and testing of all the BREAD v2 boards.
-| Name | RFM | BOM | Firmware | Tested | Comments |
-| --- | --- | --- | --- | --- | --- |
-| [Slice_ACAR](https://github.com/FEASTorg/Slice_ACAR) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_ACHP](https://github.com/FEASTorg/Slice_ACHP) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_AOEM](https://github.com/FEASTorg/Slice_AOEM) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_LCDI](https://github.com/FEASTorg/Slice_LCDI) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_LOAD](https://github.com/FEASTorg/Slice_LOAD) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_SSTP](https://github.com/FEASTorg/Slice_SSTP) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_GDHB](https://github.com/FEASTorg/Slice_GDHB) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_EADC](https://github.com/FEASTorg/Slice_EADC) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_LEDD](https://github.com/FEASTorg/Slice_LEDD) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_LEPD](https://github.com/FEASTorg/Slice_LEPD) | 🛠️ | ❌ | ❌ | ❌ | |
-| [Slice_HPTC](https://github.com/FEASTorg/Slice_HPTC) | ✅ | ❌ | ❌ | ❌ | |
+As part of joint project with MTU and Western University and others for plastic to protein processing system. This resulted in the publication of the paper [Modular Open-Source Design of Pyrolysis Reactor Monitoring and Control Electronics](https://doi.org/10.3390/electronics12244893). The ESP32 thing plus C controller (ESPT) was developed along with more mature versions of DCMT and RLHT, primarily by Finn Hafting. The [BREAD-Local-Software](https://github.com/FHafting/BREAD-Local-Software) or BUTTER was developed by Finn Hafting and Xander Chin which used static web assets stored on the SD card in combination with the ESP32 asynchronous web server to create a locally accessible user interface. Further mechanical developments and applications to bioreactors and pH control was done by Finn Hafting and is reflected in the paper [Moving the Open-Source Broadly Reconfigurable and Expandable Automation Device (BREAD) Towards a Supervisory Control and Data Acquisition (SCADA) System](https://doi.org/10.3390/technologies13040125).
 
-
-## BREAD v1
-Archived GitHub repos only, see original OSF repo for full BREAD v1 release corresponding to the [paper](https://doi.org/10.1016/j.ohx.2023.e00467).
+The ESPT controller as since been discontinued due to its inhereint limitations in reliably handling more complex supervision and networking requirements posed by future development.
 
 | Name | Schematic | Board | BOM | Firmware | Tested | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Loaf_x004](https://github.com/FEASTorg/Loaf_x004)   | ✅ | ✅ | ✅ | ✅ | ✅ | Superseded by ESPT, |
-| [Slice_PUMP](https://github.com/FEASTorg/Slice_PUMP) | ✅ | ✅ | ✅ | ✅ | ❌ | Gives intended output but never got working with Dr. Ong's pump |
+| [Loaf_x004](https://github.com/FEASTorg/Loaf_x004)   | ✅ | ✅ | ✅ | ✅ | ✅ | Superseded by ESPT + backplane |
+| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)   | ✅ | ✅ | ✅ | ✅ | ✅ | No longer being used, switched to back to SBC (RPi) |
+| [Slice_PUMP](https://github.com/FEASTorg/Slice_PUMP) | ✅ | ✅ | ✅ | ✅ | ❌ | Gives intended output but never worked, tested on with MTU Dr. Ong's pump |
 | [Slice_AAFT](https://github.com/FEASTorg/Slice_AAFT) | ✅ | ✅ | ✅ | ✅ | ❓ | Deprecated; efforts should go to SLC_LVAI |
 | [Slice_PHDO](https://github.com/FEASTorg/Slice_PHDO) | ✅ | ✅ | ✅ | ✅ | ✅ | Deprecated by ACAR, ACHP, AOEM |
 | [Slice_CR10](https://github.com/FEASTorg/Slice_CR10) | ✅ | ✅ | ✅ | ✅ | ✅ | Superseded by CRXX, no known issues, check component availability |
