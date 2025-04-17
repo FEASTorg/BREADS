@@ -1,4 +1,6 @@
-# board contraints
+# Board Contraints
+
+This is for class two layer boards BREAD has always used. As functionality has expanded and the complexity of the requirements some new designs are utilizing 4 layer boards with different rules...docs to come in the future on that.
 
 ## General PCB Constraints
 
@@ -11,7 +13,7 @@
 | Pad Copper Width                   | Greater than 0.5 mm                 |
 | Recommended Component Package Size | 1206 or greater \*                  |
 
-- see table at end for info on package sizes
+\* see table at end for info on package sizes
 
 ## Component Placement and Sizing Constraints
 
