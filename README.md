@@ -20,7 +20,7 @@ All case designs can be found on [Onshape](https://cad.onshape.com/documents/f4c
 
 ### Ideas
 
-To see the current wish list for the BREAD family see [bread_ideas.md](docs/ideas.md).
+To see the current wish list for the BREAD family see [bread_ideas.md](docs/dev_docs/future_slice_ideas.md).
 
 ## License
 

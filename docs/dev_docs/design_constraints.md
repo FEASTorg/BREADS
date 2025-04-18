@@ -1,6 +1,4 @@
-# Board Contraints
-
-This is for class two layer boards BREAD has always used. As functionality has expanded and the complexity of the requirements some new designs are utilizing 4 layer boards with different rules...docs to come in the future on that.
+# Design Contraints
 
 ## General PCB Constraints
 
@@ -65,3 +63,15 @@ The numbers in the **Imperial** and **Metric** columns refer to the dimensions o
 | 1210                     | 3225                   | Yes                      | Slightly larger than 1206; still easy to solder, provides better thermal dissipation. |
 | 1812                     | 4532                   | Yes                      | Larger footprint; good for power components or higher current requirements.           |
 | 2220                     | 5650                   | Yes                      | Very large; suitable for high power, larger components.                               |
+
+## Silkscreen Color Chart
+
+| **Category**    | **Color** | **Use**                                                  | **Rationale**                                                                             | **Examples**                             |
+| --------------- | --------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------- |
+| **Prototype**   | Blue      | 2-layer prototype boards                                 | Distinctive color used to differentiate prototype versions.                               | DCMT, RLHT                               |
+|                 | Red       | 4-layer prototype boards                                 | High contrast with white silkscreen enables easier debugging and inspection.              | SOLR, FPSG                               |
+|                 | Yellow    | Carrier/adapter boards                                   | Unique appearance for quick visual identification in a mixed batch of prototypes.         | Atlas Sci. pH/DO/ORP/EC, can-nano-shield |
+| **Production**  | Green     | 2-layer production boards                                | Standard choice for production due to reliability, low cost, and ease of inspection.      | DCMT, RLHT                               |
+|                 | Black     | 4-layer production boards                                | Offers a professional and aesthetic look, indicating complexity for consumer electronics. | SOLR, FPSG                               |
+|                 | Purple    | Carrier/adapter boards for production (special editions) | Differentiates special editions or unique branding from standard production runs.         | Atlas Sci. pH/DO/ORP/EC, can-nano-shield |
+| **Special Use** | White     | Boards requiring high light reflection or exposed boards | Chosen for aesthetics and applications needing enhanced light reflection properties.      | LED boards, exposed boards               |
