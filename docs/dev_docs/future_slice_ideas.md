@@ -10,7 +10,19 @@ This is a master doc / wish list to toss ideas for future additions to the BREAD
 
 [Rough](#rough-ideas) list:
 
-- [laser_driver](#laser-driver)
+- [Ideas](#ideas)
+  - [Elaborated Ideas](#elaborated-ideas)
+    - [SLC\_CMPV](#slc_cmpv)
+    - [SLC\_IICH](#slc_iich)
+    - [SLC\_INVT](#slc_invt)
+  - [Rough Ideas](#rough-ideas)
+    - [Laser Driver](#laser-driver)
+    - [Protected Analog Input](#protected-analog-input)
+    - [Robust Analog Output](#robust-analog-output)
+    - [Frequency Counter](#frequency-counter)
+    - [Safety Interlock](#safety-interlock)
+    - [Impedance/Capacitance Measurement](#impedancecapacitance-measurement)
+    - [General Purpose DAQ](#general-purpose-daq)
 
 ## Elaborated Ideas
 
@@ -74,4 +86,34 @@ A full blown open source, BREAD-friendly inverter. This is essential for any AC 
 
 - Reference
   - [github.com/Laser4DIY/Laser-Driver-v2](https://github.com/Laser4DIY/Laser-Driver-v2)
-  - [HardwareX: Open-source lab hardware: Driver and temperature controller for high compliance voltage, fiber-coupled butterfly lasers](https://doi.org/10.1016/j.ohx.2021.e00240)
+  - [HardwareX paper](https://doi.org/10.1016/j.ohx.2021.e00240)
+
+### Protected Analog Input
+
+- Differential or single-ended analog input with overvoltage protection, clamping, and optional filtering.
+- Ideal for measuring external signals in harsh or unknown environments.
+
+### Robust Analog Output
+
+- Buffered DAC output with selectable range and short-circuit protection.
+- Could include internal test waveforms or ramp generation.
+
+### Frequency Counter
+
+- High-resolution input capture for digital signal frequency or period measurement.
+- Useful for RPM sensing, PWM decoding, or external signal characterization.
+
+### Safety Interlock
+
+- Monitors and enforces hardware safety conditions using logic inputs, emergency stop, key switch, or watchdog timeout.
+- Designed to safely enable/disable critical functions.
+
+### Impedance/Capacitance Measurement
+
+- Precision excitation and response readout for estimating passive component values.
+- Useful for inline condition monitoring or sensor interface (e.g., soil moisture, touch).
+
+### General Purpose DAQ
+
+- Multi-channel, configurable analog input/output with digital I/O and signal generation.
+- Can include low-pass filtering, excitation, and software calibration. Ideal for lab or testbench automation.
