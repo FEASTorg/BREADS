@@ -22,8 +22,10 @@ This is a master doc / wish list to brainstorm and start to plan out ideas for f
 
 ### SLC_RAMP
 
-**Description:**  
+**Description:**
+
 RepRap Actuator Motion Platform.
+
 A BREAD-compatible motion control slice inspired by the RepRap ecosystem, integrating essential circuitry for stepper motor driving, heater control, and endstop sensing—designed for use in 3D printers, CNC machines, pick-and-place systems, or any precise multi-axis actuation system.
 
 **Key Specifications:**
