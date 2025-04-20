@@ -1,17 +1,10 @@
 # Ideas
 
-This is a master doc / wish list to toss ideas for future additions to the BREAD framework.
-
-[Elaborated](#elaborated-ideas) list:
-
-- [SLC_CMPV](#slc_cmpv): A slice utilizing a Pi Zero, the usual Nano, some peripheral circuitry, and python’s OpenCV to create a BREAD-compatible computer vision system.
-- [SLC_SENS](#slc_iich): A slice that can read I2C data from multiple generic sensors at once and parse through it.
-- [SLC_INVT](#slc_invt): A full blown open source, BREAD-friendly inverter, essential for any AC or BLDC machine control applications.
-
-[Rough](#rough-ideas) list:
+This is a master doc / wish list to brainstorm and start to plan out ideas for future additions to the BREAD framework.
 
 - [Ideas](#ideas)
   - [Elaborated Ideas](#elaborated-ideas)
+    - [SLC\_RAMP](#slc_ramp)
     - [SLC\_ECHM](#slc_echm)
     - [SLC\_CMPV](#slc_cmpv)
     - [SLC\_IICH](#slc_iich)
@@ -26,6 +19,47 @@ This is a master doc / wish list to toss ideas for future additions to the BREAD
     - [General Purpose DAQ](#general-purpose-daq)
 
 ## Elaborated Ideas
+
+### SLC_RAMP
+
+**Description:**  
+RepRap Actuator Motion Platform.
+A BREAD-compatible motion control slice inspired by the RepRap ecosystem, integrating essential circuitry for stepper motor driving, heater control, and endstop sensing—designed for use in 3D printers, CNC machines, pick-and-place systems, or any precise multi-axis actuation system.
+
+**Key Specifications:**
+
+- **Motor Drivers:** Up to 4 stepper drivers (e.g., TMC2209, A4988)
+- **Heater Outputs:** 2 high-current MOSFET channels for heated bed & hotend
+- **Thermistor Inputs:** 2 analog inputs for temperature sensing (100k NTC)
+- **Endstop Inputs:** 6 digital inputs with filtering and pull-ups
+- **Power Input:** 12–24 V input with onboard buck converter to 5 V
+- **Outputs:** Fan control, PWM accessory output
+
+**Components:**
+
+- **Motor Drivers:** Socketed stepper drivers (A4988, TMC2209, etc.)
+- **MOSFETs:** Logic-level N-channel MOSFETs (e.g., IRLZ44N) with flyback diodes
+- **Thermistor Inputs:** Voltage divider circuits with filtering caps
+- **Voltage Regulation:** MP1584 12–24 V to 5 V buck converter
+- **MCU Socket:** Compatible with Nano-style headers
+- **Fan Headers:** Dedicated MOSFET output and flyback diode
+- **Connectors:** Screw terminals or XT30 for power, JST or dupont for I/O
+
+**Potential Applications:**
+
+- Desktop 3D printers (FDM/FFF)
+- Laser cutters and engravers
+- Small CNC mills or routers
+- Pick-and-place and motion automation
+
+**References:**
+
+- [ghent360 - PrntrBoardV2](https://github.com/ghent360/PrntrBoardV2)
+- [RAMPS 1.4 board](https://reprap.org/wiki/RAMPS_1.4)
+- [matt3u - RAMPS-1.4_KiCad?tab=readme-ov-file](https://github.com/matt3u/RAMPS-1.4_KiCad?tab=readme-ov-file)
+- [RepRap Firmware](https://reprap.org/wiki/RepRap_Firmware)
+- [Marlin Firmware](https://marlinfw.org/)
+- [cmsteinBR - sb-cnc-shield](https://github.com/cmsteinBR/sb-cnc-shield)
 
 ### SLC_ECHM
 
@@ -70,6 +104,8 @@ A BREAD‑compatible electrochemical analysis slice providing three operating mo
 - [FBRC/mystat - A USB-controlled potentiostat/galvanostat for electrochemistry measurements](https://codeberg.org/FBRC/mystat)
 
 ### SLC_CMPV
+
+- Idea from previous student at MTU
 
 **Description:**
 
