@@ -2,13 +2,14 @@
 
 ## Supporting Assets & Related Resources
 
+- [KNEEAD](https://github.com/FEASTorg/KNEEAD)
+  - Stands for "Knowledge for Nativagting Electrical & Electronic Architecture and Design".
+  - A collection of best practices, review checklists, design conventions, hardware patterns, and architectural principles for electrical and electronics engineering.
 - [KiCad-Master-Lib](https://github.com/FEASTorg/KiCad-Master-Lib)
   - WRITE!!!!
 - [KiCad-Hierarchical-Designs](https://github.com/FEASTorg/KiCad-Hierarchical-Designs)
   - WRITE!!!!
-- [KNEEAD](https://github.com/FEASTorg/KNEEAD)
-  - Knowledge for Nativagting Electrical & Electronic Architecture and Design (KNEEAD).
-  - A collection of best practices, review checklists, design conventions, hardware patterns, and architectural principles for electrical and electronics engineering.
+- [Kicad-Simulation-Examples](https://github.com/FEASTorg/Kicad-Simulation-Examples)
 
 ## Overview
 

@@ -8,7 +8,7 @@ This project has since grown and evolved, start by reading the [docs](docs/READM
 
 ## Overview
 
-To see an overview of current BREAD see: [Summary Table]()
+To see an overview of current BREAD see the [summary](./docs/summary.md) doc.
 
 ## Documentation
 
@@ -24,7 +24,7 @@ All case designs can be found on [Onshape](https://cad.onshape.com/documents/f4c
 
 ### Ideas
 
-To see the current wish list for the BREAD family see [bread_ideas.md](docs/dev_docs/future_slice_ideas.md).
+To see the current wish list for the BREAD family see the [bread ideas](docs/dev_docs/future_slice_ideas.md) doc.
 
 ## License
 
