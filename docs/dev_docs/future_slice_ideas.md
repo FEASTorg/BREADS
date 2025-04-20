@@ -12,6 +12,7 @@ This is a master doc / wish list to toss ideas for future additions to the BREAD
 
 - [Ideas](#ideas)
   - [Elaborated Ideas](#elaborated-ideas)
+    - [SLC\_ECHM](#slc_echm)
     - [SLC\_CMPV](#slc_cmpv)
     - [SLC\_IICH](#slc_iich)
     - [SLC\_INVT](#slc_invt)
@@ -25,6 +26,48 @@ This is a master doc / wish list to toss ideas for future additions to the BREAD
     - [General Purpose DAQ](#general-purpose-daq)
 
 ## Elaborated Ideas
+
+### SLC_ECHM
+
+**Description:**  
+A BREAD‑compatible electrochemical analysis slice providing three operating modes in a standard three‑electrode cell:
+
+1. **Potentiostat** – precisely controls WE‑RE potential (±2 V, 1 mV resolution).
+2. **Galvanostat** – sources/sinks cell current (±100 nA to ±100 mA across five decades).
+3. **EIS** – performs AC impedance spectroscopy (10 mHz–100 kHz, ≤10 mV rms, phase error <1° up to 10 kHz).
+
+**Key Specifications:**
+
+- **Voltage range:** ±2 V, drift <100 µV/h
+- **Current range:** ±100 nA–±100 mA (0.1 Ω to 1 kΩ sense resistors)
+- **EIS sweep:** 10 mHz–100 kHz, 10 mV amplitude
+- **Resolution:** 16‑bit simultaneous voltage/current measurement; 12‑bit DAC
+
+**Components:**
+
+- **MCU:** STM32F303RE (dual 12‑bit DAC, high‑speed ADC)
+- **DAC:** MCP4922 dual 12‑bit SPI
+- **ADC:** ADS131E08 8‑channel 24‑bit Σ-Δ
+- **Control amps:** OPA192 (low‑noise precision)
+- **Buffer amps:** OPA827 (wide‑bandwidth)
+- **Analog switches:** ADG5248 (mode), ADG5412 (range)
+- **Sense resistors:** 0.1 Ω, 1 Ω, 10 Ω, 1 kΩ (0.1 % tol.)
+- **Regulators:** LDOs for +3.3 V and ±5 V rails
+- **Connectors:** 3‑pin BNC/SMA for RE/WE/CE, test headers
+
+**Potential Applications:**
+
+- Cyclic voltammetry & chronoamperometry
+- Corrosion monitoring
+- Battery and fuel‑cell impedance characterization
+- Real‑time biosensor readout in bioreactors
+
+**References:**
+
+- [A Small yet Complete Framework for a Potentiostat, Galvanostat, and Electrochemical Impedance Spectrometer](https://pubs.acs.org/doi/10.1021/acs.jchemed.1c00228)
+- [IO Rodeo Rodeostat](https://github.com/iorodeo/potentiostat)
+- [TDstatv3 - A USB-controlled potentiostat/galvanostat for thin-film battery characterization](https://github.com/thomasdob/tdstatv3)
+- [FBRC/mystat - A USB-controlled potentiostat/galvanostat for electrochemistry measurements](https://codeberg.org/FBRC/mystat)
 
 ### SLC_CMPV
 

@@ -16,8 +16,8 @@ This is to track the procurement and testing of all the BREADS boards for releas
 | Name | Schem | PCB | BOM | Docs | Review | FW | Test | Notes | Known Issues |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | *Controller* | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Nano_Minima](https://github.com/CameronBrooks11/Nano_KiCAD) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | - | ❌ | Nano v3.3 but w/out reg., button, D13 LED; uses USB mini-b | --- |
-| [can-nano-shield](https://github.com/CameronBrooks11/can-nano-shield) | ✅ | ✅ | 🛠️ | ❌ | ✅ | ❌ | ❌ | Arduino Nano shield with MCP2515 & TJA1051/3 | --- |
+| [Nano_Minima](https://github.com/FEASTorg/Nano_KiCAD) | ✅ | ✅ | 🛠️ | 🛠️ | ❌ | - | ❌ | Nano v3.3 but w/out reg., button, D13 LED; uses USB mini-b | --- |
+| [can-nano-shield](https://github.com/FEASTorg/can-nano-shield) | ✅ | ✅ | 🛠️ | ❌ | ✅ | ❌ | ❌ | Arduino Nano shield with MCP2515 & TJA1051/3 | --- |
 | *Design* | --- | --- | --- | --- | --- | --- | --- |
 | [Slice_TEMP](https://github.com/FEASTorg/Slice_TEMP) | ✅ | ✅ | 🛠️ | ❌ | ✅ | - | - | 2 and 4 layer variants and 4 layer XL, removed RST pin to be clipped/DNP | --- |
 | [Slice_PRTO](https://github.com/FEASTorg/Slice_PRTO) | ✅ | ✅ | 🛠️ | ❌ | ✅ | - | ❌ | 2 layer: screw term conns, SMT-proto, and TH-proto | --- |
