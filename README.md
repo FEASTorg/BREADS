@@ -8,7 +8,7 @@ This project has since grown and evolved, start by reading the [docs](docs/index
 
 ## Overview
 
-To see an overview of current BREAD see the [summary](./docs/summary.md) doc.
+To see an overview of current BREAD see the [summary](docs/descriptions_full.md) doc.
 
 ## Documentation
 
