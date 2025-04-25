@@ -1,10 +1,19 @@
 # Welcome to the BREADS Docs!
 
-BREAD is FEASTorg’s resource for breadboard designs and planning.
+This is the documentation for the _Broadly Expandable and Reconfigurable Data Acquisition and Automation Device Specification_ (BREADS).
 
-## Documentation
+breads_concept_docs
 
-- [Concept](/BREAD/breads_concept.md)
-- [Planning](/BREAD/breads_planning.md)
-- [Progress](/BREAD/progress.md)
-- [Summary](/BREAD/summary.md)
+breads_usage_docs
+
+breads_developer_docs
+
+## Contents
+
+- [Breads Concept](breads_concept.md)
+- [Breads Planning](breads_planning.md)
+- [Progress](progress.md)
+- [Summary](summary.md)
+
+### [Dev Docs](dev_docs/index.html)
+### [User Docs](user_docs/index.html)

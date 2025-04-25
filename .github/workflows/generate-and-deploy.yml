@@ -1,0 +1,52 @@
+# .github/workflows/generate-and-deploy.yml
+
+name: Generate & Deploy BREAD Docs
+
+# Run on every push to main, except when only index files or this workflow change
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "docs/**/index.md"
+      - ".github/workflows/generate-and-deploy.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-index:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          # allow the workflow to push commits
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        # no extra deps needed beyond stdlib; skip if you have none
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Generate all docs/index.md files
+        run: python scripts/generate_docs_index.py
+
+      - name: Commit & push generated indexes
+        run: |
+          git config user.name "bread-bot"
+          git config user.email "bread-bot@users.noreply.github.com"
+          git add docs/**/index.md
+          # only commit if there are changes
+          if ! git diff --cached --quiet; then
+            git commit -m "🔁 Auto-generate docs indexes"
+            git push
+          else
+            echo "✅ Indexes are up to date"
+          fi
