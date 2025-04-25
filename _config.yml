@@ -1,0 +1,30 @@
+﻿title: BREAD
+description: >-
+  BREAD — a FEASTorg design resource for breadboards, connectors, and planning.
+baseurl: "/BREAD"
+url: "https://feastorg.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Don't publish these
+exclude:
+  - .github
+  - Gemfile*
+  - node_modules
+  - vendor
+  - breads_planning.drawio
+
+# Apply layout: page to all markdown under docs/
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

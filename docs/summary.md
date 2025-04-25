@@ -10,10 +10,11 @@
 - [KiCad-Hierarchical-Designs](https://github.com/FEASTorg/KiCad-Hierarchical-Designs)
   - WRITE!!!!
 - [Kicad-Simulation-Examples](https://github.com/FEASTorg/Kicad-Simulation-Examples)
+  - WRITE!!!!
 
 ## Overview
 
-- **[Nano_Minima](https://github.com/FEASTorg/Nano_KiCAD)**
+- **[Nano_KiCad](https://github.com/FEASTorg/Nano_KiCad)**
 
   - Description: A remake of the Arduino Nano R3.3 in KiCad with a focus on minimum requirements for functionality to cater to end-use.
   - Features:
