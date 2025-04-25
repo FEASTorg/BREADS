@@ -1,6 +1,6 @@
 # Design Contraints
 
-This is for classic two layer boards BREAD has originally been constrained to.
+This is for classic two layer boards BREADS has originally been constrained to.
 
 ## General PCB Constraints
 

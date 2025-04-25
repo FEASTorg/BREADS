@@ -25,10 +25,10 @@ _WIP_
       - **Pin 7**: (GND) – Optional ground; assigned here as VBUS ground
       - **Pin 8**: (CAN_V+) – Optional CAN external positive supply; assigned here to be used as bus voltage (VBUS, 12v or 24V)
     - Onboard regulator connected to VBUS to provide TLL (5v for Nano, 3V3 for STM32)
-  - Purpose: CAN-based networking for BREAD
+  - Purpose: CAN-based networking
   - Notes:
     - This removes both the need for the onboard regulator and the entire 10-pin backplane connector, freeing up critical space around the MCU.
-    - IMPORTANT: high currents cannot be carried on the CAT6 cable connected to the RJ45. Future revision of BREAD to convert to CAN once the shield has been tested will employ a bus system to connect to the backplane to provide higher power from the bus through a separate cable and connector.
+    - IMPORTANT: high currents cannot be carried on the CAT6 cable connected to the RJ45. Future revision of BREADS to convert to CAN once the shield has been tested will employ a bus system to connect to the backplane to provide higher power from the bus through a separate cable and connector.
     - RJ45 over CAN has been validated in numerous systems before and has the advantage of providing an approximately balanced cable that's widely available in various lengths at low-cost.
     - Using a cable also has the advantage that a slice can be removed from the backplane for inspection, configuration, connection, etc. without being powered down and disconnected from comms.
     - The fact that the cable enters the slice case and connects directly to the front of the shield to the RJ45 connector eliminates need to route the MCUs power and comms across the PCB.
@@ -265,7 +265,7 @@ _WIP_
   - Link: [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR)
   - Function: Solar battery charging
   - Purpose:
-    - Off-grid power slice using 3S Li-ion to provide bus power for remote BREAD
+    - Off-grid power slice using 3S Li-ion to provide bus power for remote BREADS
     - Someone at MTU had made the concept of a solar slice but wasn't done right so this is a redo of that idea.
 
 - **Slice_THMX** (NEW!)

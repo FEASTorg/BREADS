@@ -1,4 +1,4 @@
-# BREAD Planning
+# BREADS Planning
 
 ## Goal
 

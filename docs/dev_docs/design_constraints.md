@@ -54,15 +54,15 @@
 
 The numbers in the **Imperial** and **Metric** columns refer to the dimensions of the component package in thousandths of an inch (Imperial) and tenths of a millimeter (Metric), respectively. For example: **0402 (Imperial) / 1005 (Metric):** This package size is 0.04 inches (1.0 mm) long and 0.02 inches (0.5 mm) wide. This should give a sense of physical size when assigning footprints to a schematic.
 
-| **Footprint (Imperial)** | **Footprint (Metric)** | **Acceptable for BREAD** | **Comment**                                                                           |
-| ------------------------ | ---------------------- | ------------------------ | ------------------------------------------------------------------------------------- |
-| 0402                     | 1005                   | No                       | Very small; difficult to solder manually; not recommended for DIY projects.           |
-| 0603                     | 1608                   | No                       | Small; acceptable for some advanced DIY but not ideal for ease of assembly.           |
-| 0805                     | 2012                   | No                       | Moderate size; better than 0603 but still small for DIY soldering.                    |
-| 1206                     | 3216                   | Yes                      | Preferred minimum size for BREAD; easy to handle and solder manually.                 |
-| 1210                     | 3225                   | Yes                      | Slightly larger than 1206; still easy to solder, provides better thermal dissipation. |
-| 1812                     | 4532                   | Yes                      | Larger footprint; good for power components or higher current requirements.           |
-| 2220                     | 5650                   | Yes                      | Very large; suitable for high power, larger components.                               |
+| **Footprint (Imperial)** | **Footprint (Metric)** | **Acceptable for BREADS** | **Comment**                                                                            |
+| ------------------------ | ---------------------- | ------------------------- | -------------------------------------------------------------------------------------- |
+| 0402                     | 1005                   | No                        | Very small; difficult to solder manually; not recommended for DIY projects.            |
+| 0603                     | 1608                   | Sometimes                 | Small; acceptable for some advanced DIY but not ideal for ease of assembly.            |
+| 0805                     | 2012                   | Yes                       | Preferred minimum size for BREADS; better than 0603 but still small for DIY soldering. |
+| 1206                     | 3216                   | Yes                       | Very easy to handle and solder manually.                                               |
+| 1210                     | 3225                   | Yes                       | Slightly larger than 1206; still easy to solder, provides better thermal dissipation.  |
+| 1812                     | 4532                   | Yes                       | Larger footprint; good for power components or higher current requirements.            |
+| 2220                     | 5650                   | Yes                       | Very large; suitable for high power, larger components.                                |
 
 ## Silkscreen Color Chart
 

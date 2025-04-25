@@ -1,6 +1,6 @@
 # Ideas
 
-This is a master doc / wish list to brainstorm and start to plan out ideas for future additions to the BREAD framework.
+This is a master doc / wish list to brainstorm and start to plan out ideas for future additions to the BREADS framework.
 
 - [Ideas](#ideas)
   - [Elaborated Ideas](#elaborated-ideas)
@@ -26,7 +26,7 @@ This is a master doc / wish list to brainstorm and start to plan out ideas for f
 
 RepRap Actuator Motion Platform.
 
-A BREAD-compatible motion control slice inspired by the RepRap ecosystem, integrating essential circuitry for stepper motor driving, heater control, and endstop sensing—designed for use in 3D printers, CNC machines, pick-and-place systems, or any precise multi-axis actuation system.
+A BREADS-compatible motion control slice inspired by the RepRap ecosystem, integrating essential circuitry for stepper motor driving, heater control, and endstop sensing—designed for use in 3D printers, CNC machines, pick-and-place systems, or any precise multi-axis actuation system.
 
 **Key Specifications:**
 
@@ -111,7 +111,7 @@ A BREAD‑compatible electrochemical analysis slice providing three operating mo
 
 **Description:**
 
-A slice utilizing a Pi Zero, the usual Nano, some peripheral circuitry, and python’s OpenCV to create a BREAD-compatible computer vision system. This project is inspired by work being done in OSHE at Michigan Tech.
+A slice utilizing a Pi Zero, the usual Nano, some peripheral circuitry, and python’s OpenCV to create a BREADS-compatible computer vision system. This project is inspired by work being done in OSHE at Michigan Tech.
 --> Why don't we just use the Nano RP2040? - Cam
 
 **Components:**
@@ -132,7 +132,7 @@ I2C sensor hub slice.
 
 **Description:**
 
-A slice that can read I2C data from multiple generic sensors at once and parse through it to enhance the data acquisition capabilities of the BREAD framework.
+A slice that can read I2C data from multiple generic sensors at once and parse through it to enhance the data acquisition capabilities of the BREADS framework.
 
 **Components:**
 
@@ -148,7 +148,7 @@ A slice that can read I2C data from multiple generic sensors at once and parse t
 
 **Description:**
 
-A full blown open source, BREAD-friendly inverter. This is essential for any AC or BLDC machine control applications, catering to the widespread use of induction motors.
+A full blown open source, BREADS-friendly inverter. This is essential for any AC or BLDC machine control applications, catering to the widespread use of induction motors.
 
 **Components:**
 

@@ -140,7 +140,7 @@
 
 - **[Slice_PRTO](https://github.com/FEASTorg/Slice_PRTO)**
 
-  - Description: Various slice-format boards to aid prototyping to develop even more BREAD!
+  - Description: Various slice-format boards to aid prototyping to develop even more SLICEs!
   - Features:
     - Through-hole (THT) component prototyping board
     - Surface mount (SMT) component prototyping board

@@ -2,7 +2,7 @@
 
 ## cloneAllBREAD
 
-To create a BREAD development folder with all the repositories making up the framework use the following script. Start by installing the requests and GitPython packages:
+To create a BREADS development folder with all the repositories making up the framework use the following script. Start by installing the requests and GitPython packages:
 
 ```
 pip install requests gitpython

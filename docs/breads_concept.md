@@ -47,7 +47,9 @@ Further mechanical developments and applications to bioreactors and pH control w
 | [Slice_CR20](https://github.com/FEASTorg/Slice_CR20) | ❌    | ''' '''                                                                     |
 | [Slice_CR40](https://github.com/FEASTorg/Slice_CR40) | ❌    | ''' '''                                                                     |
 
-## Overview
+## Overview of BREADS
+
+### SLICEs
 
 A SLICE can be grouped into 5 main categories based on it's function:
 

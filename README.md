@@ -1,18 +1,12 @@
-# [BREAD](https://feastorg.github.io/BREAD/)
+# [BREADS](https://feastorg.github.io/BREADS/)
 
 ## Introduction
 
-This project is fully documented in the paper: Shane Oberloier, Nicholas G. Whisman, Finn Hafting, Joshua M. Pearce, Open Source Framework for a Broadly Expandable and Reconfigurable Data Acquisition and Automation Device (BREAD), ''HardwareX'', 2023, e00467, [doi.org/10.1016/j.ohx.2023.e00467](https://doi.org/10.1016/j.ohx.2023.e00467).
-
-This project has since grown and evolved, start by reading the [docs](docs/index.md)
-
-## Overview
-
-To see an overview of current BREAD see the [summary](docs/descriptions_full.md) doc.
+BREADS is the Broadly Expandable and Reconfigurable Data Acquisition and Automation Device Standard.
 
 ## Documentation
 
-Link to the detailed documentation when available. _We will be doing an autogen of docs from the individual repos pulling from their docs onto the site once we have access._
+To see an overview of current BREADS see the [summary](docs/descriptions_full.md) doc or to see the full documentation click [here](https://feastorg.github.io/BREADS/).
 
 ## Contributing
 
@@ -24,11 +18,11 @@ All case designs can be found on [Onshape](https://cad.onshape.com/documents/f4c
 
 ### Ideas
 
-To see the current wish list for the BREAD family see the [bread ideas](docs/dev_docs/future_slice_ideas.md) doc.
+To see the current wish list for the BREADS family see the [bread ideas](docs/dev_docs/future_slice_ideas.md) doc.
 
 ## License
 
-All firmware and software in this repository are licensed under the GNU General Public License v3.0 (GPLv3), and all hardware is licensed under the CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN OHL-S v2). These licenses apply specifically to all original designs, technologies, and artwork developed for the BREAD project.
+All firmware and software in this repository are licensed under the GNU General Public License v3.0 (GPLv3), and all hardware is licensed under the CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN OHL-S v2). These licenses apply specifically to all original designs, technologies, and artwork developed for the BREADS project.
 
 See the relevant [license](./LICENSE) file for full terms, including usage, modification, and redistribution.
 

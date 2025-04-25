@@ -1,4 +1,4 @@
-name: Generate & Deploy BREAD Docs
+name: Generate & Deploy BREADS Docs
 
 on:
   push:

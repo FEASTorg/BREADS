@@ -1,7 +1,7 @@
-﻿title: BREAD
+﻿title: BREADS
 description: >-
-  BREAD — a FEASTorg design resource for breadboards, connectors, and planning.
-baseurl: "/BREAD"
+  BREADS.
+baseurl: "/BREADS"
 url: "https://feastorg.github.io"
 
 theme: minima
