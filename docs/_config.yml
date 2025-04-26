@@ -15,12 +15,9 @@ kramdown:
 
 # Don't publish these
 exclude:
-  - .github
-  - Gemfile*
-  - node_modules
-  - vendor
-  - breads_planning.drawio
   - TODO.md
+  - .indexignore
+  - breads_planning.drawio
 
 # Apply layout: page to all markdown under docs/
 defaults:
