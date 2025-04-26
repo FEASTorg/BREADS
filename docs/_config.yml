@@ -20,6 +20,7 @@ exclude:
   - node_modules
   - vendor
   - breads_planning.drawio
+  - TODO.md
 
 # Apply layout: page to all markdown under docs/
 defaults:
