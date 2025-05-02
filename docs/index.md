@@ -12,10 +12,11 @@ This is the documentation for the _Broadly Expandable and Reconfigurable Data Ac
 
 - SLICE function cards
   - Single-function Logic Interface Controller Element
+- LOAF controller + backplanes
+  - Local Operations Attachment Frame
 - CRUST interface bridges
   - Configurable Routing & Universal Signal Translator
-- LOAF backplanes
-  - Local Operations Attachment Frame
+  - Makes non-SLICE devices SLICE compliant with BREAD
 
 ## Contents
 
