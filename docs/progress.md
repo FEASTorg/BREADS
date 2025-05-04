@@ -1,6 +1,23 @@
 # Progress Tracker
 
-## BREADS
+## TODO
+
+- PRTO: new TEMP with headers
+- VCAC
+- VCDC
+- AOEM
+- DCMT
+- IAQM
+- RLHT
+- SOLR
+- HEAT
+- LVAI
+- RLAY
+- SERV
+- THRM
+- USBP
+
+## Release Testing Tracker
 
 - ✅ Done
 - 🛠️ In Progress
@@ -8,9 +25,7 @@
 - ❓ Unknown
 - 🔁 Revising
 
-### Release Testing Tracker
-
-This is to track the procurement and testing of all the BREADS boards for release.
+  This is to track the procurement and testing of all the BREADS boards for release.
 
 | Name                                                           | Schem | PCB | BOM | Docs | Review | FW  | Test | Notes                                                                    | Known Issues                                |
 | -------------------------------------------------------------- | ----- | --- | --- | ---- | ------ | --- | ---- | ------------------------------------------------------------------------ | ------------------------------------------- |
@@ -47,3 +62,9 @@ This is to track the procurement and testing of all the BREADS boards for releas
 | [Slice_FPSG](https://github.com/FEASTorg/Slice_FPSG)           | ✅    | ✅  | 🛠️  | ❌   | ❌     | ❌  | ❌   | New for high speed strain gauge (load cell) measurements.                | ---                                         |
 | [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR)           | 🔁    | 🔁  | 🛠️  | ❌   | ❌     | ❌  | ❌   | Targets 3 liion cells to generate 12V pwrsrc off-grid.                   | ---                                         |
 | [Slice_THMX](https://github.com/FEASTorg/Slice_THMX)           | ✅    | ✅  | 🛠️  | ❌   | ❌     | ❌  | ❌   | using LTC2983 multi-channel, multi-temp sensor IC                        | ---                                         |
+
+## Orders
+
+- First
+  - All slices with current template
+  - New template slice in form of PRTO (headers)
