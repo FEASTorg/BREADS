@@ -70,6 +70,7 @@
   - All slices with current template
   - New template slice in form of PRTO (headers)
   - ProtoKit
+  - Koami board
 
 - Second (Fall 2025)
 
