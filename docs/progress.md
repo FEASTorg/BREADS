@@ -2,9 +2,6 @@
 
 ## TODO
 
-- PRTO: new TEMP with headers
-- VCAC
-- VCDC
 - AOEM
 - DCMT
 - IAQM
@@ -54,8 +51,8 @@
 | [Slice_STEP](https://github.com/FEASTorg/Slice_STEP)           | 🔁    | 🔁  | 🔁  | ❌   | ❌     | ❌  | ❌   | NEEDS UPDATING.                                                       | ---                                         |
 | [Slice_THRM](https://github.com/FEASTorg/Slice_THRM)           | ✅    | 🔁  | 🛠️  | ❌   | ❌     | ❌  | ❌   | 3 vars: MAX6675 (A), MAX31855 (B), MAX31856 (C).                      | ---                                         |
 | [Slice_USBP](https://github.com/FEASTorg/Slice_USBP)           | ✅    | 🔁  | 🛠️  | ❌   | ❌     | ❌  | ❌   | Redid layout to be optimized, updated to latest BREADS TEMPlate.      | ---                                         |
-| [Slice_VCAC](https://github.com/FEASTorg/Slice_VCAC)           | ✅    | 🛠️  | 🛠️  | ❌   | ❌     | ❌  | ❌   | curr. read (10,20,40A; same fp) + AC or DC volt. read, replaces CRXX  | ---                                         |
-| [Slice_VCDC](https://github.com/FEASTorg/Slice_VCAC)           | ✅    | 🛠️  | 🛠️  | ❌   | ❌     | ❌  | ❌   | curr. read (10,20,40A; same fp) + AC or DC volt. read, replaces CRXX  | ---                                         |
+| [Slice_VCAC](https://github.com/FEASTorg/Slice_VCAC)           | ✅    | ✅  | 🛠️  | ❌   | ❌     | ❌  | ❌   | curr. read (10,20,40A; same fp) + AC or DC volt. read, replaces CRXX  | ---                                         |
+| [Slice_VCDC](https://github.com/FEASTorg/Slice_VCAC)           | ✅    | ✅  | 🛠️  | ❌   | ❌     | ❌  | ❌   | curr. read (10,20,40A; same fp) + AC or DC volt. read, replaces CRXX  | ---                                         |
 | _4 layer_                                                      | ---   | --- | --- | ---  | ---    | --- | ---  |
 | [Slice_AOEM](https://github.com/FEASTorg/Slice_AOEM)           | ✅    | 🛠️  | 🛠️  | ❌   | ❌     | ❌  | ❌   | Atlas Sci. pH/DO/ORP/EC OEM IC with onboard isolation                 | ---                                         |
 | [Slice_GDHB](https://github.com/FEASTorg/Slice_GDHB)           | ✅    | ✅  | 🛠️  | ❌   | ❌     | ❌  | ❌   | for large BDC motors                                                  | ---                                         |
