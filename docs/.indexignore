@@ -1,3 +1,4 @@
-\*_/.indexignore
-assets/_.xcf
-\*.xcf
+assets/*.xcf
+**/.indexignore
+*.xcf
+TODO.md
