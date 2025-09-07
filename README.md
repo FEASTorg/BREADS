@@ -1,4 +1,4 @@
-# [BREADS](https://feastorg.github.io/BREADS/)
+# BREADS
 
 ## Introduction
 
