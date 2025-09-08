@@ -2,7 +2,21 @@
 
 The purpose of this page/document is to explain the concept of BREADS for those who are unfamiliar with the technology and wish to use or develop the system.
 
-## BREADS: Primer
+## What is BREADS?
+
+- Specifies mechanical form factor and connector pinout
+- Defines power distribution and signal bus conventions
+- Supports scalable, stackable, and distributed systems
+
+## Planned implementations
+
+- SLICE function cards
+  - Single-function Logic Interface Controller Element
+- LOAF controller + backplanes
+  - Local Operations Attachment Frame
+- CRUST interface bridges
+  - Configurable Routing & Universal Signal Translator
+  - Makes non-SLICE devices SLICE compliant with BREAD
 
 ## History: BREAD
 
