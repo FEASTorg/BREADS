@@ -2,3 +2,4 @@ assets/*.xcf
 **/.indexignore
 *.xcf
 TODO.md
+README.md
