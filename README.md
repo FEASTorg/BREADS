@@ -6,11 +6,13 @@ BREADS is the Broadly Expandable and Reconfigurable Data Acquisition and Automat
 
 ## Documentation
 
-To see an overview of current BREADS see the [summary](docs/descriptions_full.md) doc or to see the full documentation click [here](https://feastorg.github.io/BREADS/).
+To see the full documentation visit [our page](https://feastorg.github.io/BREADS/).
 
 ## Contributing
 
-Start designing your own slice or make a pull with your improvements! For more details see the [FEASTorg CONTRIBUTING](https://github.com/FEASTorg/.github/blob/main/profile/CONTRIBUTING.md) guidelines on our organization profile.
+Start designing your own slice or make a pull with your improvements! 
+
+For more details see the [FEASTorg CONTRIBUTING](https://github.com/FEASTorg/.github/blob/main/profile/CONTRIBUTING.md) guidelines on our organization profile.
 
 ### Mechanical (Cases)
 
