@@ -1,9 +1,10 @@
-# Ideas
+# Future Ideas
 
 This is a master doc / wish list to brainstorm and start to plan out ideas for future additions to the BREADS framework.
 
-- [Ideas](#ideas)
+- [Future Ideas](#future-ideas)
   - [Elaborated Ideas](#elaborated-ideas)
+    - [SLC\_DAQC](#slc_daqc)
     - [SLC\_RAMP](#slc_ramp)
     - [SLC\_ECHM](#slc_echm)
     - [SLC\_CMPV](#slc_cmpv)
@@ -11,14 +12,34 @@ This is a master doc / wish list to brainstorm and start to plan out ideas for f
     - [SLC\_INVT](#slc_invt)
   - [Rough Ideas](#rough-ideas)
     - [Laser Driver](#laser-driver)
-    - [Protected Analog Input](#protected-analog-input)
-    - [Robust Analog Output](#robust-analog-output)
     - [Frequency Counter](#frequency-counter)
     - [Safety Interlock](#safety-interlock)
     - [Impedance/Capacitance Measurement](#impedancecapacitance-measurement)
     - [General Purpose DAQ](#general-purpose-daq)
 
 ## Elaborated Ideas
+
+### SLC_DAQC
+
+**Description:**
+
+A high-resolution, high-speed data acquisition slice for BREADS, designed for precision analog signal measurement and generation. Intended for scientific, industrial, and control applications that require more capability than the basic IO slices.
+
+**Components:**
+
+- Precision ADC (e.g. MCP3564, ADS1256)
+- Buffered DAC (e.g. LTC2637, MCP4922)
+- Voltage reference IC
+- Analog protection (TVS, clamps, filtering)
+- Optional analog mux
+- SPI or I²C interface to host MCU
+
+**Potential Applications:**
+
+- Scientific instrumentation
+- Signal logging and playback
+- Sensor/transducer calibration
+- Precision feedback and control loops
 
 ### SLC_RAMP
 
@@ -168,16 +189,6 @@ A full blown open source, BREADS-friendly inverter. This is essential for any AC
 - Reference
   - [github.com/Laser4DIY/Laser-Driver-v2](https://github.com/Laser4DIY/Laser-Driver-v2)
   - [HardwareX paper](https://doi.org/10.1016/j.ohx.2021.e00240)
-
-### Protected Analog Input
-
-- Differential or single-ended analog input with overvoltage protection, clamping, and optional filtering.
-- Ideal for measuring external signals in harsh or unknown environments.
-
-### Robust Analog Output
-
-- Buffered DAC output with selectable range and short-circuit protection.
-- Could include internal test waveforms or ramp generation.
 
 ### Frequency Counter
 
