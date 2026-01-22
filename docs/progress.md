@@ -58,20 +58,3 @@
 | [Slice_FPSG](https://github.com/FEASTorg/Slice_FPSG)           | ✅    | ✅  | 🔁  | ❌   | ❌     | ❌  | ❌   | New for high speed strain gauge (load cell) measurements.             | ---                                         |
 | [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR)           | 🛠️    | 🛠️  | 🔁  | ❌   | ❌     | ❌  | ❌   | Targets 3 liion cells to generate 12V pwrsrc off-grid.                | ---                                         |
 | [Slice_THMX](https://github.com/FEASTorg/Slice_THMX)           | ✅    | ✅  | 🔁  | ❌   | ❌     | ❌  | ❌   | using LTC2983 multi-channel, multi-temp sensor IC                     | ---                                         |
-
-## Order Sequence
-
-- First (May 2025)
-
-  - All slices (current template)
-  - ProtoKit
-  - Koami board
-
-- Second (Fall 2025)
-
-  - RPi Hub Hat
-  - CAN backplane
-  - All slices to newest template with revisions
-  - BreakoutPack
-  - CircuitBlocks
-  - DevBoardDepot
