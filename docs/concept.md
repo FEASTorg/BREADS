@@ -71,4 +71,3 @@ Boards in the directory names are postfixed with an abbreviation or acronym corr
 | [Slice_CR10](https://github.com/FEASTorg/Slice_CR10) | Sensing    | Succeeded by Slice_CRXX                                            |
 | [Slice_CR20](https://github.com/FEASTorg/Slice_CR20) | Sensing    | Succeeded by Slice_CRXX                                            |
 | [Slice_CR40](https://github.com/FEASTorg/Slice_CR40) | Sensing    | Succeeded by Slice_CRXX                                            |
-
