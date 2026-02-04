@@ -1,7 +1,5 @@
 # BREADS
 
-## Introduction
-
 BREADS is the Broadly Expandable and Reconfigurable Data Acquisition and Automation Device Standard.
 
 ## Documentation
