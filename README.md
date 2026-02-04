@@ -2,13 +2,15 @@
 
 BREADS is the Broadly Expandable and Reconfigurable Data Acquisition and Automation Device Standard.
 
+> You’ve heard of breaking bread — now try building with it!
+
 ## Documentation
 
 To see the full documentation visit [our page](https://feastorg.github.io/BREADS/).
 
 ## Contributing
 
-Start designing your own slice or make a pull with your improvements! 
+Start designing your own slice or make a pull with your improvements!
 
 For more details see the [FEASTorg CONTRIBUTING](https://github.com/FEASTorg/.github/blob/main/profile/CONTRIBUTING.md) guidelines on our organization profile.
 
