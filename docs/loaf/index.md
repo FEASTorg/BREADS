@@ -1,6 +1,6 @@
 # LOAF
 
-Locally Operated Automation Framework 
+Locally Operated Automation Framework
 
 ## Concept
 

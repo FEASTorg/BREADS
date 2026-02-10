@@ -14,7 +14,7 @@
 10. ~~Slice_DCMT~~
 11. ~~Slice_RLHT~~
 12. ~~Slice_IOCT~~
-13. Slice_RLAY
+13. ~~Slice_RLAY~~
 14. Slice_BUCK
 15. Slice_IOAC
 16. Slice_THRM_31856
