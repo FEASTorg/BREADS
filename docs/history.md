@@ -32,11 +32,11 @@ Further mechanical developments and applications to bioreactors and pH control w
 
 | Name                                                 | Works | Notes                                                                       |
 | ---------------------------------------------------- | ----- | --------------------------------------------------------------------------- |
-| [Loaf_x004](https://github.com/FEASTorg/Loaf_x004)   | ✅    | Superseded by ESPT                                                          |
-| [Loaf_ESPT](https://github.com/FEASTorg/Loaf_ESPT)   | ✅    | No longer being used, switched to distinct supervisor model using SBC (RPi). Might explore rekindling with new CRUMBS handling in future once RPi is solid. |
-| [Slice_PUMP](https://github.com/FEASTorg/Slice_PUMP) | ❌    | Gives intended output but never worked, tested on with MTU Dr. Ong's pump   |
-| [Slice_AAFT](https://github.com/FEASTorg/Slice_AAFT) | ❓    | Deprecated; efforts should go to SLC_LVAI                                   |
-| [Slice_PHDO](https://github.com/FEASTorg/Slice_PHDO) | ✅    | Deprecated by PRTO since its just mounting another board, AOEM                                                    |
-| [Slice_CR10](https://github.com/FEASTorg/Slice_CR10) | ✅    | Superseded by CRXX, no known issues, check component availability           |
-| [Slice_CR20](https://github.com/FEASTorg/Slice_CR20) | ❌    | ''' '''                                                                     |
-| [Slice_CR40](https://github.com/FEASTorg/Slice_CR40) | ❌    | ''' '''                                                                     |
+| [Loaf_x004](https://github.com/feastorg/Loaf_x004)   | ✅    | Superseded by ESPT                                                          |
+| [Loaf_ESPT](https://github.com/feastorg/Loaf_ESPT)   | ✅    | No longer being used, switched to distinct supervisor model using SBC (RPi). Might explore rekindling with new CRUMBS handling in future once RPi is solid. |
+| [Slice_PUMP](https://github.com/feastorg/Slice_PUMP) | ❌    | Gives intended output but never worked, tested on with MTU Dr. Ong's pump   |
+| [Slice_AAFT](https://github.com/feastorg/Slice_AAFT) | ❓    | Deprecated; efforts should go to SLC_LVAI                                   |
+| [Slice_PHDO](https://github.com/feastorg/Slice_PHDO) | ✅    | Deprecated by PRTO since its just mounting another board, AOEM                                                    |
+| [Slice_CR10](https://github.com/feastorg/Slice_CR10) | ✅    | Superseded by CRXX, no known issues, check component availability           |
+| [Slice_CR20](https://github.com/feastorg/Slice_CR20) | ❌    | ''' '''                                                                     |
+| [Slice_CR40](https://github.com/feastorg/Slice_CR40) | ❌    | ''' '''                                                                     |

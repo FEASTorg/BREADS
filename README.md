@@ -12,7 +12,7 @@ To see the full documentation visit [our page](https://feastorg.github.io/BREADS
 
 Start designing your own slice or make a pull with your improvements!
 
-For more details see the [FEASTorg CONTRIBUTING](https://github.com/FEASTorg/.github/blob/main/profile/CONTRIBUTING.md) guidelines on our organization profile.
+For more details see the [feastorg CONTRIBUTING](https://github.com/feastorg/.github/blob/main/profile/CONTRIBUTING.md) guidelines on our organization profile.
 
 ### Mechanical (Cases)
 
@@ -40,7 +40,7 @@ See the relevant [license](./LICENSE) file for full terms, including usage, modi
 
 <div align="center">
   <p>
-    <img src="https://img.shields.io/badge/Developed_by-UWO--FAST-orange" alt="Developed by FEASTorg">
+    <img src="https://img.shields.io/badge/Developed_by-UWO--FAST-orange" alt="Developed by feastorg">
     <img src="https://img.shields.io/badge/Powered_by-Open_Source-blue" alt="Powered by Open Source">
   </p>
 </div>

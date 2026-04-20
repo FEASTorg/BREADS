@@ -1,6 +1,6 @@
 # Licensing
 
-Copyright © 2026 FEASTorg and its contributors
+Copyright © 2026 feastorg and its contributors
 
 This document summarizes the licensing terms for this project. It is provided for convenience only and does not constitute a license itself. The complete and legally binding license terms are contained in the files referenced below.
 
@@ -58,7 +58,7 @@ IN NO EVENT SHALL THE AUTHORS, CONTRIBUTORS, OR COPYRIGHT HOLDERS BE LIABLE FOR 
 
 ## No Trademark License
 
-Neither GPL-3.0 nor CERN-OHL-S-2.0 grants any trademark rights. Accordingly, this project does not grant permission to use the trade names, trademarks, service marks, or product names of FEASTorg or its contributors, except as required for reasonable and customary use in describing the origin of the project.
+Neither GPL-3.0 nor CERN-OHL-S-2.0 grants any trademark rights. Accordingly, this project does not grant permission to use the trade names, trademarks, service marks, or product names of feastorg or its contributors, except as required for reasonable and customary use in describing the origin of the project.
 
 ## Full License Terms
 
