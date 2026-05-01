@@ -13,6 +13,8 @@
 
 \* see table at end for info on package sizes
 
+\*\* see [design-constraints-legacy](./design-constraints-legacy.md) for original constraints for 2-layer boards, kept for reference and legacy purposes.
+
 ## Component Placement and Sizing Constraints
 
 | **Parameter**                | **Constraint**                                                                                                         |
