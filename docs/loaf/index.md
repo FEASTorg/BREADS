@@ -11,4 +11,4 @@ Locally Operated Automation Framework
 
 ## Ideas
 
-Use as-is or modify [PiPLC](https://github.com/FEASTorg/PiPLC) to essentially enhance the Raspberry Pi.
+Use as-is or modify [PiPLC](https://github.com/Chrismettal/PiPLC) to essentially enhance the Raspberry Pi.

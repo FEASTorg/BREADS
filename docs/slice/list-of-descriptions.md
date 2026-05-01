@@ -4,14 +4,14 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Nano_Kicad** (NEW!)
 
-  - Link: [Nano_Original_Kicad](https://github.com/FEASTorg/Nano_KiCAD)
+  - Link: [Nano_Original_Kicad](https://github.com/feastorg/Nano_KiCAD)
   - Type: Nano v3.3 format
   - Features: Nano Original clone designed to be easy to assemble and solder with updated drop in replacements for appropriate components.
   - Notes:
 
 - **can-nano-shield** (NEW!)
 
-  - Link: [can-nano-shield](https://github.com/FEASTorg/can-nano-shield)
+  - Link: [can-nano-shield](https://github.com/feastorg/can-nano-shield)
   - Type: Arduino Nano shield
   - Features: MCP2515 CAN controller + TJA1051/TJA1053 transceiver. Two versions: basic and RJ45.
     - Basic employs a JST-XH 3 pin connector for CAN H, CAN L, and CAN GND
@@ -35,7 +35,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_TEMP** (NEW!)
 
-  - Link: [Slice_TEMP](https://github.com/FEASTorg/Slice_TEMP)
+  - Link: [Slice_TEMP](https://github.com/feastorg/Slice_TEMP)
   - Type: General-purpose base slice
   - Features: variations for 2-layer, 4-layer, 4-layer L, and 4-layer XL
   - Purpose: Template for designing new slices
@@ -45,14 +45,14 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_PRTO** (NEW!)
 
-  - Link: [Slice_PRTO](https://github.com/FEASTorg/Slice_PRTO)
+  - Link: [Slice_PRTO](https://github.com/feastorg/Slice_PRTO)
   - Type: Prototyping slice
   - Features: Three variations: screw terminals, SMT prototyping, through-hole prototyping
   - Purpose: Quick testing and wiring for custom experiments
 
 - **Slice_AQDO** (NEW!)
 
-  - Link: [Slice_AQDO](https://github.com/FEASTorg/Slice_AQDO)
+  - Link: [Slice_AQDO](https://github.com/feastorg/Slice_AQDO)
   - Sensor: Clark-type galvanic oxygen electrode analog frontend
   - Purpose: Analog frontend for dissolved oxygen sensing
   - Notes:
@@ -61,7 +61,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_AQEC** (NEW!)
 
-  - Link: [Slice_AQEC](https://github.com/FEASTorg/Slice_AQEC)
+  - Link: [Slice_AQEC](https://github.com/feastorg/Slice_AQEC)
   - Sensor: Platinum redox (ORP) electrode analog frontend
   - Purpose: Environmental/electrochemical monitoring
   - Notes:
@@ -70,7 +70,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_AQOR** (NEW!)
 
-  - Link: [Slice_AQOR](https://github.com/FEASTorg/Slice_AQOR)
+  - Link: [Slice_AQOR](https://github.com/feastorg/Slice_AQOR)
   - Sensor: Two-electrode conductivity cell analog frontend
   - Purpose: Conductometric sensor interface
   - Notes:
@@ -79,7 +79,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_AQPH** (NEW!)
 
-  - Link: [Slice_AQPH](https://github.com/FEASTorg/Slice_AQPH)
+  - Link: [Slice_AQPH](https://github.com/feastorg/Slice_AQPH)
   - Sensor: Glass pH electrodes analog frontend
   - Purpose: Buffered input for high-impedance analog sensing
   - Notes:
@@ -87,7 +87,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_BUCK** (revision)
 
-  - Link: [Slice_BUCK](https://github.com/FEASTorg/Slice_BUCK)
+  - Link: [Slice_BUCK](https://github.com/feastorg/Slice_BUCK)
   - Function: Buck converter (discrete)
   - Purpose: Step-down power regulation
   - Notes:
@@ -96,7 +96,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_DCMT** (minor revision)
 
-  - Link: [Slice_DCMT](https://github.com/FEASTorg/Slice_DCMT)
+  - Link: [Slice_DCMT](https://github.com/feastorg/Slice_DCMT)
   - Function: DC motor control
   - Features: Two channel motor control, same as current slice which was refined quite a bit by Finn.
   - Notes:
@@ -105,14 +105,14 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_HEAT** (revision)
 
-  - Link: [Slice_HEAT](https://github.com/FEASTorg/Slice_HEAT)
+  - Link: [Slice_HEAT](https://github.com/feastorg/Slice_HEAT)
   - Function: Dual DC heater control
   - Purpose: Resistive heating control using NPN darlington transistors with MAX31855 thermocouple amplifier and thermistor input.
   - Notes: Circuit duplicated
 
 - **Slice_IAQM** (NEW!)
 
-  - Link: [Slice_IAQM](https://github.com/FEASTorg/Slice_IAQM)
+  - Link: [Slice_IAQM](https://github.com/feastorg/Slice_IAQM)
   - Function: Indoor air quality and safety monitor
   - Features:
     - PCB from the PV box gas monitor
@@ -127,7 +127,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_LEPD** (NEW!)
 
-  - Link: [Slice_LEPD](https://github.com/FEASTorg/Slice_LEPD)
+  - Link: [Slice_LEPD](https://github.com/feastorg/Slice_LEPD)
   - Function: Optical density sensor bioreactors
   - Purpose: Bioreactor (Pioreactor-style) turbidity (optical density) measurement
   - Notes:
@@ -137,7 +137,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_LOAD** (NEW!)
 
-  - Link: [Slice_LOAD](https://github.com/FEASTorg/Slice_LOAD)
+  - Link: [Slice_LOAD](https://github.com/feastorg/Slice_LOAD)
   - Function: Load cell ADC interface
   - Purpose: Weight or force sensing
   - Notes:
@@ -147,7 +147,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_LVAI** (revision)
 
-  - Link: [Slice_LVAI](https://github.com/FEASTorg/Slice_LVAI)
+  - Link: [Slice_LVAI](https://github.com/feastorg/Slice_LVAI)
   - Function: Low-voltage analog input with gain stages
   - Notes:
     - Extensive documentation and tranfer function analysis completed.
@@ -155,7 +155,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_RLAY** (revision)
 
-  - Link: [Slice_RLAY](https://github.com/FEASTorg/Slice_RLAY)
+  - Link: [Slice_RLAY](https://github.com/feastorg/Slice_RLAY)
   - Function: Relay control
   - Features: x4 mechanical relay output
   - Notes:
@@ -164,13 +164,13 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_RLHT** (minor revision)
 
-  - Link: [Slice_RLHT](https://github.com/FEASTorg/Slice_RLHT)
+  - Link: [Slice_RLHT](https://github.com/feastorg/Slice_RLHT)
   - Function: Thermocouple/relay combo
   - Purpose: High-power heater control
 
 - **Slice_RTDM** (NEW!)
 
-  - Link: [Slice_RTDM](https://github.com/FEASTorg/Slice_RTDM)
+  - Link: [Slice_RTDM](https://github.com/feastorg/Slice_RTDM)
   - Function: RTD interface (2/3/4-wire)
   - Purpose: Precision temperature measurement
   - Notes:
@@ -178,7 +178,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_SERV** (revision)
 
-  - Link: [Slice_SERV](https://github.com/FEASTorg/Slice_SERV)
+  - Link: [Slice_SERV](https://github.com/feastorg/Slice_SERV)
   - Function: Servo control
   - Notes:
     - Improved power delivery
@@ -186,13 +186,13 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_STEP** (revision)
 
-  - Link: [Slice_STEP](https://github.com/FEASTorg/Slice_STEP)
+  - Link: [Slice_STEP](https://github.com/feastorg/Slice_STEP)
   - Function: Stepper motor driver
   - Notes: DIP stepper drivers
 
 - **Slice_THRM** (revision, NEW, NEW)
 
-  - Link: [Slice_THRM](https://github.com/FEASTorg/Slice_THRM)
+  - Link: [Slice_THRM](https://github.com/feastorg/Slice_THRM)
   - Function: Thermocouple reading
   - Variants: A (MAX6675), B (MAX31855), C (MAX31856)
   - Notes:
@@ -203,7 +203,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_USBP** (revision)
 
-  - Link: [Slice_USBP](https://github.com/FEASTorg/Slice_USBP)
+  - Link: [Slice_USBP](https://github.com/feastorg/Slice_USBP)
   - Function: USB interface
   - Notes:
     - x2 USB ports MUXed to the Nano
@@ -211,7 +211,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_VCAC** (NEW!)
 
-  - Link: [Slice_VCAC](https://github.com/FEASTorg/Slice_VCAC)
+  - Link: [Slice_VCAC](https://github.com/feastorg/Slice_VCAC)
   - Function: AC voltage + current sensing
   - Features:
     - AC current sensing portion is compatible with many different common non-invasive, split-core, hall-effect current transformer-type sensors (ZMCT-xxxm; SCT-013-xxx) ranging from 5 - 100A
@@ -220,7 +220,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_VCDC** (NEW!)
 
-  - Link: [Slice_VCDC](https://github.com/FEASTorg/Slice_VCAC)
+  - Link: [Slice_VCDC](https://github.com/feastorg/Slice_VCAC)
   - Function: DC voltage + DC (+AC) current sensing
   - Purpose:
     - DC voltage measurement configured for max 400V measurement with calculated (resistor value) configurations for 300V, 250V, 200V, 150V, 100V, 48V, 24V, or 12V to perform measurements at a greater resolution for lower bus voltages
@@ -230,7 +230,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_AOEM** (NEW!)
 
-  - Link: [Slice_AOEM](https://github.com/FEASTorg/Slice_AOEM)
+  - Link: [Slice_AOEM](https://github.com/feastorg/Slice_AOEM)
   - Function: Atlas Scientific OEM analog interface
   - Features: pH/DO/EC/ORP/RTD support with isolation
   - Purpose: Clean integration of Atlas OEM ICs
@@ -241,7 +241,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_GDHB** (NEW!)
 
-  - Link: [Slice_GDHB](https://github.com/FEASTorg/Slice_GDHB)
+  - Link: [Slice_GDHB](https://github.com/feastorg/Slice_GDHB)
   - Function: H-bridge driver for large DC motors
   - Purpose: High power actuator slice
   - Notes:
@@ -250,7 +250,7 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_FPSG** (NEW!)
 
-  - Link: [Slice_FPSG](https://github.com/FEASTorg/Slice_FPSG)
+  - Link: [Slice_FPSG](https://github.com/feastorg/Slice_FPSG)
   - Function: Strain gauge/load cell high-speed interface
   - Purpose: Reeves and Lalone 6-channel biomedical load cell and tensile tester; other precision force or pressure sensing for analytical applications
   - Notes:
@@ -262,14 +262,14 @@ This is a _work-in-progress_ list of SLICE modules with brief descriptions.
 
 - **Slice_SOLR** (NEW!)
 
-  - Link: [Slice_SOLR](https://github.com/FEASTorg/Slice_SOLR)
+  - Link: [Slice_SOLR](https://github.com/feastorg/Slice_SOLR)
   - Function: Solar battery charging
   - Purpose:
     - Off-grid power slice using 3S Li-ion to provide bus power for remote BREADS
     - Someone at MTU had made the concept of a solar slice but wasn't done right so this is a redo of that idea.
 
 - **Slice_THMX** (NEW!)
-  - Link: [Slice_THMX](https://github.com/FEASTorg/Slice_THMX)
+  - Link: [Slice_THMX](https://github.com/feastorg/Slice_THMX)
   - Function: Multi-channel temperature sensor interface
   - Purpose: High-accuracy multi-sensor thermal monitoring
   - Notes:
